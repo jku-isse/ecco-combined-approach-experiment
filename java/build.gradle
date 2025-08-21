@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'anon.ecco'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'anon.ecco.experiment.Experiment'
+}
+
+dependencies {
+    implementation 'org.eclipse.collections:eclipse-collections-api:11.1.0'
+    implementation 'org.eclipse.collections:eclipse-collections:11.1.0'
+    implementation 'org.logicng:logicng:2.4.1'
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    implementation 'io.github.java-diff-utils:java-diff-utils:4.12'
+    implementation 'com.opencsv:opencsv:5.9'
+    implementation 'com.google.guava:guava:32.1.3-jre'
+    implementation 'com.google.inject:guice:7.0.0'
+    implementation 'com.google.inject.extensions:guice-multibindings:4.2.3'
+    implementation files('src/main/resources/lib/simulation-2.0.0-jar-with-dependencies.jar')
+    implementation files('src/main/resources/lib/ecco-service-0.1.9.jar')
+    implementation files('src/main/resources/lib/ecco-base-0.1.9.jar')
+    implementation files('src/main/resources/lib/ecco-adapter-c-0.1.9.jar')
+    implementation files('src/main/resources/lib/ecco-adapter-challenge-0.1.9.jar')
+    implementation 'org.tinylog:tinylog-api:2.7.0'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
+    implementation 'commons-io:commons-io:2.15.1'
+    implementation 'org.apache.commons:commons-collections4:4.4'
+    implementation 'org.logicng:logicng:2.4.0'
+    implementation 'org.xerial:sqlite-jdbc:3.45.3.0'
+    implementation 'org.antlr:antlr4:4.9.3'
+    implementation 'org.antlr:antlr4-runtime:4.9.3'
+    implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.25.8'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.mockito:mockito-core:5.15.2'
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,1556 @@
+Path;File Condition;Block Condition;Presence Condition;Line Type;start;end
+src/common.h;1;1;1;ROOT;1;109
+src/common.h;1;!IRSSI_COMMON_H;1 && !IRSSI_COMMON_H;if;1;1
+src/common.h;1;!IRSSI_COMMON_H;1 && !IRSSI_COMMON_H;artifact;2;25
+src/common.h;1;HAVE_SYS_TIME_H;1 && !IRSSI_COMMON_H && HAVE_SYS_TIME_H;if;26;26
+src/common.h;1;HAVE_SYS_TIME_H;1 && !IRSSI_COMMON_H && HAVE_SYS_TIME_H;artifact;27;27
+src/common.h;1;HAVE_SYS_TIME_H;1 && !IRSSI_COMMON_H && HAVE_SYS_TIME_H;endif;28;28
+src/common.h;1;!IRSSI_COMMON_H;1 && !IRSSI_COMMON_H;artifact;29;30
+src/common.h;1;HAVE_UNISTD_H;1 && !IRSSI_COMMON_H && HAVE_UNISTD_H;if;31;31
+src/common.h;1;HAVE_UNISTD_H;1 && !IRSSI_COMMON_H && HAVE_UNISTD_H;artifact;32;32
+src/common.h;1;HAVE_UNISTD_H;1 && !IRSSI_COMMON_H && HAVE_UNISTD_H;endif;33;33
+src/common.h;1;HAVE_DIRENT_H;1 && !IRSSI_COMMON_H && HAVE_DIRENT_H;if;34;34
+src/common.h;1;HAVE_DIRENT_H;1 && !IRSSI_COMMON_H && HAVE_DIRENT_H;artifact;35;35
+src/common.h;1;HAVE_DIRENT_H;1 && !IRSSI_COMMON_H && HAVE_DIRENT_H;endif;36;36
+src/common.h;1;!IRSSI_COMMON_H;1 && !IRSSI_COMMON_H;artifact;37;106
+src/common.h;1;!IRSSI_COMMON_H;1 && !IRSSI_COMMON_H;endif;107;107
+src/common.h;1;1;1;artifact;108;108
+src/core/args.c;1;1;1;ROOT;1;54
+src/core/args.c;1;1;1;artifact;1;53
+src/core/args.h;1;1;1;ROOT;1;9
+src/core/args.h;1;!IRSSI_CORE_ARGS_H;1 && !IRSSI_CORE_ARGS_H;if;1;1
+src/core/args.h;1;!IRSSI_CORE_ARGS_H;1 && !IRSSI_CORE_ARGS_H;artifact;2;6
+src/core/args.h;1;!IRSSI_CORE_ARGS_H;1 && !IRSSI_CORE_ARGS_H;endif;7;7
+src/core/args.h;1;1;1;artifact;8;8
+src/core/capsicum.c;1;1;1;ROOT;1;510
+src/core/capsicum.c;1;1;1;artifact;1;509
+src/core/capsicum.h;1;1;1;ROOT;1;17
+src/core/capsicum.h;1;!IRSSI_CORE_CAPSICUM_H;1 && !IRSSI_CORE_CAPSICUM_H;if;1;1
+src/core/capsicum.h;1;!IRSSI_CORE_CAPSICUM_H;1 && !IRSSI_CORE_CAPSICUM_H;artifact;2;14
+src/core/capsicum.h;1;!IRSSI_CORE_CAPSICUM_H;1 && !IRSSI_CORE_CAPSICUM_H;endif;15;15
+src/core/capsicum.h;1;1;1;artifact;16;16
+src/core/channel-rec.h;1;1;1;ROOT;1;33
+src/core/channel-rec.h;1;1;1;artifact;1;32
+src/core/channel-setup-rec.h;1;1;1;ROOT;1;14
+src/core/channel-setup-rec.h;1;1;1;artifact;1;13
+src/core/channels-setup.c;1;1;1;ROOT;1;241
+src/core/channels-setup.c;1;1;1;artifact;1;240
+src/core/channels-setup.h;1;1;1;ROOT;1;36
+src/core/channels-setup.h;1;!IRSSI_CORE_CHANNELS_SETUP_H;1 && !IRSSI_CORE_CHANNELS_SETUP_H;if;1;1
+src/core/channels-setup.h;1;!IRSSI_CORE_CHANNELS_SETUP_H;1 && !IRSSI_CORE_CHANNELS_SETUP_H;artifact;2;33
+src/core/channels-setup.h;1;!IRSSI_CORE_CHANNELS_SETUP_H;1 && !IRSSI_CORE_CHANNELS_SETUP_H;endif;34;34
+src/core/channels-setup.h;1;1;1;artifact;35;35
+src/core/channels.c;1;1;1;ROOT;1;310
+src/core/channels.c;1;1;1;artifact;1;309
+src/core/channels.h;1;1;1;ROOT;1;41
+src/core/channels.h;1;!IRSSI_CORE_CHANNELS_H;1 && !IRSSI_CORE_CHANNELS_H;if;1;1
+src/core/channels.h;1;!IRSSI_CORE_CHANNELS_H;1 && !IRSSI_CORE_CHANNELS_H;artifact;2;38
+src/core/channels.h;1;!IRSSI_CORE_CHANNELS_H;1 && !IRSSI_CORE_CHANNELS_H;endif;39;39
+src/core/channels.h;1;1;1;artifact;40;40
+src/core/chat-commands.c;1;1;1;ROOT;1;507
+src/core/chat-commands.c;1;1;1;artifact;1;506
+src/core/chat-protocols.c;1;1;1;ROOT;1;237
+src/core/chat-protocols.c;1;1;1;artifact;1;236
+src/core/chat-protocols.h;1;1;1;ROOT;1;65
+src/core/chat-protocols.h;1;!IRSSI_CORE_CHAT_PROTOCOLS_H;1 && !IRSSI_CORE_CHAT_PROTOCOLS_H;if;1;1
+src/core/chat-protocols.h;1;!IRSSI_CORE_CHAT_PROTOCOLS_H;1 && !IRSSI_CORE_CHAT_PROTOCOLS_H;artifact;2;62
+src/core/chat-protocols.h;1;!IRSSI_CORE_CHAT_PROTOCOLS_H;1 && !IRSSI_CORE_CHAT_PROTOCOLS_H;endif;63;63
+src/core/chat-protocols.h;1;1;1;artifact;64;64
+src/core/chatnet-rec.h;1;1;1;ROOT;1;14
+src/core/chatnet-rec.h;1;1;1;artifact;1;13
+src/core/chatnets.c;1;1;1;ROOT;1;225
+src/core/chatnets.c;1;1;1;artifact;1;224
+src/core/chatnets.h;1;1;1;ROOT;1;36
+src/core/chatnets.h;1;!IRSSI_CORE_CHATNETS_H;1 && !IRSSI_CORE_CHATNETS_H;if;1;1
+src/core/chatnets.h;1;!IRSSI_CORE_CHATNETS_H;1 && !IRSSI_CORE_CHATNETS_H;artifact;2;33
+src/core/chatnets.h;1;!IRSSI_CORE_CHATNETS_H;1 && !IRSSI_CORE_CHATNETS_H;endif;34;34
+src/core/chatnets.h;1;1;1;artifact;35;35
+src/core/commands.c;1;1;1;ROOT;1;1023
+src/core/commands.c;1;1;1;artifact;1;1022
+src/core/commands.h;1;1;1;ROOT;1;176
+src/core/commands.h;1;!IRSSI_CORE_COMMANDS_H;1 && !IRSSI_CORE_COMMANDS_H;if;1;1
+src/core/commands.h;1;!IRSSI_CORE_COMMANDS_H;1 && !IRSSI_CORE_COMMANDS_H;artifact;2;173
+src/core/commands.h;1;!IRSSI_CORE_COMMANDS_H;1 && !IRSSI_CORE_COMMANDS_H;endif;174;174
+src/core/commands.h;1;1;1;artifact;175;175
+src/core/core.c;1;1;1;ROOT;1;356
+src/core/core.c;1;1;1;artifact;1;31
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;32;32
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;33;33
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;34;34
+src/core/core.c;1;1;1;artifact;35;53
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;if;54;54
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;artifact;55;56
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;endif;57;57
+src/core/core.c;1;1;1;artifact;58;133
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;if;134;134
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;artifact;135;144
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;endif;145;145
+src/core/core.c;1;1;1;artifact;146;264
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;265;265
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;266;266
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;267;267
+src/core/core.c;1;1;1;artifact;268;293
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;if;294;294
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;artifact;295;295
+src/core/core.c;1;HAVE_SYS_RESOURCE_H;1 && HAVE_SYS_RESOURCE_H;endif;296;296
+src/core/core.c;1;1;1;artifact;297;338
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;339;339
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;340;340
+src/core/core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;341;341
+src/core/core.c;1;1;1;artifact;342;355
+src/core/core.h;1;1;1;ROOT;1;28
+src/core/core.h;1;!IRSSI_CORE_CORE_H;1 && !IRSSI_CORE_CORE_H;if;1;1
+src/core/core.h;1;!IRSSI_CORE_CORE_H;1 && !IRSSI_CORE_CORE_H;artifact;2;25
+src/core/core.h;1;!IRSSI_CORE_CORE_H;1 && !IRSSI_CORE_CORE_H;endif;26;26
+src/core/core.h;1;1;1;artifact;27;27
+src/core/expandos.c;1;1;1;ROOT;1;759
+src/core/expandos.c;1;1;1;artifact;1;35
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;if;36;36
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;artifact;37;37
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;endif;38;38
+src/core/expandos.c;1;1;1;artifact;39;607
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;if;608;608
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;artifact;609;609
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;endif;610;610
+src/core/expandos.c;1;1;1;artifact;611;620
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;if;621;621
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;artifact;622;626
+src/core/expandos.c;1;HAVE_SYS_UTSNAME_H;1 && HAVE_SYS_UTSNAME_H;endif;627;627
+src/core/expandos.c;1;1;1;artifact;628;758
+src/core/expandos.h;1;1;1;ROOT;1;47
+src/core/expandos.h;1;!IRSSI_CORE_EXPANDOS_H;1 && !IRSSI_CORE_EXPANDOS_H;if;1;1
+src/core/expandos.h;1;!IRSSI_CORE_EXPANDOS_H;1 && !IRSSI_CORE_EXPANDOS_H;artifact;2;44
+src/core/expandos.h;1;!IRSSI_CORE_EXPANDOS_H;1 && !IRSSI_CORE_EXPANDOS_H;endif;45;45
+src/core/expandos.h;1;1;1;artifact;46;46
+src/core/ignore.c;1;1;1;ROOT;1;545
+src/core/ignore.c;1;1;1;artifact;1;544
+src/core/ignore.h;1;1;1;ROOT;1;55
+src/core/ignore.h;1;!IRSSI_CORE_IGNORE_H;1 && !IRSSI_CORE_IGNORE_H;if;1;1
+src/core/ignore.h;1;!IRSSI_CORE_IGNORE_H;1 && !IRSSI_CORE_IGNORE_H;artifact;2;52
+src/core/ignore.h;1;!IRSSI_CORE_IGNORE_H;1 && !IRSSI_CORE_IGNORE_H;endif;53;53
+src/core/ignore.h;1;1;1;artifact;54;54
+src/core/iregex-gregex.c;1;1;1;ROOT;1;167
+src/core/iregex-gregex.c;1;1;1;artifact;1;166
+src/core/iregex.h;1;1;1;ROOT;1;39
+src/core/iregex.h;1;!IRSSI_CORE_IREGEX_H;1 && !IRSSI_CORE_IREGEX_H;if;1;1
+src/core/iregex.h;1;!IRSSI_CORE_IREGEX_H;1 && !IRSSI_CORE_IREGEX_H;artifact;2;36
+src/core/iregex.h;1;!IRSSI_CORE_IREGEX_H;1 && !IRSSI_CORE_IREGEX_H;endif;37;37
+src/core/iregex.h;1;1;1;artifact;38;38
+src/core/levels.c;1;1;1;ROOT;1;204
+src/core/levels.c;1;1;1;artifact;1;203
+src/core/levels.h;1;1;1;ROOT;1;57
+src/core/levels.h;1;!IRSSI_CORE_LEVELS_H;1 && !IRSSI_CORE_LEVELS_H;if;1;1
+src/core/levels.h;1;!IRSSI_CORE_LEVELS_H;1 && !IRSSI_CORE_LEVELS_H;artifact;2;54
+src/core/levels.h;1;!IRSSI_CORE_LEVELS_H;1 && !IRSSI_CORE_LEVELS_H;endif;55;55
+src/core/levels.h;1;1;1;artifact;56;56
+src/core/line-split.c;1;1;1;ROOT;1;138
+src/core/line-split.c;1;1;1;artifact;1;137
+src/core/line-split.h;1;1;1;ROOT;1;13
+src/core/line-split.h;1;!IRSSI_CORE_LINE_SPLIT_H;1 && !IRSSI_CORE_LINE_SPLIT_H;if;1;1
+src/core/line-split.h;1;!IRSSI_CORE_LINE_SPLIT_H;1 && !IRSSI_CORE_LINE_SPLIT_H;artifact;2;10
+src/core/line-split.h;1;!IRSSI_CORE_LINE_SPLIT_H;1 && !IRSSI_CORE_LINE_SPLIT_H;endif;11;11
+src/core/line-split.h;1;1;1;artifact;12;12
+src/core/log-away.c;1;1;1;ROOT;1;129
+src/core/log-away.c;1;1;1;artifact;1;128
+src/core/log.c;1;1;1;ROOT;1;619
+src/core/log.c;1;1;1;artifact;1;28
+src/core/log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;29;29
+src/core/log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;30;30
+src/core/log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;31;31
+src/core/log.c;1;1;1;artifact;32;119
+src/core/log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;120;120
+src/core/log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;121;121
+src/core/log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;else;122;122
+src/core/log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;artifact;123;123
+src/core/log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;endif;124;124
+src/core/log.c;1;1;1;artifact;125;127
+src/core/log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;128;128
+src/core/log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;129;131
+src/core/log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;else;132;132
+src/core/log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;artifact;133;135
+src/core/log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;endif;136;136
+src/core/log.c;1;1;1;artifact;137;618
+src/core/log.h;1;1;1;ROOT;1;66
+src/core/log.h;1;!IRSSI_CORE_LOG_H;1 && !IRSSI_CORE_LOG_H;if;1;1
+src/core/log.h;1;!IRSSI_CORE_LOG_H;1 && !IRSSI_CORE_LOG_H;artifact;2;63
+src/core/log.h;1;!IRSSI_CORE_LOG_H;1 && !IRSSI_CORE_LOG_H;endif;64;64
+src/core/log.h;1;1;1;artifact;65;65
+src/core/masks.c;1;1;1;ROOT;1;136
+src/core/masks.c;1;1;1;artifact;1;135
+src/core/masks.h;1;1;1;ROOT;1;13
+src/core/masks.h;1;!IRSSI_CORE_MASKS_H;1 && !IRSSI_CORE_MASKS_H;if;1;1
+src/core/masks.h;1;!IRSSI_CORE_MASKS_H;1 && !IRSSI_CORE_MASKS_H;artifact;2;10
+src/core/masks.h;1;!IRSSI_CORE_MASKS_H;1 && !IRSSI_CORE_MASKS_H;endif;11;11
+src/core/masks.h;1;1;1;artifact;12;12
+src/core/misc.c;1;1;1;ROOT;1;1096
+src/core/misc.c;1;1;1;artifact;1;122
+src/core/misc.c;1;GLIB_CHECK_VERSION___LB__2__56__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__56__0__RB__;if;123;123
+src/core/misc.c;1;GLIB_CHECK_VERSION___LB__2__56__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__56__0__RB__;artifact;124;124
+src/core/misc.c;1;!GLIB_CHECK_VERSION___LB__2__56__0__RB__;!GLIB_CHECK_VERSION___LB__2__56__0__RB__ && 1;else;125;125
+src/core/misc.c;1;!GLIB_CHECK_VERSION___LB__2__56__0__RB__;!GLIB_CHECK_VERSION___LB__2__56__0__RB__ && 1;artifact;126;135
+src/core/misc.c;1;!GLIB_CHECK_VERSION___LB__2__56__0__RB__;!GLIB_CHECK_VERSION___LB__2__56__0__RB__ && 1;endif;136;136
+src/core/misc.c;1;1;1;artifact;137;546
+src/core/misc.c;1;UOFF_T_LONG_LONG;1 && UOFF_T_LONG_LONG;if;547;547
+src/core/misc.c;1;UOFF_T_LONG_LONG;1 && UOFF_T_LONG_LONG;artifact;548;548
+src/core/misc.c;1;!UOFF_T_LONG_LONG;!UOFF_T_LONG_LONG && 1;else;549;549
+src/core/misc.c;1;!UOFF_T_LONG_LONG;!UOFF_T_LONG_LONG && 1;artifact;550;550
+src/core/misc.c;1;!UOFF_T_LONG_LONG;!UOFF_T_LONG_LONG && 1;endif;551;551
+src/core/misc.c;1;1;1;artifact;552;1095
+src/core/misc.h;1;1;1;ROOT;1;132
+src/core/misc.h;1;!IRSSI_CORE_MISC_H;1 && !IRSSI_CORE_MISC_H;if;1;1
+src/core/misc.h;1;!IRSSI_CORE_MISC_H;1 && !IRSSI_CORE_MISC_H;artifact;2;21
+src/core/misc.h;1;GLIB_CHECK_VERSION___LB__2__56__0__RB__;1 && !IRSSI_CORE_MISC_H && GLIB_CHECK_VERSION___LB__2__56__0__RB__;if;22;22
+src/core/misc.h;1;GLIB_CHECK_VERSION___LB__2__56__0__RB__;1 && !IRSSI_CORE_MISC_H && GLIB_CHECK_VERSION___LB__2__56__0__RB__;artifact;23;23
+src/core/misc.h;1;!GLIB_CHECK_VERSION___LB__2__56__0__RB__;!GLIB_CHECK_VERSION___LB__2__56__0__RB__ && 1 && !IRSSI_CORE_MISC_H;else;24;24
+src/core/misc.h;1;!GLIB_CHECK_VERSION___LB__2__56__0__RB__;!GLIB_CHECK_VERSION___LB__2__56__0__RB__ && 1 && !IRSSI_CORE_MISC_H;artifact;25;26
+src/core/misc.h;1;!GLIB_CHECK_VERSION___LB__2__56__0__RB__;!GLIB_CHECK_VERSION___LB__2__56__0__RB__ && 1 && !IRSSI_CORE_MISC_H;endif;27;27
+src/core/misc.h;1;!IRSSI_CORE_MISC_H;1 && !IRSSI_CORE_MISC_H;artifact;28;129
+src/core/misc.h;1;!IRSSI_CORE_MISC_H;1 && !IRSSI_CORE_MISC_H;endif;130;130
+src/core/misc.h;1;1;1;artifact;131;131
+src/core/module.h;1;1;1;ROOT;1;5
+src/core/module.h;1;1;1;artifact;1;4
+src/core/modules-load.c;1;1;1;ROOT;1;462
+src/core/modules-load.c;1;1;1;artifact;1;107
+src/core/modules-load.c;1;GLIB_CHECK_VERSION___LB__2__75__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__75__0__RB__;if;108;108
+src/core/modules-load.c;1;GLIB_CHECK_VERSION___LB__2__75__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__75__0__RB__;artifact;109;134
+src/core/modules-load.c;1;!GLIB_CHECK_VERSION___LB__2__75__0__RB__;!GLIB_CHECK_VERSION___LB__2__75__0__RB__ && 1;else;135;135
+src/core/modules-load.c;1;!GLIB_CHECK_VERSION___LB__2__75__0__RB__;!GLIB_CHECK_VERSION___LB__2__75__0__RB__ && 1;artifact;136;165
+src/core/modules-load.c;1;!GLIB_CHECK_VERSION___LB__2__75__0__RB__;!GLIB_CHECK_VERSION___LB__2__75__0__RB__ && 1;endif;166;166
+src/core/modules-load.c;1;1;1;artifact;167;461
+src/core/modules-load.h;1;1;1;ROOT;1;18
+src/core/modules-load.h;1;!IRSSI_CORE_MODULES_LOAD_H;1 && !IRSSI_CORE_MODULES_LOAD_H;if;1;1
+src/core/modules-load.h;1;!IRSSI_CORE_MODULES_LOAD_H;1 && !IRSSI_CORE_MODULES_LOAD_H;artifact;2;15
+src/core/modules-load.h;1;!IRSSI_CORE_MODULES_LOAD_H;1 && !IRSSI_CORE_MODULES_LOAD_H;endif;16;16
+src/core/modules-load.h;1;1;1;artifact;17;17
+src/core/modules.c;1;1;1;ROOT;1;313
+src/core/modules.c;1;1;1;artifact;1;312
+src/core/modules.h;1;1;1;ROOT;1;92
+src/core/modules.h;1;!IRSSI_CORE_MODULES_H;1 && !IRSSI_CORE_MODULES_H;if;1;1
+src/core/modules.h;1;!IRSSI_CORE_MODULES_H;1 && !IRSSI_CORE_MODULES_H;artifact;2;89
+src/core/modules.h;1;!IRSSI_CORE_MODULES_H;1 && !IRSSI_CORE_MODULES_H;endif;90;90
+src/core/modules.h;1;1;1;artifact;91;91
+src/core/net-disconnect.c;1;1;1;ROOT;1;158
+src/core/net-disconnect.c;1;1;1;artifact;1;157
+src/core/net-disconnect.h;1;1;1;ROOT;1;13
+src/core/net-disconnect.h;1;!IRSSI_CORE_NET_DISCONNECT_H;1 && !IRSSI_CORE_NET_DISCONNECT_H;if;1;1
+src/core/net-disconnect.h;1;!IRSSI_CORE_NET_DISCONNECT_H;1 && !IRSSI_CORE_NET_DISCONNECT_H;artifact;2;10
+src/core/net-disconnect.h;1;!IRSSI_CORE_NET_DISCONNECT_H;1 && !IRSSI_CORE_NET_DISCONNECT_H;endif;11;11
+src/core/net-disconnect.h;1;1;1;artifact;12;12
+src/core/net-nonblock.c;1;1;1;ROOT;1;109
+src/core/net-nonblock.c;1;1;1;artifact;1;108
+src/core/net-nonblock.h;1;1;1;ROOT;1;24
+src/core/net-nonblock.h;1;!IRSSI_CORE_NET_NONBLOCK_H;1 && !IRSSI_CORE_NET_NONBLOCK_H;if;1;1
+src/core/net-nonblock.h;1;!IRSSI_CORE_NET_NONBLOCK_H;1 && !IRSSI_CORE_NET_NONBLOCK_H;artifact;2;21
+src/core/net-nonblock.h;1;!IRSSI_CORE_NET_NONBLOCK_H;1 && !IRSSI_CORE_NET_NONBLOCK_H;endif;22;22
+src/core/net-nonblock.h;1;1;1;artifact;23;23
+src/core/net-sendbuffer.c;1;1;1;ROOT;1;175
+src/core/net-sendbuffer.c;1;1;1;artifact;1;174
+src/core/net-sendbuffer.h;1;1;1;ROOT;1;40
+src/core/net-sendbuffer.h;1;!IRSSI_CORE_NET_SENDBUFFER_H;1 && !IRSSI_CORE_NET_SENDBUFFER_H;if;1;1
+src/core/net-sendbuffer.h;1;!IRSSI_CORE_NET_SENDBUFFER_H;1 && !IRSSI_CORE_NET_SENDBUFFER_H;artifact;2;37
+src/core/net-sendbuffer.h;1;!IRSSI_CORE_NET_SENDBUFFER_H;1 && !IRSSI_CORE_NET_SENDBUFFER_H;endif;38;38
+src/core/net-sendbuffer.h;1;1;1;artifact;39;39
+src/core/network-openssl.c;1;1;1;ROOT;1;952
+src/core/network-openssl.c;1;1;1;artifact;1;38
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && (!DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__ || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);1 && OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && (!DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__ || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);if;39;40
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && (!DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__ || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);1 && OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && (!DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__ || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);artifact;41;47
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && (!DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__ || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);1 && OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && (!DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__ || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);endif;48;48
+src/core/network-openssl.c;1;1;1;artifact;49;50
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;if;51;51
+src/core/network-openssl.c;1;(OPENSSL_VERSION_NUMBER__LT__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);if;52;53
+src/core/network-openssl.c;1;(OPENSSL_VERSION_NUMBER__LT__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);artifact;54;62
+src/core/network-openssl.c;1;(OPENSSL_VERSION_NUMBER__LT__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && (OPENSSL_VERSION_NUMBER__LT__0x10100000L || LIBRESSL_VERSION_NUMBER__LT__0x2070000fL);endif;63;63
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;endif;64;64
+src/core/network-openssl.c;1;1;1;artifact;65;80
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;if;81;81
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;artifact;82;82
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;endif;83;83
+src/core/network-openssl.c;1;1;1;artifact;84;389
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;if;390;390
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;artifact;391;391
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;endif;392;392
+src/core/network-openssl.c;1;1;1;artifact;393;393
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && !DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && !DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__;if;394;394
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && !DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10100000L && !DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__;artifact;395;398
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__;(!OPENSSL_VERSION_NUMBER__GEQ__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && 1;else;399;399
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__;(!OPENSSL_VERSION_NUMBER__GEQ__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && 1;artifact;400;402
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__;(!OPENSSL_VERSION_NUMBER__GEQ__0x10100000L || DEFINED___LB__LIBRESSL_VERSION_NUMBER__RB__) && 1;endif;403;403
+src/core/network-openssl.c;1;1;1;artifact;404;404
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;if;405;405
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;artifact;406;418
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;endif;419;419
+src/core/network-openssl.c;1;1;1;artifact;420;538
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;if;539;539
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;1 && OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;artifact;540;546
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;!OPENSSL_VERSION_NUMBER__GEQ__0x10002000L && 1;else;547;547
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;!OPENSSL_VERSION_NUMBER__GEQ__0x10002000L && 1;artifact;548;551
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x10002000L;!OPENSSL_VERSION_NUMBER__GEQ__0x10002000L && 1;endif;552;552
+src/core/network-openssl.c;1;1;1;artifact;553;568
+src/core/network-openssl.c;1;SSL_CTRL_SET_TLSEXT_HOSTNAME;1 && SSL_CTRL_SET_TLSEXT_HOSTNAME;if;569;569
+src/core/network-openssl.c;1;SSL_CTRL_SET_TLSEXT_HOSTNAME;1 && SSL_CTRL_SET_TLSEXT_HOSTNAME;artifact;570;570
+src/core/network-openssl.c;1;SSL_CTRL_SET_TLSEXT_HOSTNAME;1 && SSL_CTRL_SET_TLSEXT_HOSTNAME;endif;571;571
+src/core/network-openssl.c;1;1;1;artifact;572;751
+src/core/network-openssl.c;1;SSL_get_server_tmp_key;1 && SSL_get_server_tmp_key;if;752;752
+src/core/network-openssl.c;1;SSL_get_server_tmp_key;1 && SSL_get_server_tmp_key;artifact;753;768
+src/core/network-openssl.c;1;!OPENSSL_NO_EC;1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC;if;769;769
+src/core/network-openssl.c;1;!OPENSSL_NO_EC;1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC;artifact;770;770
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x30000000L;1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC && OPENSSL_VERSION_NUMBER__GEQ__0x30000000L;if;771;771
+src/core/network-openssl.c;1;OPENSSL_VERSION_NUMBER__GEQ__0x30000000L;1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC && OPENSSL_VERSION_NUMBER__GEQ__0x30000000L;artifact;772;773
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x30000000L;!OPENSSL_VERSION_NUMBER__GEQ__0x30000000L && 1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC;else;774;774
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x30000000L;!OPENSSL_VERSION_NUMBER__GEQ__0x30000000L && 1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC;artifact;775;782
+src/core/network-openssl.c;1;!OPENSSL_VERSION_NUMBER__GEQ__0x30000000L;!OPENSSL_VERSION_NUMBER__GEQ__0x30000000L && 1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC;endif;783;783
+src/core/network-openssl.c;1;!OPENSSL_NO_EC;1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC;artifact;784;791
+src/core/network-openssl.c;1;!OPENSSL_NO_EC;1 && SSL_get_server_tmp_key && !OPENSSL_NO_EC;endif;792;792
+src/core/network-openssl.c;1;SSL_get_server_tmp_key;1 && SSL_get_server_tmp_key;artifact;793;801
+src/core/network-openssl.c;1;SSL_get_server_tmp_key;1 && SSL_get_server_tmp_key;endif;802;802
+src/core/network-openssl.c;1;1;1;artifact;803;951
+src/core/network-openssl.h;1;1;1;ROOT;1;8
+src/core/network-openssl.h;1;!IRSSI_CORE_NETWORK_OPENSSL_H;1 && !IRSSI_CORE_NETWORK_OPENSSL_H;if;1;1
+src/core/network-openssl.h;1;!IRSSI_CORE_NETWORK_OPENSSL_H;1 && !IRSSI_CORE_NETWORK_OPENSSL_H;artifact;2;5
+src/core/network-openssl.h;1;!IRSSI_CORE_NETWORK_OPENSSL_H;1 && !IRSSI_CORE_NETWORK_OPENSSL_H;endif;6;6
+src/core/network-openssl.h;1;1;1;artifact;7;7
+src/core/network.c;1;1;1;ROOT;1;586
+src/core/network.c;1;1;1;artifact;1;22
+src/core/network.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;23;23
+src/core/network.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;24;24
+src/core/network.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;25;25
+src/core/network.c;1;1;1;artifact;26;28
+src/core/network.c;1;!INADDR_NONE;1 && !INADDR_NONE;if;29;29
+src/core/network.c;1;!INADDR_NONE;1 && !INADDR_NONE;artifact;30;30
+src/core/network.c;1;!INADDR_NONE;1 && !INADDR_NONE;endif;31;31
+src/core/network.c;1;1;1;artifact;32;85
+src/core/network.c;1;DEFINED___LB__IN6ADDR_ANY_INIT__RB__;1 && DEFINED___LB__IN6ADDR_ANY_INIT__RB__;if;86;86
+src/core/network.c;1;DEFINED___LB__IN6ADDR_ANY_INIT__RB__;1 && DEFINED___LB__IN6ADDR_ANY_INIT__RB__;artifact;87;87
+src/core/network.c;1;!DEFINED___LB__IN6ADDR_ANY_INIT__RB__;!DEFINED___LB__IN6ADDR_ANY_INIT__RB__ && 1;else;88;88
+src/core/network.c;1;!DEFINED___LB__IN6ADDR_ANY_INIT__RB__;!DEFINED___LB__IN6ADDR_ANY_INIT__RB__ && 1;artifact;89;89
+src/core/network.c;1;!DEFINED___LB__IN6ADDR_ANY_INIT__RB__;!DEFINED___LB__IN6ADDR_ANY_INIT__RB__ && 1;endif;90;90
+src/core/network.c;1;1;1;artifact;91;201
+src/core/network.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;202;202
+src/core/network.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;203;206
+src/core/network.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;else;207;207
+src/core/network.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;artifact;208;208
+src/core/network.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;endif;209;209
+src/core/network.c;1;1;1;artifact;210;403
+src/core/network.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;404;404
+src/core/network.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;405;406
+src/core/network.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;407;407
+src/core/network.c;1;1;1;artifact;408;503
+src/core/network.c;1;HAVE_INET_ATON;1 && HAVE_INET_ATON;if;504;504
+src/core/network.c;1;HAVE_INET_ATON;1 && HAVE_INET_ATON;artifact;505;506
+src/core/network.c;1;!HAVE_INET_ATON;!HAVE_INET_ATON && 1;else;507;507
+src/core/network.c;1;!HAVE_INET_ATON;!HAVE_INET_ATON && 1;artifact;508;512
+src/core/network.c;1;!HAVE_INET_ATON;!HAVE_INET_ATON && 1;endif;513;513
+src/core/network.c;1;1;1;artifact;514;547
+src/core/network.c;1;EAI_NODATA;1 && EAI_NODATA;if;548;548
+src/core/network.c;1;EAI_NODATA;1 && EAI_NODATA;artifact;549;549
+src/core/network.c;1;!EAI_NODATA;!EAI_NODATA && 1;else;550;550
+src/core/network.c;1;!EAI_NODATA;!EAI_NODATA && 1;artifact;551;551
+src/core/network.c;1;!EAI_NODATA;!EAI_NODATA && 1;endif;552;552
+src/core/network.c;1;1;1;artifact;553;585
+src/core/network.h;1;1;1;ROOT;1;95
+src/core/network.h;1;!IRSSI_CORE_NETWORK_H;1 && !IRSSI_CORE_NETWORK_H;if;1;1
+src/core/network.h;1;!IRSSI_CORE_NETWORK_H;1 && !IRSSI_CORE_NETWORK_H;artifact;2;9
+src/core/network.h;1;!AF_INET6;1 && !IRSSI_CORE_NETWORK_H && !AF_INET6;if;10;10
+src/core/network.h;1;PF_INET6;1 && !IRSSI_CORE_NETWORK_H && !AF_INET6 && PF_INET6;if;11;11
+src/core/network.h;1;PF_INET6;1 && !IRSSI_CORE_NETWORK_H && !AF_INET6 && PF_INET6;artifact;12;12
+src/core/network.h;1;!PF_INET6;!PF_INET6 && 1 && !IRSSI_CORE_NETWORK_H && !AF_INET6;else;13;13
+src/core/network.h;1;!PF_INET6;!PF_INET6 && 1 && !IRSSI_CORE_NETWORK_H && !AF_INET6;artifact;14;14
+src/core/network.h;1;!PF_INET6;!PF_INET6 && 1 && !IRSSI_CORE_NETWORK_H && !AF_INET6;endif;15;15
+src/core/network.h;1;!AF_INET6;1 && !IRSSI_CORE_NETWORK_H && !AF_INET6;endif;16;16
+src/core/network.h;1;!IRSSI_CORE_NETWORK_H;1 && !IRSSI_CORE_NETWORK_H;artifact;17;92
+src/core/network.h;1;!IRSSI_CORE_NETWORK_H;1 && !IRSSI_CORE_NETWORK_H;endif;93;93
+src/core/network.h;1;1;1;artifact;94;94
+src/core/nick-rec.h;1;1;1;ROOT;1;31
+src/core/nick-rec.h;1;1;1;artifact;1;30
+src/core/nicklist.c;1;1;1;ROOT;1;609
+src/core/nicklist.c;1;1;1;artifact;1;608
+src/core/nicklist.h;1;1;1;ROOT;1;66
+src/core/nicklist.h;1;!IRSSI_CORE_NICKLIST_H;1 && !IRSSI_CORE_NICKLIST_H;if;1;1
+src/core/nicklist.h;1;!IRSSI_CORE_NICKLIST_H;1 && !IRSSI_CORE_NICKLIST_H;artifact;2;63
+src/core/nicklist.h;1;!IRSSI_CORE_NICKLIST_H;1 && !IRSSI_CORE_NICKLIST_H;endif;64;64
+src/core/nicklist.h;1;1;1;artifact;65;65
+src/core/nickmatch-cache.c;1;1;1;ROOT;1;124
+src/core/nickmatch-cache.c;1;1;1;artifact;1;123
+src/core/nickmatch-cache.h;1;1;1;ROOT;1;29
+src/core/nickmatch-cache.h;1;!IRSSI_CORE_NICKMATCH_CACHE_H;1 && !IRSSI_CORE_NICKMATCH_CACHE_H;if;1;1
+src/core/nickmatch-cache.h;1;!IRSSI_CORE_NICKMATCH_CACHE_H;1 && !IRSSI_CORE_NICKMATCH_CACHE_H;artifact;2;26
+src/core/nickmatch-cache.h;1;!IRSSI_CORE_NICKMATCH_CACHE_H;1 && !IRSSI_CORE_NICKMATCH_CACHE_H;endif;27;27
+src/core/nickmatch-cache.h;1;1;1;artifact;28;28
+src/core/pidwait.c;1;1;1;ROOT;1;80
+src/core/pidwait.c;1;1;1;artifact;1;79
+src/core/pidwait.h;1;1;1;ROOT;1;18
+src/core/pidwait.h;1;!IRSSI_CORE_PIDWAIT_H;1 && !IRSSI_CORE_PIDWAIT_H;if;1;1
+src/core/pidwait.h;1;!IRSSI_CORE_PIDWAIT_H;1 && !IRSSI_CORE_PIDWAIT_H;artifact;2;15
+src/core/pidwait.h;1;!IRSSI_CORE_PIDWAIT_H;1 && !IRSSI_CORE_PIDWAIT_H;endif;16;16
+src/core/pidwait.h;1;1;1;artifact;17;17
+src/core/queries.c;1;1;1;ROOT;1;176
+src/core/queries.c;1;1;1;artifact;1;175
+src/core/queries.h;1;1;1;ROOT;1;36
+src/core/queries.h;1;!IRSSI_CORE_QUERIES_H;1 && !IRSSI_CORE_QUERIES_H;if;1;1
+src/core/queries.h;1;!IRSSI_CORE_QUERIES_H;1 && !IRSSI_CORE_QUERIES_H;artifact;2;33
+src/core/queries.h;1;!IRSSI_CORE_QUERIES_H;1 && !IRSSI_CORE_QUERIES_H;endif;34;34
+src/core/queries.h;1;1;1;artifact;35;35
+src/core/query-rec.h;1;1;1;ROOT;1;13
+src/core/query-rec.h;1;1;1;artifact;1;12
+src/core/rawlog.c;1;1;1;ROOT;1;262
+src/core/rawlog.c;1;1;1;artifact;1;29
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;30;30
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;31;31
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;32;32
+src/core/rawlog.c;1;1;1;artifact;33;129
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;130;130
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;131;133
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;else;134;134
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;artifact;135;136
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;endif;137;137
+src/core/rawlog.c;1;1;1;artifact;138;164
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;165;165
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;166;166
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;else;167;167
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;artifact;168;168
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;endif;169;169
+src/core/rawlog.c;1;1;1;artifact;170;172
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;173;173
+src/core/rawlog.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;174;175
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;else;176;176
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;artifact;177;177
+src/core/rawlog.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;endif;178;178
+src/core/rawlog.c;1;1;1;artifact;179;261
+src/core/rawlog.h;1;1;1;ROOT;1;29
+src/core/rawlog.h;1;!IRSSI_CORE_RAWLOG_H;1 && !IRSSI_CORE_RAWLOG_H;if;1;1
+src/core/rawlog.h;1;!IRSSI_CORE_RAWLOG_H;1 && !IRSSI_CORE_RAWLOG_H;artifact;2;26
+src/core/rawlog.h;1;!IRSSI_CORE_RAWLOG_H;1 && !IRSSI_CORE_RAWLOG_H;endif;27;27
+src/core/rawlog.h;1;1;1;artifact;28;28
+src/core/recode.c;1;1;1;ROOT;1;309
+src/core/recode.c;1;1;1;artifact;1;308
+src/core/recode.h;1;1;1;ROOT;1;17
+src/core/recode.h;1;!IRSSI_CORE_RECODE_H;1 && !IRSSI_CORE_RECODE_H;if;1;1
+src/core/recode.h;1;!IRSSI_CORE_RECODE_H;1 && !IRSSI_CORE_RECODE_H;artifact;2;14
+src/core/recode.h;1;!IRSSI_CORE_RECODE_H;1 && !IRSSI_CORE_RECODE_H;endif;15;15
+src/core/recode.h;1;1;1;artifact;16;16
+src/core/refstrings.c;1;1;1;ROOT;1;131
+src/core/refstrings.c;1;1;1;artifact;1;5
+src/core/refstrings.c;1;GLIB_CHECK_VERSION___LB__2__58__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__58__0__RB__;if;6;6
+src/core/refstrings.c;1;GLIB_CHECK_VERSION___LB__2__58__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__58__0__RB__;artifact;7;41
+src/core/refstrings.c;1;!GLIB_CHECK_VERSION___LB__2__58__0__RB__;!GLIB_CHECK_VERSION___LB__2__58__0__RB__ && 1;else;42;42
+src/core/refstrings.c;1;!GLIB_CHECK_VERSION___LB__2__58__0__RB__;!GLIB_CHECK_VERSION___LB__2__58__0__RB__ && 1;artifact;43;128
+src/core/refstrings.c;1;!GLIB_CHECK_VERSION___LB__2__58__0__RB__;!GLIB_CHECK_VERSION___LB__2__58__0__RB__ && 1;endif;129;129
+src/core/refstrings.c;1;1;1;artifact;130;130
+src/core/refstrings.h;1;1;1;ROOT;1;12
+src/core/refstrings.h;1;!IRSSI_CORE_REFSTRINGS_H;1 && !IRSSI_CORE_REFSTRINGS_H;if;1;1
+src/core/refstrings.h;1;!IRSSI_CORE_REFSTRINGS_H;1 && !IRSSI_CORE_REFSTRINGS_H;artifact;2;9
+src/core/refstrings.h;1;!IRSSI_CORE_REFSTRINGS_H;1 && !IRSSI_CORE_REFSTRINGS_H;endif;10;10
+src/core/refstrings.h;1;1;1;artifact;11;11
+src/core/server-connect-rec.h;1;1;1;ROOT;1;51
+src/core/server-connect-rec.h;1;1;1;artifact;1;50
+src/core/server-rec.h;1;1;1;ROOT;1;80
+src/core/server-rec.h;1;1;1;artifact;1;79
+src/core/server-setup-rec.h;1;1;1;ROOT;1;38
+src/core/server-setup-rec.h;1;1;1;artifact;1;37
+src/core/servers-reconnect.c;1;1;1;ROOT;1;529
+src/core/servers-reconnect.c;1;1;1;artifact;1;528
+src/core/servers-reconnect.h;1;1;1;ROOT;1;25
+src/core/servers-reconnect.h;1;!IRSSI_CORE_SERVERS_RECONNECT_H;1 && !IRSSI_CORE_SERVERS_RECONNECT_H;if;1;1
+src/core/servers-reconnect.h;1;!IRSSI_CORE_SERVERS_RECONNECT_H;1 && !IRSSI_CORE_SERVERS_RECONNECT_H;artifact;2;22
+src/core/servers-reconnect.h;1;!IRSSI_CORE_SERVERS_RECONNECT_H;1 && !IRSSI_CORE_SERVERS_RECONNECT_H;endif;23;23
+src/core/servers-reconnect.h;1;1;1;artifact;24;24
+src/core/servers-setup.c;1;1;1;ROOT;1;805
+src/core/servers-setup.c;1;1;1;artifact;1;804
+src/core/servers-setup.h;1;1;1;ROOT;1;55
+src/core/servers-setup.h;1;!IRSSI_CORE_SERVERS_SETUP_H;1 && !IRSSI_CORE_SERVERS_SETUP_H;if;1;1
+src/core/servers-setup.h;1;!IRSSI_CORE_SERVERS_SETUP_H;1 && !IRSSI_CORE_SERVERS_SETUP_H;artifact;2;52
+src/core/servers-setup.h;1;!IRSSI_CORE_SERVERS_SETUP_H;1 && !IRSSI_CORE_SERVERS_SETUP_H;endif;53;53
+src/core/servers-setup.h;1;1;1;artifact;54;54
+src/core/servers.c;1;1;1;ROOT;1;787
+src/core/servers.c;1;1;1;artifact;1;786
+src/core/servers.h;1;1;1;ROOT;1;88
+src/core/servers.h;1;!IRSSI_CORE_SERVERS_H;1 && !IRSSI_CORE_SERVERS_H;if;1;1
+src/core/servers.h;1;!IRSSI_CORE_SERVERS_H;1 && !IRSSI_CORE_SERVERS_H;artifact;2;85
+src/core/servers.h;1;!IRSSI_CORE_SERVERS_H;1 && !IRSSI_CORE_SERVERS_H;endif;86;86
+src/core/servers.h;1;1;1;artifact;87;87
+src/core/session.c;1;1;1;ROOT;1;392
+src/core/session.c;1;1;1;artifact;1;391
+src/core/session.h;1;1;1;ROOT;1;15
+src/core/session.h;1;!IRSSI_CORE_SESSION_H;1 && !IRSSI_CORE_SESSION_H;if;1;1
+src/core/session.h;1;!IRSSI_CORE_SESSION_H;1 && !IRSSI_CORE_SESSION_H;artifact;2;12
+src/core/session.h;1;!IRSSI_CORE_SESSION_H;1 && !IRSSI_CORE_SESSION_H;endif;13;13
+src/core/session.h;1;1;1;artifact;14;14
+src/core/settings.c;1;1;1;ROOT;1;922
+src/core/settings.c;1;1;1;artifact;1;921
+src/core/settings.h;1;1;1;ROOT;1;141
+src/core/settings.h;1;!IRSSI_CORE_SETTINGS_H;1 && !IRSSI_CORE_SETTINGS_H;if;1;1
+src/core/settings.h;1;!IRSSI_CORE_SETTINGS_H;1 && !IRSSI_CORE_SETTINGS_H;artifact;2;138
+src/core/settings.h;1;!IRSSI_CORE_SETTINGS_H;1 && !IRSSI_CORE_SETTINGS_H;endif;139;139
+src/core/settings.h;1;1;1;artifact;140;140
+src/core/signals.c;1;1;1;ROOT;1;441
+src/core/signals.c;1;1;1;artifact;1;237
+src/core/signals.c;1;SIGNAL_MAX_ARGUMENTS__NEQ__6;1 && SIGNAL_MAX_ARGUMENTS__NEQ__6;if;238;238
+src/core/signals.c;1;SIGNAL_MAX_ARGUMENTS__NEQ__6;1 && SIGNAL_MAX_ARGUMENTS__NEQ__6;artifact;239;239
+src/core/signals.c;1;SIGNAL_MAX_ARGUMENTS__NEQ__6;1 && SIGNAL_MAX_ARGUMENTS__NEQ__6;endif;240;240
+src/core/signals.c;1;1;1;artifact;241;440
+src/core/signals.h;1;1;1;ROOT;1;78
+src/core/signals.h;1;!IRSSI_CORE_SIGNALS_H;1 && !IRSSI_CORE_SIGNALS_H;if;1;1
+src/core/signals.h;1;!IRSSI_CORE_SIGNALS_H;1 && !IRSSI_CORE_SIGNALS_H;artifact;2;75
+src/core/signals.h;1;!IRSSI_CORE_SIGNALS_H;1 && !IRSSI_CORE_SIGNALS_H;endif;76;76
+src/core/signals.h;1;1;1;artifact;77;77
+src/core/special-vars.c;1;1;1;ROOT;1;845
+src/core/special-vars.c;1;1;1;artifact;1;36
+src/core/special-vars.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;if;37;37
+src/core/special-vars.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;artifact;38;38
+src/core/special-vars.c;1;!FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;!FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION && 1;else;39;39
+src/core/special-vars.c;1;!FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;!FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION && 1;artifact;40;40
+src/core/special-vars.c;1;!FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;!FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION && 1;endif;41;41
+src/core/special-vars.c;1;1;1;artifact;42;453
+src/core/special-vars.c;1;0;1 && 0;if;454;454
+src/core/special-vars.c;1;0;1 && 0;artifact;455;482
+src/core/special-vars.c;1;1;1 && 1;else;483;483
+src/core/special-vars.c;1;1;1 && 1;artifact;484;484
+src/core/special-vars.c;1;1;1 && 1;endif;485;485
+src/core/special-vars.c;1;1;1;artifact;486;844
+src/core/special-vars.h;1;1;1;ROOT;1;55
+src/core/special-vars.h;1;!IRSSI_CORE_SPECIAL_VARS_H;1 && !IRSSI_CORE_SPECIAL_VARS_H;if;1;1
+src/core/special-vars.h;1;!IRSSI_CORE_SPECIAL_VARS_H;1 && !IRSSI_CORE_SPECIAL_VARS_H;artifact;2;52
+src/core/special-vars.h;1;!IRSSI_CORE_SPECIAL_VARS_H;1 && !IRSSI_CORE_SPECIAL_VARS_H;endif;53;53
+src/core/special-vars.h;1;1;1;artifact;54;54
+src/core/tls.c;1;1;1;ROOT;1;216
+src/core/tls.c;1;1;1;artifact;1;215
+src/core/tls.h;1;1;1;ROOT;1;90
+src/core/tls.h;1;1;1;artifact;1;18
+src/core/tls.h;1;!IRSSI_CORE_TLS_H;1 && !IRSSI_CORE_TLS_H;if;19;19
+src/core/tls.h;1;!IRSSI_CORE_TLS_H;1 && !IRSSI_CORE_TLS_H;artifact;20;87
+src/core/tls.h;1;!IRSSI_CORE_TLS_H;1 && !IRSSI_CORE_TLS_H;endif;88;88
+src/core/tls.h;1;1;1;artifact;89;89
+src/core/utf8.c;1;1;1;ROOT;1;137
+src/core/utf8.c;1;1;1;artifact;1;136
+src/core/utf8.h;1;1;1;ROOT;1;64
+src/core/utf8.h;1;!IRSSI_CORE_UTF8_H;1 && !IRSSI_CORE_UTF8_H;if;1;1
+src/core/utf8.h;1;!IRSSI_CORE_UTF8_H;1 && !IRSSI_CORE_UTF8_H;artifact;2;61
+src/core/utf8.h;1;!IRSSI_CORE_UTF8_H;1 && !IRSSI_CORE_UTF8_H;endif;62;62
+src/core/utf8.h;1;1;1;artifact;63;63
+src/core/wcwidth-wrapper.c;1;1;1;ROOT;1;143
+src/core/wcwidth-wrapper.c;1;1;1;artifact;1;28
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;if;29;29
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;artifact;30;30
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;endif;31;31
+src/core/wcwidth-wrapper.c;1;1;1;artifact;32;41
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;if;42;42
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;artifact;43;43
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;endif;44;44
+src/core/wcwidth-wrapper.c;1;1;1;artifact;45;73
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;if;74;74
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;artifact;75;80
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;endif;81;81
+src/core/wcwidth-wrapper.c;1;1;1;artifact;82;104
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;if;105;105
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;artifact;106;108
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;endif;109;109
+src/core/wcwidth-wrapper.c;1;1;1;artifact;110;127
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;if;128;128
+src/core/wcwidth-wrapper.c;1;HAVE_LIBUTF8PROC;1 && HAVE_LIBUTF8PROC;artifact;129;129
+src/core/wcwidth-wrapper.c;1;!HAVE_LIBUTF8PROC;!HAVE_LIBUTF8PROC && 1;else;130;130
+src/core/wcwidth-wrapper.c;1;!HAVE_LIBUTF8PROC;!HAVE_LIBUTF8PROC && 1;artifact;131;131
+src/core/wcwidth-wrapper.c;1;!HAVE_LIBUTF8PROC;!HAVE_LIBUTF8PROC && 1;endif;132;132
+src/core/wcwidth-wrapper.c;1;1;1;artifact;133;142
+src/core/wcwidth.c;1;1;1;ROOT;1;222
+src/core/wcwidth.c;1;1;1;artifact;1;206
+src/core/wcwidth.c;1;0;1 && 0;if;207;207
+src/core/wcwidth.c;1;0;1 && 0;artifact;208;219
+src/core/wcwidth.c;1;0;1 && 0;endif;220;220
+src/core/wcwidth.c;1;1;1;artifact;221;221
+src/core/window-item-def.h;1;1;1;ROOT;1;11
+src/core/window-item-def.h;1;!IRSSI_CORE_WINDOW_ITEM_DEF_H;1 && !IRSSI_CORE_WINDOW_ITEM_DEF_H;if;1;1
+src/core/window-item-def.h;1;!IRSSI_CORE_WINDOW_ITEM_DEF_H;1 && !IRSSI_CORE_WINDOW_ITEM_DEF_H;artifact;2;8
+src/core/window-item-def.h;1;!IRSSI_CORE_WINDOW_ITEM_DEF_H;1 && !IRSSI_CORE_WINDOW_ITEM_DEF_H;endif;9;9
+src/core/window-item-def.h;1;1;1;artifact;10;10
+src/core/window-item-rec.h;1;1;1;ROOT;1;23
+src/core/window-item-rec.h;1;1;1;artifact;1;22
+src/core/write-buffer.c;1;1;1;ROOT;1;193
+src/core/write-buffer.c;1;1;1;artifact;1;192
+src/core/write-buffer.h;1;1;1;ROOT;1;12
+src/core/write-buffer.h;1;!IRSSI_CORE_WRITE_BUFFER_H;1 && !IRSSI_CORE_WRITE_BUFFER_H;if;1;1
+src/core/write-buffer.h;1;!IRSSI_CORE_WRITE_BUFFER_H;1 && !IRSSI_CORE_WRITE_BUFFER_H;artifact;2;9
+src/core/write-buffer.h;1;!IRSSI_CORE_WRITE_BUFFER_H;1 && !IRSSI_CORE_WRITE_BUFFER_H;endif;10;10
+src/core/write-buffer.h;1;1;1;artifact;11;11
+src/fe-common/core/chat-completion.c;1;1;1;ROOT;1;1332
+src/fe-common/core/chat-completion.c;1;1;1;artifact;1;1331
+src/fe-common/core/chat-completion.h;1;1;1;ROOT;1;18
+src/fe-common/core/chat-completion.h;1;!IRSSI_FE_COMMON_CORE_CHAT_COMPLETION_H;1 && !IRSSI_FE_COMMON_CORE_CHAT_COMPLETION_H;if;1;1
+src/fe-common/core/chat-completion.h;1;!IRSSI_FE_COMMON_CORE_CHAT_COMPLETION_H;1 && !IRSSI_FE_COMMON_CORE_CHAT_COMPLETION_H;artifact;2;15
+src/fe-common/core/chat-completion.h;1;!IRSSI_FE_COMMON_CORE_CHAT_COMPLETION_H;1 && !IRSSI_FE_COMMON_CORE_CHAT_COMPLETION_H;endif;16;16
+src/fe-common/core/chat-completion.h;1;1;1;artifact;17;17
+src/fe-common/core/command-history.c;1;1;1;ROOT;1;509
+src/fe-common/core/command-history.c;1;1;1;artifact;1;508
+src/fe-common/core/command-history.h;1;1;1;ROOT;1;55
+src/fe-common/core/command-history.h;1;!IRSSI_FE_COMMON_CORE_COMMAND_HISTORY_H;1 && !IRSSI_FE_COMMON_CORE_COMMAND_HISTORY_H;if;1;1
+src/fe-common/core/command-history.h;1;!IRSSI_FE_COMMON_CORE_COMMAND_HISTORY_H;1 && !IRSSI_FE_COMMON_CORE_COMMAND_HISTORY_H;artifact;2;52
+src/fe-common/core/command-history.h;1;!IRSSI_FE_COMMON_CORE_COMMAND_HISTORY_H;1 && !IRSSI_FE_COMMON_CORE_COMMAND_HISTORY_H;endif;53;53
+src/fe-common/core/command-history.h;1;1;1;artifact;54;54
+src/fe-common/core/completion.c;1;1;1;ROOT;1;959
+src/fe-common/core/completion.c;1;1;1;artifact;1;958
+src/fe-common/core/completion.h;1;1;1;ROOT;1;20
+src/fe-common/core/completion.h;1;!IRSSI_FE_COMMON_CORE_COMPLETION_H;1 && !IRSSI_FE_COMMON_CORE_COMPLETION_H;if;1;1
+src/fe-common/core/completion.h;1;!IRSSI_FE_COMMON_CORE_COMPLETION_H;1 && !IRSSI_FE_COMMON_CORE_COMPLETION_H;artifact;2;17
+src/fe-common/core/completion.h;1;!IRSSI_FE_COMMON_CORE_COMPLETION_H;1 && !IRSSI_FE_COMMON_CORE_COMPLETION_H;endif;18;18
+src/fe-common/core/completion.h;1;1;1;artifact;19;19
+src/fe-common/core/fe-capsicum.c;1;1;1;ROOT;1;65
+src/fe-common/core/fe-capsicum.c;1;1;1;artifact;1;64
+src/fe-common/core/fe-capsicum.h;1;1;1;ROOT;1;9
+src/fe-common/core/fe-capsicum.h;1;!IRSSI_FE_COMMON_CORE_FE_CAPSICUM_H;1 && !IRSSI_FE_COMMON_CORE_FE_CAPSICUM_H;if;1;1
+src/fe-common/core/fe-capsicum.h;1;!IRSSI_FE_COMMON_CORE_FE_CAPSICUM_H;1 && !IRSSI_FE_COMMON_CORE_FE_CAPSICUM_H;artifact;2;6
+src/fe-common/core/fe-capsicum.h;1;!IRSSI_FE_COMMON_CORE_FE_CAPSICUM_H;1 && !IRSSI_FE_COMMON_CORE_FE_CAPSICUM_H;endif;7;7
+src/fe-common/core/fe-capsicum.h;1;1;1;artifact;8;8
+src/fe-common/core/fe-channels.c;1;1;1;ROOT;1;676
+src/fe-common/core/fe-channels.c;1;1;1;artifact;1;675
+src/fe-common/core/fe-channels.h;1;1;1;ROOT;1;18
+src/fe-common/core/fe-channels.h;1;!IRSSI_FE_COMMON_CORE_FE_CHANNELS_H;1 && !IRSSI_FE_COMMON_CORE_FE_CHANNELS_H;if;1;1
+src/fe-common/core/fe-channels.h;1;!IRSSI_FE_COMMON_CORE_FE_CHANNELS_H;1 && !IRSSI_FE_COMMON_CORE_FE_CHANNELS_H;artifact;2;15
+src/fe-common/core/fe-channels.h;1;!IRSSI_FE_COMMON_CORE_FE_CHANNELS_H;1 && !IRSSI_FE_COMMON_CORE_FE_CHANNELS_H;endif;16;16
+src/fe-common/core/fe-channels.h;1;1;1;artifact;17;17
+src/fe-common/core/fe-common-core.c;1;1;1;ROOT;1;586
+src/fe-common/core/fe-common-core.c;1;1;1;artifact;1;34
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;35;35
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;36;36
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;37;37
+src/fe-common/core/fe-common-core.c;1;1;1;artifact;38;186
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;187;187
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;188;188
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;189;189
+src/fe-common/core/fe-common-core.c;1;1;1;artifact;190;231
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;232;232
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;233;233
+src/fe-common/core/fe-common-core.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;234;234
+src/fe-common/core/fe-common-core.c;1;1;1;artifact;235;505
+src/fe-common/core/fe-common-core.c;1;SIGPIPE;1 && SIGPIPE;if;506;506
+src/fe-common/core/fe-common-core.c;1;SIGPIPE;1 && SIGPIPE;artifact;507;507
+src/fe-common/core/fe-common-core.c;1;SIGPIPE;1 && SIGPIPE;endif;508;508
+src/fe-common/core/fe-common-core.c;1;1;1;artifact;509;585
+src/fe-common/core/fe-common-core.h;1;1;1;ROOT;1;15
+src/fe-common/core/fe-common-core.h;1;!IRSSI_FE_COMMON_CORE_FE_COMMON_CORE_H;1 && !IRSSI_FE_COMMON_CORE_FE_COMMON_CORE_H;if;1;1
+src/fe-common/core/fe-common-core.h;1;!IRSSI_FE_COMMON_CORE_FE_COMMON_CORE_H;1 && !IRSSI_FE_COMMON_CORE_FE_COMMON_CORE_H;artifact;2;12
+src/fe-common/core/fe-common-core.h;1;!IRSSI_FE_COMMON_CORE_FE_COMMON_CORE_H;1 && !IRSSI_FE_COMMON_CORE_FE_COMMON_CORE_H;endif;13;13
+src/fe-common/core/fe-common-core.h;1;1;1;artifact;14;14
+src/fe-common/core/fe-core-commands.c;1;1;1;ROOT;1;378
+src/fe-common/core/fe-core-commands.c;1;1;1;artifact;1;30
+src/fe-common/core/fe-core-commands.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;31;31
+src/fe-common/core/fe-core-commands.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;32;32
+src/fe-common/core/fe-core-commands.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;33;33
+src/fe-common/core/fe-core-commands.c;1;1;1;artifact;34;127
+src/fe-common/core/fe-core-commands.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;128;128
+src/fe-common/core/fe-core-commands.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;129;129
+src/fe-common/core/fe-core-commands.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;130;130
+src/fe-common/core/fe-core-commands.c;1;1;1;artifact;131;140
+src/fe-common/core/fe-core-commands.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;141;141
+src/fe-common/core/fe-core-commands.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;142;146
+src/fe-common/core/fe-core-commands.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;else;147;147
+src/fe-common/core/fe-core-commands.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;artifact;148;148
+src/fe-common/core/fe-core-commands.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;endif;149;149
+src/fe-common/core/fe-core-commands.c;1;1;1;artifact;150;377
+src/fe-common/core/fe-core-commands.h;1;1;1;ROOT;1;11
+src/fe-common/core/fe-core-commands.h;1;!IRSSI_FE_COMMON_CORE_FE_CORE_COMMANDS_H;1 && !IRSSI_FE_COMMON_CORE_FE_CORE_COMMANDS_H;if;1;1
+src/fe-common/core/fe-core-commands.h;1;!IRSSI_FE_COMMON_CORE_FE_CORE_COMMANDS_H;1 && !IRSSI_FE_COMMON_CORE_FE_CORE_COMMANDS_H;artifact;2;8
+src/fe-common/core/fe-core-commands.h;1;!IRSSI_FE_COMMON_CORE_FE_CORE_COMMANDS_H;1 && !IRSSI_FE_COMMON_CORE_FE_CORE_COMMANDS_H;endif;9;9
+src/fe-common/core/fe-core-commands.h;1;1;1;artifact;10;10
+src/fe-common/core/fe-exec.c;1;1;1;ROOT;1;684
+src/fe-common/core/fe-exec.c;1;1;1;artifact;1;318
+src/fe-common/core/fe-exec.c;1;!__ANDROID__;1 && !__ANDROID__;if;319;319
+src/fe-common/core/fe-exec.c;1;!__ANDROID__;1 && !__ANDROID__;artifact;320;324
+src/fe-common/core/fe-exec.c;1;!__ANDROID__;1 && !__ANDROID__;endif;325;325
+src/fe-common/core/fe-exec.c;1;1;1;artifact;326;683
+src/fe-common/core/fe-exec.h;1;1;1;ROOT;1;54
+src/fe-common/core/fe-exec.h;1;!IRSSI_FE_COMMON_CORE_FE_EXEC_H;1 && !IRSSI_FE_COMMON_CORE_FE_EXEC_H;if;1;1
+src/fe-common/core/fe-exec.h;1;!IRSSI_FE_COMMON_CORE_FE_EXEC_H;1 && !IRSSI_FE_COMMON_CORE_FE_EXEC_H;artifact;2;51
+src/fe-common/core/fe-exec.h;1;!IRSSI_FE_COMMON_CORE_FE_EXEC_H;1 && !IRSSI_FE_COMMON_CORE_FE_EXEC_H;endif;52;52
+src/fe-common/core/fe-exec.h;1;1;1;artifact;53;53
+src/fe-common/core/fe-expandos.c;1;1;1;ROOT;1;60
+src/fe-common/core/fe-expandos.c;1;1;1;artifact;1;59
+src/fe-common/core/fe-help.c;1;1;1;ROOT;1;275
+src/fe-common/core/fe-help.c;1;1;1;artifact;1;274
+src/fe-common/core/fe-ignore-messages.c;1;1;1;ROOT;1;157
+src/fe-common/core/fe-ignore-messages.c;1;1;1;artifact;1;156
+src/fe-common/core/fe-ignore.c;1;1;1;ROOT;1;321
+src/fe-common/core/fe-ignore.c;1;1;1;artifact;1;320
+src/fe-common/core/fe-log.c;1;1;1;ROOT;1;822
+src/fe-common/core/fe-log.c;1;1;1;artifact;1;33
+src/fe-common/core/fe-log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;34;34
+src/fe-common/core/fe-log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;35;35
+src/fe-common/core/fe-log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;endif;36;36
+src/fe-common/core/fe-log.c;1;1;1;artifact;37;468
+src/fe-common/core/fe-log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;if;469;469
+src/fe-common/core/fe-log.c;1;HAVE_CAPSICUM;1 && HAVE_CAPSICUM;artifact;470;470
+src/fe-common/core/fe-log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;else;471;471
+src/fe-common/core/fe-log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;artifact;472;472
+src/fe-common/core/fe-log.c;1;!HAVE_CAPSICUM;!HAVE_CAPSICUM && 1;endif;473;473
+src/fe-common/core/fe-log.c;1;1;1;artifact;474;821
+src/fe-common/core/fe-messages.c;1;1;1;ROOT;1;860
+src/fe-common/core/fe-messages.c;1;1;1;artifact;1;859
+src/fe-common/core/fe-messages.h;1;1;1;ROOT;1;14
+src/fe-common/core/fe-messages.h;1;!IRSSI_FE_COMMON_CORE_FE_MESSAGES_H;1 && !IRSSI_FE_COMMON_CORE_FE_MESSAGES_H;if;1;1
+src/fe-common/core/fe-messages.h;1;!IRSSI_FE_COMMON_CORE_FE_MESSAGES_H;1 && !IRSSI_FE_COMMON_CORE_FE_MESSAGES_H;artifact;2;11
+src/fe-common/core/fe-messages.h;1;!IRSSI_FE_COMMON_CORE_FE_MESSAGES_H;1 && !IRSSI_FE_COMMON_CORE_FE_MESSAGES_H;endif;12;12
+src/fe-common/core/fe-messages.h;1;1;1;artifact;13;13
+src/fe-common/core/fe-modules.c;1;1;1;ROOT;1;275
+src/fe-common/core/fe-modules.c;1;1;1;artifact;1;274
+src/fe-common/core/fe-queries.c;1;1;1;ROOT;1;401
+src/fe-common/core/fe-queries.c;1;1;1;artifact;1;400
+src/fe-common/core/fe-queries.h;1;1;1;ROOT;1;15
+src/fe-common/core/fe-queries.h;1;!IRSSI_FE_COMMON_CORE_FE_QUERIES_H;1 && !IRSSI_FE_COMMON_CORE_FE_QUERIES_H;if;1;1
+src/fe-common/core/fe-queries.h;1;!IRSSI_FE_COMMON_CORE_FE_QUERIES_H;1 && !IRSSI_FE_COMMON_CORE_FE_QUERIES_H;artifact;2;12
+src/fe-common/core/fe-queries.h;1;!IRSSI_FE_COMMON_CORE_FE_QUERIES_H;1 && !IRSSI_FE_COMMON_CORE_FE_QUERIES_H;endif;13;13
+src/fe-common/core/fe-queries.h;1;1;1;artifact;14;14
+src/fe-common/core/fe-recode.c;1;1;1;ROOT;1;210
+src/fe-common/core/fe-recode.c;1;1;1;artifact;1;209
+src/fe-common/core/fe-recode.h;1;1;1;ROOT;1;9
+src/fe-common/core/fe-recode.h;1;!IRSSI_FE_COMMON_CORE_FE_RECODE_H;1 && !IRSSI_FE_COMMON_CORE_FE_RECODE_H;if;1;1
+src/fe-common/core/fe-recode.h;1;!IRSSI_FE_COMMON_CORE_FE_RECODE_H;1 && !IRSSI_FE_COMMON_CORE_FE_RECODE_H;artifact;2;6
+src/fe-common/core/fe-recode.h;1;!IRSSI_FE_COMMON_CORE_FE_RECODE_H;1 && !IRSSI_FE_COMMON_CORE_FE_RECODE_H;endif;7;7
+src/fe-common/core/fe-recode.h;1;1;1;artifact;8;8
+src/fe-common/core/fe-server.c;1;1;1;ROOT;1;556
+src/fe-common/core/fe-server.c;1;1;1;artifact;1;555
+src/fe-common/core/fe-settings.c;1;1;1;ROOT;1;454
+src/fe-common/core/fe-settings.c;1;1;1;artifact;1;453
+src/fe-common/core/fe-settings.h;1;1;1;ROOT;1;8
+src/fe-common/core/fe-settings.h;1;!IRSSI_FE_COMMON_CORE_FE_SETTINGS_H;1 && !IRSSI_FE_COMMON_CORE_FE_SETTINGS_H;if;1;1
+src/fe-common/core/fe-settings.h;1;!IRSSI_FE_COMMON_CORE_FE_SETTINGS_H;1 && !IRSSI_FE_COMMON_CORE_FE_SETTINGS_H;artifact;2;5
+src/fe-common/core/fe-settings.h;1;!IRSSI_FE_COMMON_CORE_FE_SETTINGS_H;1 && !IRSSI_FE_COMMON_CORE_FE_SETTINGS_H;endif;6;6
+src/fe-common/core/fe-settings.h;1;1;1;artifact;7;7
+src/fe-common/core/fe-tls.c;1;1;1;ROOT;1;96
+src/fe-common/core/fe-tls.c;1;1;1;artifact;1;95
+src/fe-common/core/fe-tls.h;1;1;1;ROOT;1;27
+src/fe-common/core/fe-tls.h;1;1;1;artifact;1;18
+src/fe-common/core/fe-tls.h;1;!IRSSI_FE_COMMON_CORE_FE_TLS_H;1 && !IRSSI_FE_COMMON_CORE_FE_TLS_H;if;19;19
+src/fe-common/core/fe-tls.h;1;!IRSSI_FE_COMMON_CORE_FE_TLS_H;1 && !IRSSI_FE_COMMON_CORE_FE_TLS_H;artifact;20;24
+src/fe-common/core/fe-tls.h;1;!IRSSI_FE_COMMON_CORE_FE_TLS_H;1 && !IRSSI_FE_COMMON_CORE_FE_TLS_H;endif;25;25
+src/fe-common/core/fe-tls.h;1;1;1;artifact;26;26
+src/fe-common/core/fe-windows.c;1;1;1;ROOT;1;847
+src/fe-common/core/fe-windows.c;1;1;1;artifact;1;846
+src/fe-common/core/fe-windows.h;1;1;1;ROOT;1;114
+src/fe-common/core/fe-windows.h;1;!IRSSI_FE_COMMON_CORE_FE_WINDOWS_H;1 && !IRSSI_FE_COMMON_CORE_FE_WINDOWS_H;if;1;1
+src/fe-common/core/fe-windows.h;1;!IRSSI_FE_COMMON_CORE_FE_WINDOWS_H;1 && !IRSSI_FE_COMMON_CORE_FE_WINDOWS_H;artifact;2;111
+src/fe-common/core/fe-windows.h;1;!IRSSI_FE_COMMON_CORE_FE_WINDOWS_H;1 && !IRSSI_FE_COMMON_CORE_FE_WINDOWS_H;endif;112;112
+src/fe-common/core/fe-windows.h;1;1;1;artifact;113;113
+src/fe-common/core/formats.c;1;1;1;ROOT;1;1713
+src/fe-common/core/formats.c;1;1;1;artifact;1;1712
+src/fe-common/core/formats.h;1;1;1;ROOT;1;184
+src/fe-common/core/formats.h;1;!IRSSI_FE_COMMON_CORE_FORMATS_H;1 && !IRSSI_FE_COMMON_CORE_FORMATS_H;if;1;1
+src/fe-common/core/formats.h;1;!IRSSI_FE_COMMON_CORE_FORMATS_H;1 && !IRSSI_FE_COMMON_CORE_FORMATS_H;artifact;2;181
+src/fe-common/core/formats.h;1;!IRSSI_FE_COMMON_CORE_FORMATS_H;1 && !IRSSI_FE_COMMON_CORE_FORMATS_H;endif;182;182
+src/fe-common/core/formats.h;1;1;1;artifact;183;183
+src/fe-common/core/hilight-text.c;1;1;1;ROOT;1;823
+src/fe-common/core/hilight-text.c;1;1;1;artifact;1;822
+src/fe-common/core/hilight-text.h;1;1;1;ROOT;1;50
+src/fe-common/core/hilight-text.h;1;!IRSSI_FE_COMMON_CORE_HILIGHT_TEXT_H;1 && !IRSSI_FE_COMMON_CORE_HILIGHT_TEXT_H;if;1;1
+src/fe-common/core/hilight-text.h;1;!IRSSI_FE_COMMON_CORE_HILIGHT_TEXT_H;1 && !IRSSI_FE_COMMON_CORE_HILIGHT_TEXT_H;artifact;2;47
+src/fe-common/core/hilight-text.h;1;!IRSSI_FE_COMMON_CORE_HILIGHT_TEXT_H;1 && !IRSSI_FE_COMMON_CORE_HILIGHT_TEXT_H;endif;48;48
+src/fe-common/core/hilight-text.h;1;1;1;artifact;49;49
+src/fe-common/core/keyboard.c;1;1;1;ROOT;1;1009
+src/fe-common/core/keyboard.c;1;1;1;artifact;1;1008
+src/fe-common/core/keyboard.h;1;1;1;ROOT;1;60
+src/fe-common/core/keyboard.h;1;!IRSSI_FE_COMMON_CORE_KEYBOARD_H;1 && !IRSSI_FE_COMMON_CORE_KEYBOARD_H;if;1;1
+src/fe-common/core/keyboard.h;1;!IRSSI_FE_COMMON_CORE_KEYBOARD_H;1 && !IRSSI_FE_COMMON_CORE_KEYBOARD_H;artifact;2;57
+src/fe-common/core/keyboard.h;1;!IRSSI_FE_COMMON_CORE_KEYBOARD_H;1 && !IRSSI_FE_COMMON_CORE_KEYBOARD_H;endif;58;58
+src/fe-common/core/keyboard.h;1;1;1;artifact;59;59
+src/fe-common/core/module-formats.c;1;1;1;ROOT;1;323
+src/fe-common/core/module-formats.c;1;1;1;artifact;1;322
+src/fe-common/core/module-formats.h;1;1;1;ROOT;1;285
+src/fe-common/core/module-formats.h;1;1;1;artifact;1;284
+src/fe-common/core/module.h;1;1;1;ROOT;1;37
+src/fe-common/core/module.h;1;1;1;artifact;1;36
+src/fe-common/core/printtext.c;1;1;1;ROOT;1;568
+src/fe-common/core/printtext.c;1;1;1;artifact;1;432
+src/fe-common/core/printtext.c;1;!SUPPRESS_PRINTF_FALLBACK;1 && !SUPPRESS_PRINTF_FALLBACK;if;433;433
+src/fe-common/core/printtext.c;1;!SUPPRESS_PRINTF_FALLBACK;1 && !SUPPRESS_PRINTF_FALLBACK;artifact;434;434
+src/fe-common/core/printtext.c;1;!SUPPRESS_PRINTF_FALLBACK;1 && !SUPPRESS_PRINTF_FALLBACK;endif;435;435
+src/fe-common/core/printtext.c;1;1;1;artifact;436;567
+src/fe-common/core/printtext.h;1;1;1;ROOT;1;47
+src/fe-common/core/printtext.h;1;!IRSSI_FE_COMMON_CORE_PRINTTEXT_H;1 && !IRSSI_FE_COMMON_CORE_PRINTTEXT_H;if;1;1
+src/fe-common/core/printtext.h;1;!IRSSI_FE_COMMON_CORE_PRINTTEXT_H;1 && !IRSSI_FE_COMMON_CORE_PRINTTEXT_H;artifact;2;44
+src/fe-common/core/printtext.h;1;!IRSSI_FE_COMMON_CORE_PRINTTEXT_H;1 && !IRSSI_FE_COMMON_CORE_PRINTTEXT_H;endif;45;45
+src/fe-common/core/printtext.h;1;1;1;artifact;46;46
+src/fe-common/core/themes.c;1;1;1;ROOT;1;1490
+src/fe-common/core/themes.c;1;1;1;artifact;1;1489
+src/fe-common/core/themes.h;1;1;1;ROOT;1;77
+src/fe-common/core/themes.h;1;!IRSSI_FE_COMMON_CORE_THEMES_H;1 && !IRSSI_FE_COMMON_CORE_THEMES_H;if;1;1
+src/fe-common/core/themes.h;1;!IRSSI_FE_COMMON_CORE_THEMES_H;1 && !IRSSI_FE_COMMON_CORE_THEMES_H;artifact;2;74
+src/fe-common/core/themes.h;1;!IRSSI_FE_COMMON_CORE_THEMES_H;1 && !IRSSI_FE_COMMON_CORE_THEMES_H;endif;75;75
+src/fe-common/core/themes.h;1;1;1;artifact;76;76
+src/fe-common/core/window-activity.c;1;1;1;ROOT;1;168
+src/fe-common/core/window-activity.c;1;1;1;artifact;1;167
+src/fe-common/core/window-activity.h;1;1;1;ROOT;1;15
+src/fe-common/core/window-activity.h;1;!IRSSI_FE_COMMON_CORE_WINDOW_ACTIVITY_H;1 && !IRSSI_FE_COMMON_CORE_WINDOW_ACTIVITY_H;if;1;1
+src/fe-common/core/window-activity.h;1;!IRSSI_FE_COMMON_CORE_WINDOW_ACTIVITY_H;1 && !IRSSI_FE_COMMON_CORE_WINDOW_ACTIVITY_H;artifact;2;12
+src/fe-common/core/window-activity.h;1;!IRSSI_FE_COMMON_CORE_WINDOW_ACTIVITY_H;1 && !IRSSI_FE_COMMON_CORE_WINDOW_ACTIVITY_H;endif;13;13
+src/fe-common/core/window-activity.h;1;1;1;artifact;14;14
+src/fe-common/core/window-commands.c;1;1;1;ROOT;1;964
+src/fe-common/core/window-commands.c;1;1;1;artifact;1;963
+src/fe-common/core/window-items.c;1;1;1;ROOT;1;357
+src/fe-common/core/window-items.c;1;1;1;artifact;1;356
+src/fe-common/core/window-items.h;1;1;1;ROOT;1;36
+src/fe-common/core/window-items.h;1;!IRSSI_FE_COMMON_CORE_WINDOW_ITEMS_H;1 && !IRSSI_FE_COMMON_CORE_WINDOW_ITEMS_H;if;1;1
+src/fe-common/core/window-items.h;1;!IRSSI_FE_COMMON_CORE_WINDOW_ITEMS_H;1 && !IRSSI_FE_COMMON_CORE_WINDOW_ITEMS_H;artifact;2;33
+src/fe-common/core/window-items.h;1;!IRSSI_FE_COMMON_CORE_WINDOW_ITEMS_H;1 && !IRSSI_FE_COMMON_CORE_WINDOW_ITEMS_H;endif;34;34
+src/fe-common/core/window-items.h;1;1;1;artifact;35;35
+src/fe-common/core/windows-layout.c;1;1;1;ROOT;1;280
+src/fe-common/core/windows-layout.c;1;1;1;artifact;1;279
+src/fe-common/core/windows-layout.h;1;1;1;ROOT;1;13
+src/fe-common/core/windows-layout.h;1;!IRSSI_FE_COMMON_CORE_WINDOWS_LAYOUT_H;1 && !IRSSI_FE_COMMON_CORE_WINDOWS_LAYOUT_H;if;1;1
+src/fe-common/core/windows-layout.h;1;!IRSSI_FE_COMMON_CORE_WINDOWS_LAYOUT_H;1 && !IRSSI_FE_COMMON_CORE_WINDOWS_LAYOUT_H;artifact;2;10
+src/fe-common/core/windows-layout.h;1;!IRSSI_FE_COMMON_CORE_WINDOWS_LAYOUT_H;1 && !IRSSI_FE_COMMON_CORE_WINDOWS_LAYOUT_H;endif;11;11
+src/fe-common/core/windows-layout.h;1;1;1;artifact;12;12
+src/fe-common/irc/dcc/fe-dcc-chat-messages.c;1;1;1;ROOT;1;166
+src/fe-common/irc/dcc/fe-dcc-chat-messages.c;1;1;1;artifact;1;165
+src/fe-common/irc/dcc/fe-dcc-chat.c;1;1;1;ROOT;1;387
+src/fe-common/irc/dcc/fe-dcc-chat.c;1;1;1;artifact;1;386
+src/fe-common/irc/dcc/fe-dcc-get.c;1;1;1;ROOT;1;152
+src/fe-common/irc/dcc/fe-dcc-get.c;1;1;1;artifact;1;151
+src/fe-common/irc/dcc/fe-dcc-send.c;1;1;1;ROOT;1;188
+src/fe-common/irc/dcc/fe-dcc-send.c;1;1;1;artifact;1;187
+src/fe-common/irc/dcc/fe-dcc-server.c;1;1;1;ROOT;1;85
+src/fe-common/irc/dcc/fe-dcc-server.c;1;1;1;artifact;1;84
+src/fe-common/irc/dcc/fe-dcc.c;1;1;1;ROOT;1;197
+src/fe-common/irc/dcc/fe-dcc.c;1;1;1;artifact;1;196
+src/fe-common/irc/dcc/fe-dcc.h;1;1;1;ROOT;1;9
+src/fe-common/irc/dcc/fe-dcc.h;1;!IRSSI_FE_COMMON_IRC_DCC_FE_DCC_H;1 && !IRSSI_FE_COMMON_IRC_DCC_FE_DCC_H;if;1;1
+src/fe-common/irc/dcc/fe-dcc.h;1;!IRSSI_FE_COMMON_IRC_DCC_FE_DCC_H;1 && !IRSSI_FE_COMMON_IRC_DCC_FE_DCC_H;artifact;2;6
+src/fe-common/irc/dcc/fe-dcc.h;1;!IRSSI_FE_COMMON_IRC_DCC_FE_DCC_H;1 && !IRSSI_FE_COMMON_IRC_DCC_FE_DCC_H;endif;7;7
+src/fe-common/irc/dcc/fe-dcc.h;1;1;1;artifact;8;8
+src/fe-common/irc/dcc/module-formats.c;1;1;1;ROOT;1;81
+src/fe-common/irc/dcc/module-formats.c;1;1;1;artifact;1;80
+src/fe-common/irc/dcc/module-formats.h;1;1;1;ROOT;1;59
+src/fe-common/irc/dcc/module-formats.h;1;1;1;artifact;1;58
+src/fe-common/irc/dcc/module.h;1;1;1;ROOT;1;6
+src/fe-common/irc/dcc/module.h;1;1;1;artifact;1;5
+src/fe-common/irc/fe-cap.c;1;1;1;ROOT;1;86
+src/fe-common/irc/fe-cap.c;1;1;1;artifact;1;85
+src/fe-common/irc/fe-common-irc.c;1;1;1;ROOT;1;129
+src/fe-common/irc/fe-common-irc.c;1;1;1;artifact;1;128
+src/fe-common/irc/fe-ctcp.c;1;1;1;ROOT;1;172
+src/fe-common/irc/fe-ctcp.c;1;1;1;artifact;1;171
+src/fe-common/irc/fe-events-numeric.c;1;1;1;ROOT;1;956
+src/fe-common/irc/fe-events-numeric.c;1;1;1;artifact;1;955
+src/fe-common/irc/fe-events.c;1;1;1;ROOT;1;552
+src/fe-common/irc/fe-events.c;1;1;1;artifact;1;551
+src/fe-common/irc/fe-irc-channels.c;1;1;1;ROOT;1;145
+src/fe-common/irc/fe-irc-channels.c;1;1;1;artifact;1;144
+src/fe-common/irc/fe-irc-channels.h;1;1;1;ROOT;1;13
+src/fe-common/irc/fe-irc-channels.h;1;!IRSSI_FE_COMMON_IRC_FE_IRC_CHANNELS_H;1 && !IRSSI_FE_COMMON_IRC_FE_IRC_CHANNELS_H;if;1;1
+src/fe-common/irc/fe-irc-channels.h;1;!IRSSI_FE_COMMON_IRC_FE_IRC_CHANNELS_H;1 && !IRSSI_FE_COMMON_IRC_FE_IRC_CHANNELS_H;artifact;2;10
+src/fe-common/irc/fe-irc-channels.h;1;!IRSSI_FE_COMMON_IRC_FE_IRC_CHANNELS_H;1 && !IRSSI_FE_COMMON_IRC_FE_IRC_CHANNELS_H;endif;11;11
+src/fe-common/irc/fe-irc-channels.h;1;1;1;artifact;12;12
+src/fe-common/irc/fe-irc-commands.c;1;1;1;ROOT;1;452
+src/fe-common/irc/fe-irc-commands.c;1;1;1;artifact;1;451
+src/fe-common/irc/fe-irc-messages.c;1;1;1;ROOT;1;389
+src/fe-common/irc/fe-irc-messages.c;1;1;1;artifact;1;388
+src/fe-common/irc/fe-irc-queries.c;1;1;1;ROOT;1;136
+src/fe-common/irc/fe-irc-queries.c;1;1;1;artifact;1;135
+src/fe-common/irc/fe-irc-server.c;1;1;1;ROOT;1;203
+src/fe-common/irc/fe-irc-server.c;1;1;1;artifact;1;202
+src/fe-common/irc/fe-irc-server.h;1;1;1;ROOT;1;11
+src/fe-common/irc/fe-irc-server.h;1;!IRSSI_FE_COMMON_IRC_FE_IRC_SERVER_H;1 && !IRSSI_FE_COMMON_IRC_FE_IRC_SERVER_H;if;1;1
+src/fe-common/irc/fe-irc-server.h;1;!IRSSI_FE_COMMON_IRC_FE_IRC_SERVER_H;1 && !IRSSI_FE_COMMON_IRC_FE_IRC_SERVER_H;artifact;2;8
+src/fe-common/irc/fe-irc-server.h;1;!IRSSI_FE_COMMON_IRC_FE_IRC_SERVER_H;1 && !IRSSI_FE_COMMON_IRC_FE_IRC_SERVER_H;endif;9;9
+src/fe-common/irc/fe-irc-server.h;1;1;1;artifact;10;10
+src/fe-common/irc/fe-ircnet.c;1;1;1;ROOT;1;251
+src/fe-common/irc/fe-ircnet.c;1;1;1;artifact;1;250
+src/fe-common/irc/fe-modes.c;1;1;1;ROOT;1;238
+src/fe-common/irc/fe-modes.c;1;1;1;artifact;1;237
+src/fe-common/irc/fe-netjoin.c;1;1;1;ROOT;1;517
+src/fe-common/irc/fe-netjoin.c;1;1;1;artifact;1;516
+src/fe-common/irc/fe-netsplit.c;1;1;1;ROOT;1;391
+src/fe-common/irc/fe-netsplit.c;1;1;1;artifact;1;390
+src/fe-common/irc/fe-sasl.c;1;1;1;ROOT;1;55
+src/fe-common/irc/fe-sasl.c;1;1;1;artifact;1;54
+src/fe-common/irc/fe-whois.c;1;1;1;ROOT;1;458
+src/fe-common/irc/fe-whois.c;1;1;1;artifact;1;457
+src/fe-common/irc/irc-completion.c;1;1;1;ROOT;1;43
+src/fe-common/irc/irc-completion.c;1;1;1;artifact;1;42
+src/fe-common/irc/module-formats.c;1;1;1;ROOT;1;188
+src/fe-common/irc/module-formats.c;1;1;1;artifact;1;187
+src/fe-common/irc/module-formats.h;1;1;1;ROOT;1;158
+src/fe-common/irc/module-formats.h;1;1;1;artifact;1;157
+src/fe-common/irc/module.h;1;1;1;ROOT;1;6
+src/fe-common/irc/module.h;1;1;1;artifact;1;5
+src/fe-common/irc/notifylist/fe-notifylist.c;1;1;1;ROOT;1;252
+src/fe-common/irc/notifylist/fe-notifylist.c;1;1;1;artifact;1;251
+src/fe-common/irc/notifylist/module-formats.c;1;1;1;ROOT;1;43
+src/fe-common/irc/notifylist/module-formats.c;1;1;1;artifact;1;42
+src/fe-common/irc/notifylist/module-formats.h;1;1;1;ROOT;1;20
+src/fe-common/irc/notifylist/module-formats.h;1;1;1;artifact;1;19
+src/fe-common/irc/notifylist/module.h;1;1;1;ROOT;1;6
+src/fe-common/irc/notifylist/module.h;1;1;1;artifact;1;5
+src/fe-fuzz/fe-common/core/theme-load.c;1;1;1;ROOT;1;73
+src/fe-fuzz/fe-common/core/theme-load.c;1;1;1;artifact;1;41
+src/fe-fuzz/fe-common/core/theme-load.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;if;42;42
+src/fe-fuzz/fe-common/core/theme-load.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;artifact;43;43
+src/fe-fuzz/fe-common/core/theme-load.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;endif;44;44
+src/fe-fuzz/fe-common/core/theme-load.c;1;1;1;artifact;45;72
+src/fe-fuzz/irc/core/event-get-params.c;1;1;1;ROOT;1;92
+src/fe-fuzz/irc/core/event-get-params.c;1;1;1;artifact;1;38
+src/fe-fuzz/irc/core/event-get-params.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;if;39;39
+src/fe-fuzz/irc/core/event-get-params.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;artifact;40;40
+src/fe-fuzz/irc/core/event-get-params.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;endif;41;41
+src/fe-fuzz/irc/core/event-get-params.c;1;1;1;artifact;42;91
+src/fe-fuzz/irssi.c;1;1;1;ROOT;1;63
+src/fe-fuzz/irssi.c;1;1;1;artifact;1;37
+src/fe-fuzz/irssi.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;if;38;38
+src/fe-fuzz/irssi.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;artifact;39;39
+src/fe-fuzz/irssi.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;endif;40;40
+src/fe-fuzz/irssi.c;1;1;1;artifact;41;62
+src/fe-fuzz/null-logger.c;1;1;1;ROOT;1;18
+src/fe-fuzz/null-logger.c;1;1;1;artifact;1;17
+src/fe-fuzz/null-logger.h;1;1;1;ROOT;1;8
+src/fe-fuzz/null-logger.h;1;!IRSSI_FE_FUZZ_NULL_LOGGER_H;1 && !IRSSI_FE_FUZZ_NULL_LOGGER_H;if;1;1
+src/fe-fuzz/null-logger.h;1;!IRSSI_FE_FUZZ_NULL_LOGGER_H;1 && !IRSSI_FE_FUZZ_NULL_LOGGER_H;artifact;2;5
+src/fe-fuzz/null-logger.h;1;!IRSSI_FE_FUZZ_NULL_LOGGER_H;1 && !IRSSI_FE_FUZZ_NULL_LOGGER_H;endif;6;6
+src/fe-fuzz/null-logger.h;1;1;1;artifact;7;7
+src/fe-fuzz/server.c;1;1;1;ROOT;1;210
+src/fe-fuzz/server.c;1;1;1;artifact;1;146
+src/fe-fuzz/server.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;if;147;147
+src/fe-fuzz/server.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;artifact;148;148
+src/fe-fuzz/server.c;1;FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;1 && FUZZING_BUILD_MODE_UNSAFE_FOR_PRODUCTION;endif;149;149
+src/fe-fuzz/server.c;1;1;1;artifact;150;209
+src/fe-none/irssi.c;1;1;1;ROOT;1;123
+src/fe-none/irssi.c;1;1;1;artifact;1;122
+src/fe-none/module.h;1;1;1;ROOT;1;5
+src/fe-none/module.h;1;1;1;artifact;1;4
+src/fe-text/gui-entry.c;1;1;1;ROOT;1;1512
+src/fe-text/gui-entry.c;1;1;1;artifact;1;1511
+src/fe-text/gui-entry.h;1;1;1;ROOT;1;94
+src/fe-text/gui-entry.h;1;!IRSSI_FE_TEXT_GUI_ENTRY_H;1 && !IRSSI_FE_TEXT_GUI_ENTRY_H;if;1;1
+src/fe-text/gui-entry.h;1;!IRSSI_FE_TEXT_GUI_ENTRY_H;1 && !IRSSI_FE_TEXT_GUI_ENTRY_H;artifact;2;91
+src/fe-text/gui-entry.h;1;!IRSSI_FE_TEXT_GUI_ENTRY_H;1 && !IRSSI_FE_TEXT_GUI_ENTRY_H;endif;92;92
+src/fe-text/gui-entry.h;1;1;1;artifact;93;93
+src/fe-text/gui-expandos.c;1;1;1;ROOT;1;65
+src/fe-text/gui-expandos.c;1;1;1;artifact;1;64
+src/fe-text/gui-printtext.c;1;1;1;ROOT;1;429
+src/fe-text/gui-printtext.c;1;1;1;artifact;1;428
+src/fe-text/gui-printtext.h;1;1;1;ROOT;1;28
+src/fe-text/gui-printtext.h;1;!IRSSI_FE_TEXT_GUI_PRINTTEXT_H;1 && !IRSSI_FE_TEXT_GUI_PRINTTEXT_H;if;1;1
+src/fe-text/gui-printtext.h;1;!IRSSI_FE_TEXT_GUI_PRINTTEXT_H;1 && !IRSSI_FE_TEXT_GUI_PRINTTEXT_H;artifact;2;25
+src/fe-text/gui-printtext.h;1;!IRSSI_FE_TEXT_GUI_PRINTTEXT_H;1 && !IRSSI_FE_TEXT_GUI_PRINTTEXT_H;endif;26;26
+src/fe-text/gui-printtext.h;1;1;1;artifact;27;27
+src/fe-text/gui-readline.c;1;1;1;ROOT;1;1628
+src/fe-text/gui-readline.c;1;1;1;artifact;1;86
+src/fe-text/gui-readline.c;1;GLIB_CHECK_VERSION___LB__2__62__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__62__0__RB__;if;87;87
+src/fe-text/gui-readline.c;1;GLIB_CHECK_VERSION___LB__2__62__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__62__0__RB__;artifact;88;88
+src/fe-text/gui-readline.c;1;!GLIB_CHECK_VERSION___LB__2__62__0__RB__;!GLIB_CHECK_VERSION___LB__2__62__0__RB__ && 1;else;89;89
+src/fe-text/gui-readline.c;1;!GLIB_CHECK_VERSION___LB__2__62__0__RB__;!GLIB_CHECK_VERSION___LB__2__62__0__RB__ && 1;artifact;90;102
+src/fe-text/gui-readline.c;1;!GLIB_CHECK_VERSION___LB__2__62__0__RB__;!GLIB_CHECK_VERSION___LB__2__62__0__RB__ && 1;endif;103;103
+src/fe-text/gui-readline.c;1;1;1;artifact;104;1627
+src/fe-text/gui-readline.h;1;1;1;ROOT;1;17
+src/fe-text/gui-readline.h;1;!IRSSI_FE_TEXT_GUI_READLINE_H;1 && !IRSSI_FE_TEXT_GUI_READLINE_H;if;1;1
+src/fe-text/gui-readline.h;1;!IRSSI_FE_TEXT_GUI_READLINE_H;1 && !IRSSI_FE_TEXT_GUI_READLINE_H;artifact;2;14
+src/fe-text/gui-readline.h;1;!IRSSI_FE_TEXT_GUI_READLINE_H;1 && !IRSSI_FE_TEXT_GUI_READLINE_H;endif;15;15
+src/fe-text/gui-readline.h;1;1;1;artifact;16;16
+src/fe-text/gui-windows.c;1;1;1;ROOT;1;329
+src/fe-text/gui-windows.c;1;1;1;artifact;1;328
+src/fe-text/gui-windows.h;1;1;1;ROOT;1;47
+src/fe-text/gui-windows.h;1;!IRSSI_FE_TEXT_GUI_WINDOWS_H;1 && !IRSSI_FE_TEXT_GUI_WINDOWS_H;if;1;1
+src/fe-text/gui-windows.h;1;!IRSSI_FE_TEXT_GUI_WINDOWS_H;1 && !IRSSI_FE_TEXT_GUI_WINDOWS_H;artifact;2;44
+src/fe-text/gui-windows.h;1;!IRSSI_FE_TEXT_GUI_WINDOWS_H;1 && !IRSSI_FE_TEXT_GUI_WINDOWS_H;endif;45;45
+src/fe-text/gui-windows.h;1;1;1;artifact;46;46
+src/fe-text/irssi.c;1;1;1;ROOT;1;364
+src/fe-text/irssi.c;1;1;1;artifact;1;140
+src/fe-text/irssi.c;1;SIGTRAP;1 && SIGTRAP;if;141;141
+src/fe-text/irssi.c;1;SIGTRAP;1 && SIGTRAP;artifact;142;147
+src/fe-text/irssi.c;1;SIGTRAP;1 && SIGTRAP;endif;148;148
+src/fe-text/irssi.c;1;1;1;artifact;149;363
+src/fe-text/lastlog.c;1;1;1;ROOT;1;326
+src/fe-text/lastlog.c;1;1;1;artifact;1;325
+src/fe-text/mainwindow-activity.c;1;1;1;ROOT;1;64
+src/fe-text/mainwindow-activity.c;1;1;1;artifact;1;63
+src/fe-text/mainwindows-layout.c;1;1;1;ROOT;1;332
+src/fe-text/mainwindows-layout.c;1;1;1;artifact;1;331
+src/fe-text/mainwindows.c;1;1;1;ROOT;1;2006
+src/fe-text/mainwindows.c;1;1;1;artifact;1;2005
+src/fe-text/mainwindows.h;1;1;1;ROOT;1;76
+src/fe-text/mainwindows.h;1;!IRSSI_FE_TEXT_MAINWINDOWS_H;1 && !IRSSI_FE_TEXT_MAINWINDOWS_H;if;1;1
+src/fe-text/mainwindows.h;1;!IRSSI_FE_TEXT_MAINWINDOWS_H;1 && !IRSSI_FE_TEXT_MAINWINDOWS_H;artifact;2;73
+src/fe-text/mainwindows.h;1;!IRSSI_FE_TEXT_MAINWINDOWS_H;1 && !IRSSI_FE_TEXT_MAINWINDOWS_H;endif;74;74
+src/fe-text/mainwindows.h;1;1;1;artifact;75;75
+src/fe-text/module-formats.c;1;1;1;ROOT;1;109
+src/fe-text/module-formats.c;1;1;1;artifact;1;108
+src/fe-text/module-formats.h;1;1;1;ROOT;1;69
+src/fe-text/module-formats.h;1;1;1;artifact;1;68
+src/fe-text/module.h;1;1;1;ROOT;1;10
+src/fe-text/module.h;1;1;1;artifact;1;9
+src/fe-text/statusbar-config.c;1;1;1;ROOT;1;828
+src/fe-text/statusbar-config.c;1;1;1;artifact;1;827
+src/fe-text/statusbar-config.h;1;1;1;ROOT;1;14
+src/fe-text/statusbar-config.h;1;!IRSSI_FE_TEXT_STATUSBAR_CONFIG_H;1 && !IRSSI_FE_TEXT_STATUSBAR_CONFIG_H;if;1;1
+src/fe-text/statusbar-config.h;1;!IRSSI_FE_TEXT_STATUSBAR_CONFIG_H;1 && !IRSSI_FE_TEXT_STATUSBAR_CONFIG_H;artifact;2;11
+src/fe-text/statusbar-config.h;1;!IRSSI_FE_TEXT_STATUSBAR_CONFIG_H;1 && !IRSSI_FE_TEXT_STATUSBAR_CONFIG_H;endif;12;12
+src/fe-text/statusbar-config.h;1;1;1;artifact;13;13
+src/fe-text/statusbar-item.h;1;1;1;ROOT;1;19
+src/fe-text/statusbar-item.h;1;!IRSSI_STATUSBAR_ITEM_H;1 && !IRSSI_STATUSBAR_ITEM_H;if;1;1
+src/fe-text/statusbar-item.h;1;!IRSSI_STATUSBAR_ITEM_H;1 && !IRSSI_STATUSBAR_ITEM_H;artifact;2;16
+src/fe-text/statusbar-item.h;1;!IRSSI_STATUSBAR_ITEM_H;1 && !IRSSI_STATUSBAR_ITEM_H;endif;17;17
+src/fe-text/statusbar-item.h;1;1;1;artifact;18;18
+src/fe-text/statusbar-items.c;1;1;1;ROOT;1;548
+src/fe-text/statusbar-items.c;1;1;1;artifact;1;547
+src/fe-text/statusbar.c;1;1;1;ROOT;1;1198
+src/fe-text/statusbar.c;1;1;1;artifact;1;1197
+src/fe-text/statusbar.h;1;1;1;ROOT;1;119
+src/fe-text/statusbar.h;1;!IRSSI_FE_TEXT_STATUSBAR_H;1 && !IRSSI_FE_TEXT_STATUSBAR_H;if;1;1
+src/fe-text/statusbar.h;1;!IRSSI_FE_TEXT_STATUSBAR_H;1 && !IRSSI_FE_TEXT_STATUSBAR_H;artifact;2;116
+src/fe-text/statusbar.h;1;!IRSSI_FE_TEXT_STATUSBAR_H;1 && !IRSSI_FE_TEXT_STATUSBAR_H;endif;117;117
+src/fe-text/statusbar.h;1;1;1;artifact;118;118
+src/fe-text/term-terminfo.c;1;1;1;ROOT;1;797
+src/fe-text/term-terminfo.c;1;1;1;artifact;1;32
+src/fe-text/term-terminfo.c;1;HAVE_TERM_H;1 && HAVE_TERM_H;if;33;33
+src/fe-text/term-terminfo.c;1;HAVE_TERM_H;1 && HAVE_TERM_H;artifact;34;34
+src/fe-text/term-terminfo.c;1;!HAVE_TERM_H;!HAVE_TERM_H && 1;else;35;35
+src/fe-text/term-terminfo.c;1;!HAVE_TERM_H;!HAVE_TERM_H && 1;artifact;36;37
+src/fe-text/term-terminfo.c;1;!HAVE_TERM_H;!HAVE_TERM_H && 1;endif;38;38
+src/fe-text/term-terminfo.c;1;1;1;artifact;39;796
+src/fe-text/term.c;1;1;1;ROOT;1;202
+src/fe-text/term.c;1;1;1;artifact;1;28
+src/fe-text/term.c;1;HAVE_SYS_IOCTL_H;1 && HAVE_SYS_IOCTL_H;if;29;29
+src/fe-text/term.c;1;HAVE_SYS_IOCTL_H;1 && HAVE_SYS_IOCTL_H;artifact;30;30
+src/fe-text/term.c;1;HAVE_SYS_IOCTL_H;1 && HAVE_SYS_IOCTL_H;endif;31;31
+src/fe-text/term.c;1;1;1;artifact;32;47
+src/fe-text/term.c;1;TIOCGWINSZ;1 && TIOCGWINSZ;if;48;48
+src/fe-text/term.c;1;TIOCGWINSZ;1 && TIOCGWINSZ;artifact;49;65
+src/fe-text/term.c;1;!TIOCGWINSZ;!TIOCGWINSZ && 1;else;66;66
+src/fe-text/term.c;1;!TIOCGWINSZ;!TIOCGWINSZ && 1;artifact;67;67
+src/fe-text/term.c;1;!TIOCGWINSZ;!TIOCGWINSZ && 1;endif;68;68
+src/fe-text/term.c;1;1;1;artifact;69;88
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;if;89;89
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;artifact;90;94
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;endif;95;95
+src/fe-text/term.c;1;1;1;artifact;96;162
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;if;163;163
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;artifact;164;164
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;endif;165;165
+src/fe-text/term.c;1;1;1;artifact;166;185
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;if;186;186
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;artifact;187;190
+src/fe-text/term.c;1;SIGWINCH;1 && SIGWINCH;endif;191;191
+src/fe-text/term.c;1;1;1;artifact;192;201
+src/fe-text/term.h;1;1;1;ROOT;1;109
+src/fe-text/term.h;1;!IRSSI_FE_TEXT_TERM_H;1 && !IRSSI_FE_TEXT_TERM_H;if;1;1
+src/fe-text/term.h;1;!IRSSI_FE_TEXT_TERM_H;1 && !IRSSI_FE_TEXT_TERM_H;artifact;2;106
+src/fe-text/term.h;1;!IRSSI_FE_TEXT_TERM_H;1 && !IRSSI_FE_TEXT_TERM_H;endif;107;107
+src/fe-text/term.h;1;1;1;artifact;108;108
+src/fe-text/terminfo-core.c;1;1;1;ROOT;1;742
+src/fe-text/terminfo-core.c;1;1;1;artifact;1;4
+src/fe-text/terminfo-core.c;1;!_POSIX_VDISABLE;1 && !_POSIX_VDISABLE;if;5;5
+src/fe-text/terminfo-core.c;1;!_POSIX_VDISABLE;1 && !_POSIX_VDISABLE;artifact;6;6
+src/fe-text/terminfo-core.c;1;!_POSIX_VDISABLE;1 && !_POSIX_VDISABLE;endif;7;7
+src/fe-text/terminfo-core.c;1;1;1;artifact;8;14
+src/fe-text/terminfo-core.c;1;HAVE_TERM_H;1 && HAVE_TERM_H;if;15;15
+src/fe-text/terminfo-core.c;1;HAVE_TERM_H;1 && HAVE_TERM_H;artifact;16;16
+src/fe-text/terminfo-core.c;1;!HAVE_TERM_H;!HAVE_TERM_H && 1;else;17;17
+src/fe-text/terminfo-core.c;1;!HAVE_TERM_H;!HAVE_TERM_H && 1;artifact;18;26
+src/fe-text/terminfo-core.c;1;!HAVE_TERM_H;!HAVE_TERM_H && 1;endif;27;27
+src/fe-text/terminfo-core.c;1;1;1;artifact;28;521
+src/fe-text/terminfo-core.c;1;VDSUSP;1 && VDSUSP;if;522;522
+src/fe-text/terminfo-core.c;1;VDSUSP;1 && VDSUSP;artifact;523;523
+src/fe-text/terminfo-core.c;1;VDSUSP;1 && VDSUSP;endif;524;524
+src/fe-text/terminfo-core.c;1;VSUSP;1 && VSUSP;if;525;525
+src/fe-text/terminfo-core.c;1;VSUSP;1 && VSUSP;artifact;526;526
+src/fe-text/terminfo-core.c;1;VSUSP;1 && VSUSP;endif;527;527
+src/fe-text/terminfo-core.c;1;1;1;artifact;528;741
+src/fe-text/terminfo-core.h;1;1;1;ROOT;1;115
+src/fe-text/terminfo-core.h;1;!IRSSI_FE_TEXT_TERMINFO_CORE_H;1 && !IRSSI_FE_TEXT_TERMINFO_CORE_H;if;1;1
+src/fe-text/terminfo-core.h;1;!IRSSI_FE_TEXT_TERMINFO_CORE_H;1 && !IRSSI_FE_TEXT_TERMINFO_CORE_H;artifact;2;48
+src/fe-text/terminfo-core.h;1;!HAVE_TERMINFO;1 && !IRSSI_FE_TEXT_TERMINFO_CORE_H && !HAVE_TERMINFO;if;49;49
+src/fe-text/terminfo-core.h;1;!HAVE_TERMINFO;1 && !IRSSI_FE_TEXT_TERMINFO_CORE_H && !HAVE_TERMINFO;artifact;50;50
+src/fe-text/terminfo-core.h;1;!HAVE_TERMINFO;1 && !IRSSI_FE_TEXT_TERMINFO_CORE_H && !HAVE_TERMINFO;endif;51;51
+src/fe-text/terminfo-core.h;1;!IRSSI_FE_TEXT_TERMINFO_CORE_H;1 && !IRSSI_FE_TEXT_TERMINFO_CORE_H;artifact;52;112
+src/fe-text/terminfo-core.h;1;!IRSSI_FE_TEXT_TERMINFO_CORE_H;1 && !IRSSI_FE_TEXT_TERMINFO_CORE_H;endif;113;113
+src/fe-text/terminfo-core.h;1;1;1;artifact;114;114
+src/fe-text/textbuffer-commands.c;1;1;1;ROOT;1;483
+src/fe-text/textbuffer-commands.c;1;1;1;artifact;1;482
+src/fe-text/textbuffer-formats.c;1;1;1;ROOT;1;471
+src/fe-text/textbuffer-formats.c;1;1;1;artifact;1;470
+src/fe-text/textbuffer-formats.h;1;1;1;ROOT;1;28
+src/fe-text/textbuffer-formats.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_FORMATS_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_FORMATS_H;if;1;1
+src/fe-text/textbuffer-formats.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_FORMATS_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_FORMATS_H;artifact;2;25
+src/fe-text/textbuffer-formats.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_FORMATS_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_FORMATS_H;endif;26;26
+src/fe-text/textbuffer-formats.h;1;1;1;artifact;27;27
+src/fe-text/textbuffer-view.c;1;1;1;ROOT;1;1538
+src/fe-text/textbuffer-view.c;1;1;1;artifact;1;1537
+src/fe-text/textbuffer-view.h;1;1;1;ROOT;1;172
+src/fe-text/textbuffer-view.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_VIEW_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_VIEW_H;if;1;1
+src/fe-text/textbuffer-view.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_VIEW_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_VIEW_H;artifact;2;169
+src/fe-text/textbuffer-view.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_VIEW_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_VIEW_H;endif;170;170
+src/fe-text/textbuffer-view.h;1;1;1;artifact;171;171
+src/fe-text/textbuffer.c;1;1;1;ROOT;1;347
+src/fe-text/textbuffer.c;1;1;1;artifact;1;346
+src/fe-text/textbuffer.h;1;1;1;ROOT;1;108
+src/fe-text/textbuffer.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_H;if;1;1
+src/fe-text/textbuffer.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_H;artifact;2;105
+src/fe-text/textbuffer.h;1;!IRSSI_FE_TEXT_TEXTBUFFER_H;1 && !IRSSI_FE_TEXT_TEXTBUFFER_H;endif;106;106
+src/fe-text/textbuffer.h;1;1;1;artifact;107;107
+src/irc/core/bans.c;1;1;1;ROOT;1;361
+src/irc/core/bans.c;1;1;1;artifact;1;360
+src/irc/core/bans.h;1;1;1;ROOT;1;16
+src/irc/core/bans.h;1;!IRSSI_IRC_CORE_BANS_H;1 && !IRSSI_IRC_CORE_BANS_H;if;1;1
+src/irc/core/bans.h;1;!IRSSI_IRC_CORE_BANS_H;1 && !IRSSI_IRC_CORE_BANS_H;artifact;2;13
+src/irc/core/bans.h;1;!IRSSI_IRC_CORE_BANS_H;1 && !IRSSI_IRC_CORE_BANS_H;endif;14;14
+src/irc/core/bans.h;1;1;1;artifact;15;15
+src/irc/core/channel-events.c;1;1;1;ROOT;1;404
+src/irc/core/channel-events.c;1;1;1;artifact;1;403
+src/irc/core/channel-events.h;1;1;1;ROOT;1;11
+src/irc/core/channel-events.h;1;!IRSSI_IRC_CORE_CHANNEL_EVENTS_H;1 && !IRSSI_IRC_CORE_CHANNEL_EVENTS_H;if;1;1
+src/irc/core/channel-events.h;1;!IRSSI_IRC_CORE_CHANNEL_EVENTS_H;1 && !IRSSI_IRC_CORE_CHANNEL_EVENTS_H;artifact;2;8
+src/irc/core/channel-events.h;1;!IRSSI_IRC_CORE_CHANNEL_EVENTS_H;1 && !IRSSI_IRC_CORE_CHANNEL_EVENTS_H;endif;9;9
+src/irc/core/channel-events.h;1;1;1;artifact;10;10
+src/irc/core/channel-rejoin.c;1;1;1;ROOT;1;288
+src/irc/core/channel-rejoin.c;1;1;1;artifact;1;287
+src/irc/core/channel-rejoin.h;1;1;1;ROOT;1;15
+src/irc/core/channel-rejoin.h;1;!IRSSI_IRC_CORE_CHANNEL_REJOIN_H;1 && !IRSSI_IRC_CORE_CHANNEL_REJOIN_H;if;1;1
+src/irc/core/channel-rejoin.h;1;!IRSSI_IRC_CORE_CHANNEL_REJOIN_H;1 && !IRSSI_IRC_CORE_CHANNEL_REJOIN_H;artifact;2;12
+src/irc/core/channel-rejoin.h;1;!IRSSI_IRC_CORE_CHANNEL_REJOIN_H;1 && !IRSSI_IRC_CORE_CHANNEL_REJOIN_H;endif;13;13
+src/irc/core/channel-rejoin.h;1;1;1;artifact;14;14
+src/irc/core/channels-query.c;1;1;1;ROOT;1;676
+src/irc/core/channels-query.c;1;1;1;artifact;1;675
+src/irc/core/ctcp.c;1;1;1;ROOT;1;370
+src/irc/core/ctcp.c;1;1;1;artifact;1;369
+src/irc/core/ctcp.h;1;1;1;ROOT;1;16
+src/irc/core/ctcp.h;1;!IRSSI_IRC_CORE_CTCP_H;1 && !IRSSI_IRC_CORE_CTCP_H;if;1;1
+src/irc/core/ctcp.h;1;!IRSSI_IRC_CORE_CTCP_H;1 && !IRSSI_IRC_CORE_CTCP_H;artifact;2;13
+src/irc/core/ctcp.h;1;!IRSSI_IRC_CORE_CTCP_H;1 && !IRSSI_IRC_CORE_CTCP_H;endif;14;14
+src/irc/core/ctcp.h;1;1;1;artifact;15;15
+src/irc/core/irc-cap.c;1;1;1;ROOT;1;336
+src/irc/core/irc-cap.c;1;1;1;artifact;1;335
+src/irc/core/irc-cap.h;1;1;1;ROOT;1;11
+src/irc/core/irc-cap.h;1;!IRSSI_IRC_CORE_IRC_CAP_H;1 && !IRSSI_IRC_CORE_IRC_CAP_H;if;1;1
+src/irc/core/irc-cap.h;1;!IRSSI_IRC_CORE_IRC_CAP_H;1 && !IRSSI_IRC_CORE_IRC_CAP_H;artifact;2;8
+src/irc/core/irc-cap.h;1;!IRSSI_IRC_CORE_IRC_CAP_H;1 && !IRSSI_IRC_CORE_IRC_CAP_H;endif;9;9
+src/irc/core/irc-cap.h;1;1;1;artifact;10;10
+src/irc/core/irc-channels-setup.c;1;1;1;ROOT;1;37
+src/irc/core/irc-channels-setup.c;1;1;1;artifact;1;36
+src/irc/core/irc-channels.c;1;1;1;ROOT;1;291
+src/irc/core/irc-channels.c;1;1;1;artifact;1;290
+src/irc/core/irc-channels.h;1;1;1;ROOT;1;61
+src/irc/core/irc-channels.h;1;!IRSSI_IRC_CORE_IRC_CHANNELS_H;1 && !IRSSI_IRC_CORE_IRC_CHANNELS_H;if;1;1
+src/irc/core/irc-channels.h;1;!IRSSI_IRC_CORE_IRC_CHANNELS_H;1 && !IRSSI_IRC_CORE_IRC_CHANNELS_H;artifact;2;58
+src/irc/core/irc-channels.h;1;!IRSSI_IRC_CORE_IRC_CHANNELS_H;1 && !IRSSI_IRC_CORE_IRC_CHANNELS_H;endif;59;59
+src/irc/core/irc-channels.h;1;1;1;artifact;60;60
+src/irc/core/irc-chatnets.c;1;1;1;ROOT;1;134
+src/irc/core/irc-chatnets.c;1;1;1;artifact;1;133
+src/irc/core/irc-chatnets.h;1;1;1;ROOT;1;46
+src/irc/core/irc-chatnets.h;1;!IRSSI_IRC_CORE_IRC_CHATNETS_H;1 && !IRSSI_IRC_CORE_IRC_CHATNETS_H;if;1;1
+src/irc/core/irc-chatnets.h;1;!IRSSI_IRC_CORE_IRC_CHATNETS_H;1 && !IRSSI_IRC_CORE_IRC_CHATNETS_H;artifact;2;43
+src/irc/core/irc-chatnets.h;1;!IRSSI_IRC_CORE_IRC_CHATNETS_H;1 && !IRSSI_IRC_CORE_IRC_CHATNETS_H;endif;44;44
+src/irc/core/irc-chatnets.h;1;1;1;artifact;45;45
+src/irc/core/irc-commands.c;1;1;1;ROOT;1;1130
+src/irc/core/irc-commands.c;1;1;1;artifact;1;1129
+src/irc/core/irc-commands.h;1;1;1;ROOT;1;28
+src/irc/core/irc-commands.h;1;!IRSSI_IRC_CORE_IRC_COMMANDS_H;1 && !IRSSI_IRC_CORE_IRC_COMMANDS_H;if;1;1
+src/irc/core/irc-commands.h;1;!IRSSI_IRC_CORE_IRC_COMMANDS_H;1 && !IRSSI_IRC_CORE_IRC_COMMANDS_H;artifact;2;25
+src/irc/core/irc-commands.h;1;!IRSSI_IRC_CORE_IRC_COMMANDS_H;1 && !IRSSI_IRC_CORE_IRC_COMMANDS_H;endif;26;26
+src/irc/core/irc-commands.h;1;1;1;artifact;27;27
+src/irc/core/irc-core.c;1;1;1;ROOT;1;160
+src/irc/core/irc-core.c;1;1;1;artifact;1;159
+src/irc/core/irc-expandos.c;1;1;1;ROOT;1;207
+src/irc/core/irc-expandos.c;1;1;1;artifact;1;29
+src/irc/core/irc-expandos.c;1;!HOST_NAME_MAX;1 && !HOST_NAME_MAX;if;30;30
+src/irc/core/irc-expandos.c;1;!HOST_NAME_MAX;1 && !HOST_NAME_MAX;artifact;31;31
+src/irc/core/irc-expandos.c;1;!HOST_NAME_MAX;1 && !HOST_NAME_MAX;endif;32;32
+src/irc/core/irc-expandos.c;1;1;1;artifact;33;206
+src/irc/core/irc-masks.c;1;1;1;ROOT;1;94
+src/irc/core/irc-masks.c;1;1;1;artifact;1;93
+src/irc/core/irc-masks.h;1;1;1;ROOT;1;15
+src/irc/core/irc-masks.h;1;!IRSSI_IRC_CORE_IRC_MASKS_H;1 && !IRSSI_IRC_CORE_IRC_MASKS_H;if;1;1
+src/irc/core/irc-masks.h;1;!IRSSI_IRC_CORE_IRC_MASKS_H;1 && !IRSSI_IRC_CORE_IRC_MASKS_H;artifact;2;12
+src/irc/core/irc-masks.h;1;!IRSSI_IRC_CORE_IRC_MASKS_H;1 && !IRSSI_IRC_CORE_IRC_MASKS_H;endif;13;13
+src/irc/core/irc-masks.h;1;1;1;artifact;14;14
+src/irc/core/irc-nicklist.c;1;1;1;ROOT;1;654
+src/irc/core/irc-nicklist.c;1;1;1;artifact;1;653
+src/irc/core/irc-nicklist.h;1;1;1;ROOT;1;22
+src/irc/core/irc-nicklist.h;1;!IRSSI_IRC_CORE_IRC_NICKLIST_H;1 && !IRSSI_IRC_CORE_IRC_NICKLIST_H;if;1;1
+src/irc/core/irc-nicklist.h;1;!IRSSI_IRC_CORE_IRC_NICKLIST_H;1 && !IRSSI_IRC_CORE_IRC_NICKLIST_H;artifact;2;19
+src/irc/core/irc-nicklist.h;1;!IRSSI_IRC_CORE_IRC_NICKLIST_H;1 && !IRSSI_IRC_CORE_IRC_NICKLIST_H;endif;20;20
+src/irc/core/irc-nicklist.h;1;1;1;artifact;21;21
+src/irc/core/irc-queries.c;1;1;1;ROOT;1;118
+src/irc/core/irc-queries.c;1;1;1;artifact;1;117
+src/irc/core/irc-queries.h;1;1;1;ROOT;1;24
+src/irc/core/irc-queries.h;1;!IRSSI_IRC_CORE_IRC_QUERIES_H;1 && !IRSSI_IRC_CORE_IRC_QUERIES_H;if;1;1
+src/irc/core/irc-queries.h;1;!IRSSI_IRC_CORE_IRC_QUERIES_H;1 && !IRSSI_IRC_CORE_IRC_QUERIES_H;artifact;2;21
+src/irc/core/irc-queries.h;1;!IRSSI_IRC_CORE_IRC_QUERIES_H;1 && !IRSSI_IRC_CORE_IRC_QUERIES_H;endif;22;22
+src/irc/core/irc-queries.h;1;1;1;artifact;23;23
+src/irc/core/irc-servers-reconnect.c;1;1;1;ROOT;1;130
+src/irc/core/irc-servers-reconnect.c;1;1;1;artifact;1;129
+src/irc/core/irc-servers-setup.c;1;1;1;ROOT;1;276
+src/irc/core/irc-servers-setup.c;1;1;1;artifact;1;275
+src/irc/core/irc-servers-setup.h;1;1;1;ROOT;1;36
+src/irc/core/irc-servers-setup.h;1;!IRSSI_IRC_CORE_IRC_SERVERS_SETUP_H;1 && !IRSSI_IRC_CORE_IRC_SERVERS_SETUP_H;if;1;1
+src/irc/core/irc-servers-setup.h;1;!IRSSI_IRC_CORE_IRC_SERVERS_SETUP_H;1 && !IRSSI_IRC_CORE_IRC_SERVERS_SETUP_H;artifact;2;33
+src/irc/core/irc-servers-setup.h;1;!IRSSI_IRC_CORE_IRC_SERVERS_SETUP_H;1 && !IRSSI_IRC_CORE_IRC_SERVERS_SETUP_H;endif;34;34
+src/irc/core/irc-servers-setup.h;1;1;1;artifact;35;35
+src/irc/core/irc-servers.c;1;1;1;ROOT;1;1291
+src/irc/core/irc-servers.c;1;1;1;artifact;1;1290
+src/irc/core/irc-servers.h;1;1;1;ROOT;1;191
+src/irc/core/irc-servers.h;1;!IRSSI_IRC_CORE_IRC_SERVERS_H;1 && !IRSSI_IRC_CORE_IRC_SERVERS_H;if;1;1
+src/irc/core/irc-servers.h;1;!IRSSI_IRC_CORE_IRC_SERVERS_H;1 && !IRSSI_IRC_CORE_IRC_SERVERS_H;artifact;2;188
+src/irc/core/irc-servers.h;1;!IRSSI_IRC_CORE_IRC_SERVERS_H;1 && !IRSSI_IRC_CORE_IRC_SERVERS_H;endif;189;189
+src/irc/core/irc-servers.h;1;1;1;artifact;190;190
+src/irc/core/irc-session.c;1;1;1;ROOT;1;253
+src/irc/core/irc-session.c;1;1;1;artifact;1;252
+src/irc/core/irc.c;1;1;1;ROOT;1;610
+src/irc/core/irc.c;1;1;1;artifact;1;38
+src/irc/core/irc.c;1;BLOCKING_SOCKETS;1 && BLOCKING_SOCKETS;if;39;39
+src/irc/core/irc.c;1;BLOCKING_SOCKETS;1 && BLOCKING_SOCKETS;artifact;40;40
+src/irc/core/irc.c;1;!BLOCKING_SOCKETS;!BLOCKING_SOCKETS && 1;else;41;41
+src/irc/core/irc.c;1;!BLOCKING_SOCKETS;!BLOCKING_SOCKETS && 1;artifact;42;42
+src/irc/core/irc.c;1;!BLOCKING_SOCKETS;!BLOCKING_SOCKETS && 1;endif;43;43
+src/irc/core/irc.c;1;1;1;artifact;44;609
+src/irc/core/irc.h;1;1;1;ROOT;1;72
+src/irc/core/irc.h;1;!IRSSI_IRC_CORE_IRC_H;1 && !IRSSI_IRC_CORE_IRC_H;if;1;1
+src/irc/core/irc.h;1;!IRSSI_IRC_CORE_IRC_H;1 && !IRSSI_IRC_CORE_IRC_H;artifact;2;69
+src/irc/core/irc.h;1;!IRSSI_IRC_CORE_IRC_H;1 && !IRSSI_IRC_CORE_IRC_H;endif;70;70
+src/irc/core/irc.h;1;1;1;artifact;71;71
+src/irc/core/lag.c;1;1;1;ROOT;1;142
+src/irc/core/lag.c;1;1;1;artifact;1;141
+src/irc/core/massjoin.c;1;1;1;ROOT;1;381
+src/irc/core/massjoin.c;1;1;1;artifact;1;380
+src/irc/core/mode-lists.c;1;1;1;ROOT;1;144
+src/irc/core/mode-lists.c;1;1;1;artifact;1;143
+src/irc/core/mode-lists.h;1;1;1;ROOT;1;26
+src/irc/core/mode-lists.h;1;!IRSSI_IRC_CORE_MODE_LISTS_H;1 && !IRSSI_IRC_CORE_MODE_LISTS_H;if;1;1
+src/irc/core/mode-lists.h;1;!IRSSI_IRC_CORE_MODE_LISTS_H;1 && !IRSSI_IRC_CORE_MODE_LISTS_H;artifact;2;23
+src/irc/core/mode-lists.h;1;!IRSSI_IRC_CORE_MODE_LISTS_H;1 && !IRSSI_IRC_CORE_MODE_LISTS_H;endif;24;24
+src/irc/core/mode-lists.h;1;1;1;artifact;25;25
+src/irc/core/modes.c;1;1;1;ROOT;1;934
+src/irc/core/modes.c;1;1;1;artifact;1;933
+src/irc/core/modes.h;1;1;1;ROOT;1;69
+src/irc/core/modes.h;1;!IRSSI_IRC_CORE_MODES_H;1 && !IRSSI_IRC_CORE_MODES_H;if;1;1
+src/irc/core/modes.h;1;!IRSSI_IRC_CORE_MODES_H;1 && !IRSSI_IRC_CORE_MODES_H;artifact;2;66
+src/irc/core/modes.h;1;!IRSSI_IRC_CORE_MODES_H;1 && !IRSSI_IRC_CORE_MODES_H;endif;67;67
+src/irc/core/modes.h;1;1;1;artifact;68;68
+src/irc/core/module.h;1;1;1;ROOT;1;6
+src/irc/core/module.h;1;1;1;artifact;1;5
+src/irc/core/netsplit.c;1;1;1;ROOT;1;443
+src/irc/core/netsplit.c;1;1;1;artifact;1;442
+src/irc/core/netsplit.h;1;1;1;ROOT;1;45
+src/irc/core/netsplit.h;1;!IRSSI_IRC_CORE_NETSPLIT_H;1 && !IRSSI_IRC_CORE_NETSPLIT_H;if;1;1
+src/irc/core/netsplit.h;1;!IRSSI_IRC_CORE_NETSPLIT_H;1 && !IRSSI_IRC_CORE_NETSPLIT_H;artifact;2;42
+src/irc/core/netsplit.h;1;!IRSSI_IRC_CORE_NETSPLIT_H;1 && !IRSSI_IRC_CORE_NETSPLIT_H;endif;43;43
+src/irc/core/netsplit.h;1;1;1;artifact;44;44
+src/irc/core/sasl.c;1;1;1;ROOT;1;445
+src/irc/core/sasl.c;1;1;1;artifact;1;444
+src/irc/core/sasl.h;1;1;1;ROOT;1;39
+src/irc/core/sasl.h;1;1;1;artifact;1;20
+src/irc/core/sasl.h;1;!IRSSI_IRC_CORE_SASL_H;1 && !IRSSI_IRC_CORE_SASL_H;if;21;21
+src/irc/core/sasl.h;1;!IRSSI_IRC_CORE_SASL_H;1 && !IRSSI_IRC_CORE_SASL_H;artifact;22;36
+src/irc/core/sasl.h;1;!IRSSI_IRC_CORE_SASL_H;1 && !IRSSI_IRC_CORE_SASL_H;endif;37;37
+src/irc/core/sasl.h;1;1;1;artifact;38;38
+src/irc/core/scram.c;1;1;1;ROOT;1;306
+src/irc/core/scram.c;1;1;1;artifact;1;30
+src/irc/core/scram.c;1;OPENSSL_VERSION_NUMBER__LT__0x10100000L;1 && OPENSSL_VERSION_NUMBER__LT__0x10100000L;if;31;31
+src/irc/core/scram.c;1;OPENSSL_VERSION_NUMBER__LT__0x10100000L;1 && OPENSSL_VERSION_NUMBER__LT__0x10100000L;artifact;32;33
+src/irc/core/scram.c;1;OPENSSL_VERSION_NUMBER__LT__0x10100000L;1 && OPENSSL_VERSION_NUMBER__LT__0x10100000L;endif;34;34
+src/irc/core/scram.c;1;1;1;artifact;35;40
+src/irc/core/scram.c;1;OPENSSL_VERSION_NUMBER__LT__0x10100000L;1 && OPENSSL_VERSION_NUMBER__LT__0x10100000L;if;41;41
+src/irc/core/scram.c;1;OPENSSL_VERSION_NUMBER__LT__0x10100000L;1 && OPENSSL_VERSION_NUMBER__LT__0x10100000L;artifact;42;42
+src/irc/core/scram.c;1;OPENSSL_VERSION_NUMBER__LT__0x10100000L;1 && OPENSSL_VERSION_NUMBER__LT__0x10100000L;endif;43;43
+src/irc/core/scram.c;1;1;1;artifact;44;305
+src/irc/core/scram.h;1;1;1;ROOT;1;29
+src/irc/core/scram.h;1;!IRSSI_IRC_CORE_SCRAM_H;1 && !IRSSI_IRC_CORE_SCRAM_H;if;1;1
+src/irc/core/scram.h;1;!IRSSI_IRC_CORE_SCRAM_H;1 && !IRSSI_IRC_CORE_SCRAM_H;artifact;2;26
+src/irc/core/scram.h;1;!IRSSI_IRC_CORE_SCRAM_H;1 && !IRSSI_IRC_CORE_SCRAM_H;endif;27;27
+src/irc/core/scram.h;1;1;1;artifact;28;28
+src/irc/core/servers-idle.c;1;1;1;ROOT;1;266
+src/irc/core/servers-idle.c;1;1;1;artifact;1;265
+src/irc/core/servers-idle.h;1;1;1;ROOT;1;39
+src/irc/core/servers-idle.h;1;!IRSSI_IRC_CORE_SERVERS_IDLE_H;1 && !IRSSI_IRC_CORE_SERVERS_IDLE_H;if;1;1
+src/irc/core/servers-idle.h;1;!IRSSI_IRC_CORE_SERVERS_IDLE_H;1 && !IRSSI_IRC_CORE_SERVERS_IDLE_H;artifact;2;36
+src/irc/core/servers-idle.h;1;!IRSSI_IRC_CORE_SERVERS_IDLE_H;1 && !IRSSI_IRC_CORE_SERVERS_IDLE_H;endif;37;37
+src/irc/core/servers-idle.h;1;1;1;artifact;38;38
+src/irc/core/servers-redirect.c;1;1;1;ROOT;1;811
+src/irc/core/servers-redirect.c;1;1;1;artifact;1;810
+src/irc/core/servers-redirect.h;1;1;1;ROOT;1;88
+src/irc/core/servers-redirect.h;1;!IRSSI_IRC_CORE_SERVERS_REDIRECT_H;1 && !IRSSI_IRC_CORE_SERVERS_REDIRECT_H;if;1;1
+src/irc/core/servers-redirect.h;1;!IRSSI_IRC_CORE_SERVERS_REDIRECT_H;1 && !IRSSI_IRC_CORE_SERVERS_REDIRECT_H;artifact;2;85
+src/irc/core/servers-redirect.h;1;!IRSSI_IRC_CORE_SERVERS_REDIRECT_H;1 && !IRSSI_IRC_CORE_SERVERS_REDIRECT_H;endif;86;86
+src/irc/core/servers-redirect.h;1;1;1;artifact;87;87
+src/irc/dcc/dcc-autoget.c;1;1;1;ROOT;1;99
+src/irc/dcc/dcc-autoget.c;1;1;1;artifact;1;98
+src/irc/dcc/dcc-chat.c;1;1;1;ROOT;1;875
+src/irc/dcc/dcc-chat.c;1;1;1;artifact;1;874
+src/irc/dcc/dcc-chat.h;1;1;1;ROOT;1;42
+src/irc/dcc/dcc-chat.h;1;!IRSSI_IRC_DCC_DCC_CHAT_H;1 && !IRSSI_IRC_DCC_DCC_CHAT_H;if;1;1
+src/irc/dcc/dcc-chat.h;1;!IRSSI_IRC_DCC_DCC_CHAT_H;1 && !IRSSI_IRC_DCC_DCC_CHAT_H;artifact;2;39
+src/irc/dcc/dcc-chat.h;1;!IRSSI_IRC_DCC_DCC_CHAT_H;1 && !IRSSI_IRC_DCC_DCC_CHAT_H;endif;40;40
+src/irc/dcc/dcc-chat.h;1;1;1;artifact;41;41
+src/irc/dcc/dcc-file-rec.h;1;1;1;ROOT;1;11
+src/irc/dcc/dcc-file-rec.h;1;1;1;artifact;1;10
+src/irc/dcc/dcc-file.h;1;1;1;ROOT;1;12
+src/irc/dcc/dcc-file.h;1;!IRSSI_IRC_DCC_DCC_FILE_H;1 && !IRSSI_IRC_DCC_DCC_FILE_H;if;1;1
+src/irc/dcc/dcc-file.h;1;!IRSSI_IRC_DCC_DCC_FILE_H;1 && !IRSSI_IRC_DCC_DCC_FILE_H;artifact;2;9
+src/irc/dcc/dcc-file.h;1;!IRSSI_IRC_DCC_DCC_FILE_H;1 && !IRSSI_IRC_DCC_DCC_FILE_H;endif;10;10
+src/irc/dcc/dcc-file.h;1;1;1;artifact;11;11
+src/irc/dcc/dcc-get.c;1;1;1;ROOT;1;629
+src/irc/dcc/dcc-get.c;1;1;1;artifact;1;628
+src/irc/dcc/dcc-get.h;1;1;1;ROOT;1;47
+src/irc/dcc/dcc-get.h;1;!IRSSI_IRC_DCC_DCC_GET_H;1 && !IRSSI_IRC_DCC_DCC_GET_H;if;1;1
+src/irc/dcc/dcc-get.h;1;!IRSSI_IRC_DCC_DCC_GET_H;1 && !IRSSI_IRC_DCC_DCC_GET_H;artifact;2;44
+src/irc/dcc/dcc-get.h;1;!IRSSI_IRC_DCC_DCC_GET_H;1 && !IRSSI_IRC_DCC_DCC_GET_H;endif;45;45
+src/irc/dcc/dcc-get.h;1;1;1;artifact;46;46
+src/irc/dcc/dcc-queue.c;1;1;1;ROOT;1;229
+src/irc/dcc/dcc-queue.c;1;1;1;artifact;1;228
+src/irc/dcc/dcc-queue.h;1;1;1;ROOT;1;47
+src/irc/dcc/dcc-queue.h;1;!IRSSI_IRC_DCC_DCC_QUEUE_H;1 && !IRSSI_IRC_DCC_DCC_QUEUE_H;if;1;1
+src/irc/dcc/dcc-queue.h;1;!IRSSI_IRC_DCC_DCC_QUEUE_H;1 && !IRSSI_IRC_DCC_DCC_QUEUE_H;artifact;2;44
+src/irc/dcc/dcc-queue.h;1;!IRSSI_IRC_DCC_DCC_QUEUE_H;1 && !IRSSI_IRC_DCC_DCC_QUEUE_H;endif;45;45
+src/irc/dcc/dcc-queue.h;1;1;1;artifact;46;46
+src/irc/dcc/dcc-rec.h;1;1;1;ROOT;1;29
+src/irc/dcc/dcc-rec.h;1;1;1;artifact;1;28
+src/irc/dcc/dcc-resume.c;1;1;1;ROOT;1;250
+src/irc/dcc/dcc-resume.c;1;1;1;artifact;1;249
+src/irc/dcc/dcc-send.c;1;1;1;ROOT;1;489
+src/irc/dcc/dcc-send.c;1;1;1;artifact;1;36
+src/irc/dcc/dcc-send.c;1;!GLOB_TILDE;1 && !GLOB_TILDE;if;37;37
+src/irc/dcc/dcc-send.c;1;!GLOB_TILDE;1 && !GLOB_TILDE;artifact;38;38
+src/irc/dcc/dcc-send.c;1;!GLOB_TILDE;1 && !GLOB_TILDE;endif;39;39
+src/irc/dcc/dcc-send.c;1;1;1;artifact;40;488
+src/irc/dcc/dcc-send.h;1;1;1;ROOT;1;29
+src/irc/dcc/dcc-send.h;1;!IRSSI_IRC_DCC_DCC_SEND_H;1 && !IRSSI_IRC_DCC_DCC_SEND_H;if;1;1
+src/irc/dcc/dcc-send.h;1;!IRSSI_IRC_DCC_DCC_SEND_H;1 && !IRSSI_IRC_DCC_DCC_SEND_H;artifact;2;26
+src/irc/dcc/dcc-send.h;1;!IRSSI_IRC_DCC_DCC_SEND_H;1 && !IRSSI_IRC_DCC_DCC_SEND_H;endif;27;27
+src/irc/dcc/dcc-send.h;1;1;1;artifact;28;28
+src/irc/dcc/dcc-server.c;1;1;1;ROOT;1;415
+src/irc/dcc/dcc-server.c;1;1;1;artifact;1;414
+src/irc/dcc/dcc-server.h;1;1;1;ROOT;1;31
+src/irc/dcc/dcc-server.h;1;!IRSSI_IRC_DCC_DCC_SERVER_H;1 && !IRSSI_IRC_DCC_DCC_SERVER_H;if;1;1
+src/irc/dcc/dcc-server.h;1;!IRSSI_IRC_DCC_DCC_SERVER_H;1 && !IRSSI_IRC_DCC_DCC_SERVER_H;artifact;2;28
+src/irc/dcc/dcc-server.h;1;!IRSSI_IRC_DCC_DCC_SERVER_H;1 && !IRSSI_IRC_DCC_DCC_SERVER_H;endif;29;29
+src/irc/dcc/dcc-server.h;1;1;1;artifact;30;30
+src/irc/dcc/dcc.c;1;1;1;ROOT;1;602
+src/irc/dcc/dcc.c;1;1;1;artifact;1;601
+src/irc/dcc/dcc.h;1;1;1;ROOT;1;69
+src/irc/dcc/dcc.h;1;!IRSSI_IRC_DCC_DCC_H;1 && !IRSSI_IRC_DCC_DCC_H;if;1;1
+src/irc/dcc/dcc.h;1;!IRSSI_IRC_DCC_DCC_H;1 && !IRSSI_IRC_DCC_DCC_H;artifact;2;66
+src/irc/dcc/dcc.h;1;!IRSSI_IRC_DCC_DCC_H;1 && !IRSSI_IRC_DCC_DCC_H;endif;67;67
+src/irc/dcc/dcc.h;1;1;1;artifact;68;68
+src/irc/dcc/module.h;1;1;1;ROOT;1;6
+src/irc/dcc/module.h;1;1;1;artifact;1;5
+src/irc/flood/autoignore.c;1;1;1;ROOT;1;91
+src/irc/flood/autoignore.c;1;1;1;artifact;1;90
+src/irc/flood/autoignore.h;1;1;1;ROOT;1;11
+src/irc/flood/autoignore.h;1;!IRSSI_IRC_FLOOD_AUTOIGNORE_H;1 && !IRSSI_IRC_FLOOD_AUTOIGNORE_H;if;1;1
+src/irc/flood/autoignore.h;1;!IRSSI_IRC_FLOOD_AUTOIGNORE_H;1 && !IRSSI_IRC_FLOOD_AUTOIGNORE_H;artifact;2;8
+src/irc/flood/autoignore.h;1;!IRSSI_IRC_FLOOD_AUTOIGNORE_H;1 && !IRSSI_IRC_FLOOD_AUTOIGNORE_H;endif;9;9
+src/irc/flood/autoignore.h;1;1;1;artifact;10;10
+src/irc/flood/flood.c;1;1;1;ROOT;1;351
+src/irc/flood/flood.c;1;1;1;artifact;1;350
+src/irc/flood/flood.h;1;1;1;ROOT;1;9
+src/irc/flood/flood.h;1;!IRSSI_IRC_FLOOD_FLOOD_H;1 && !IRSSI_IRC_FLOOD_FLOOD_H;if;1;1
+src/irc/flood/flood.h;1;!IRSSI_IRC_FLOOD_FLOOD_H;1 && !IRSSI_IRC_FLOOD_FLOOD_H;artifact;2;6
+src/irc/flood/flood.h;1;!IRSSI_IRC_FLOOD_FLOOD_H;1 && !IRSSI_IRC_FLOOD_FLOOD_H;endif;7;7
+src/irc/flood/flood.h;1;1;1;artifact;8;8
+src/irc/flood/module.h;1;1;1;ROOT;1;15
+src/irc/flood/module.h;1;1;1;artifact;1;14
+src/irc/notifylist/module.h;1;1;1;ROOT;1;44
+src/irc/notifylist/module.h;1;1;1;artifact;1;43
+src/irc/notifylist/notify-commands.c;1;1;1;ROOT;1;83
+src/irc/notifylist/notify-commands.c;1;1;1;artifact;1;82
+src/irc/notifylist/notify-ison.c;1;1;1;ROOT;1;350
+src/irc/notifylist/notify-ison.c;1;1;1;artifact;1;349
+src/irc/notifylist/notify-setup.c;1;1;1;ROOT;1;81
+src/irc/notifylist/notify-setup.c;1;1;1;artifact;1;80
+src/irc/notifylist/notify-setup.h;1;1;1;ROOT;1;11
+src/irc/notifylist/notify-setup.h;1;!IRSSI_IRC_NOTIFYLIST_NOTIFY_SETUP_H;1 && !IRSSI_IRC_NOTIFYLIST_NOTIFY_SETUP_H;if;1;1
+src/irc/notifylist/notify-setup.h;1;!IRSSI_IRC_NOTIFYLIST_NOTIFY_SETUP_H;1 && !IRSSI_IRC_NOTIFYLIST_NOTIFY_SETUP_H;artifact;2;8
+src/irc/notifylist/notify-setup.h;1;!IRSSI_IRC_NOTIFYLIST_NOTIFY_SETUP_H;1 && !IRSSI_IRC_NOTIFYLIST_NOTIFY_SETUP_H;endif;9;9
+src/irc/notifylist/notify-setup.h;1;1;1;artifact;10;10
+src/irc/notifylist/notify-whois.c;1;1;1;ROOT;1;155
+src/irc/notifylist/notify-whois.c;1;1;1;artifact;1;154
+src/irc/notifylist/notifylist.c;1;1;1;ROOT;1;367
+src/irc/notifylist/notifylist.c;1;1;1;artifact;1;366
+src/irc/notifylist/notifylist.h;1;1;1;ROOT;1;31
+src/irc/notifylist/notifylist.h;1;!IRSSI_IRC_NOTIFYLIST_NOTIFYLIST_H;1 && !IRSSI_IRC_NOTIFYLIST_NOTIFYLIST_H;if;1;1
+src/irc/notifylist/notifylist.h;1;!IRSSI_IRC_NOTIFYLIST_NOTIFYLIST_H;1 && !IRSSI_IRC_NOTIFYLIST_NOTIFYLIST_H;artifact;2;28
+src/irc/notifylist/notifylist.h;1;!IRSSI_IRC_NOTIFYLIST_NOTIFYLIST_H;1 && !IRSSI_IRC_NOTIFYLIST_NOTIFYLIST_H;endif;29;29
+src/irc/notifylist/notifylist.h;1;1;1;artifact;30;30
+src/irc/proxy/dump.c;1;1;1;ROOT;1;305
+src/irc/proxy/dump.c;1;1;1;artifact;1;304
+src/irc/proxy/listen.c;1;1;1;ROOT;1;876
+src/irc/proxy/listen.c;1;1;1;artifact;1;875
+src/irc/proxy/module.h;1;1;1;ROOT;1;28
+src/irc/proxy/module.h;1;1;1;artifact;1;27
+src/irc/proxy/proxy.c;1;1;1;ROOT;1;118
+src/irc/proxy/proxy.c;1;1;1;artifact;1;117
+src/irc/proxy/proxy.h;1;1;1;ROOT;1;38
+src/irc/proxy/proxy.h;1;!IRSSI_IRC_PROXY_PROXY_H;1 && !IRSSI_IRC_PROXY_PROXY_H;if;1;1
+src/irc/proxy/proxy.h;1;!IRSSI_IRC_PROXY_PROXY_H;1 && !IRSSI_IRC_PROXY_PROXY_H;artifact;2;35
+src/irc/proxy/proxy.h;1;!IRSSI_IRC_PROXY_PROXY_H;1 && !IRSSI_IRC_PROXY_PROXY_H;endif;36;36
+src/irc/proxy/proxy.h;1;1;1;artifact;37;37
+src/lib-config/get.c;1;1;1;ROOT;1;344
+src/lib-config/get.c;1;1;1;artifact;1;343
+src/lib-config/iconfig.h;1;1;1;ROOT;1;162
+src/lib-config/iconfig.h;1;!IRSSI_LIB_CONFIG_ICONFIG_H;1 && !IRSSI_LIB_CONFIG_ICONFIG_H;if;1;1
+src/lib-config/iconfig.h;1;!IRSSI_LIB_CONFIG_ICONFIG_H;1 && !IRSSI_LIB_CONFIG_ICONFIG_H;artifact;2;159
+src/lib-config/iconfig.h;1;!IRSSI_LIB_CONFIG_ICONFIG_H;1 && !IRSSI_LIB_CONFIG_ICONFIG_H;endif;160;160
+src/lib-config/iconfig.h;1;1;1;artifact;161;161
+src/lib-config/module.h;1;1;1;ROOT;1;8
+src/lib-config/module.h;1;1;1;artifact;1;7
+src/lib-config/parse.c;1;1;1;ROOT;1;355
+src/lib-config/parse.c;1;1;1;artifact;1;354
+src/lib-config/set.c;1;1;1;ROOT;1;178
+src/lib-config/set.c;1;1;1;artifact;1;177
+src/lib-config/write.c;1;1;1;ROOT;1;397
+src/lib-config/write.c;1;1;1;artifact;1;307
+src/lib-config/write.c;1;!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L;1 && (!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L);if;308;308
+src/lib-config/write.c;1;!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L;1 && (!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L);artifact;309;309
+src/lib-config/write.c;1;!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L;1 && (!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L);endif;310;310
+src/lib-config/write.c;1;1;1;artifact;311;318
+src/lib-config/write.c;1;!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L;1 && (!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L);if;319;319
+src/lib-config/write.c;1;!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L;1 && (!DEFINED___LB___POSIX_VERSION__RB__ || _POSIX_VERSION__LT__200809L);artifact;320;324
+src/lib-config/write.c;1;DEFINED___LB___POSIX_VERSION__RB__ && !_POSIX_VERSION__LT__200809L;DEFINED___LB___POSIX_VERSION__RB__ && !_POSIX_VERSION__LT__200809L && 1;else;325;325
+src/lib-config/write.c;1;DEFINED___LB___POSIX_VERSION__RB__ && !_POSIX_VERSION__LT__200809L;DEFINED___LB___POSIX_VERSION__RB__ && !_POSIX_VERSION__LT__200809L && 1;artifact;326;326
+src/lib-config/write.c;1;DEFINED___LB___POSIX_VERSION__RB__ && !_POSIX_VERSION__LT__200809L;DEFINED___LB___POSIX_VERSION__RB__ && !_POSIX_VERSION__LT__200809L && 1;endif;327;327
+src/lib-config/write.c;1;1;1;artifact;328;396
+src/otr/irssi-otr.h;1;1;1;ROOT;1;41
+src/otr/irssi-otr.h;1;1;1;artifact;1;21
+src/otr/irssi-otr.h;1;!IRSSI_IRSSI_OTR_H;1 && !IRSSI_IRSSI_OTR_H;if;22;22
+src/otr/irssi-otr.h;1;!IRSSI_IRSSI_OTR_H;1 && !IRSSI_IRSSI_OTR_H;artifact;23;38
+src/otr/irssi-otr.h;1;!IRSSI_IRSSI_OTR_H;1 && !IRSSI_IRSSI_OTR_H;endif;39;39
+src/otr/irssi-otr.h;1;1;1;artifact;40;40
+src/otr/key.c;1;1;1;ROOT;1;407
+src/otr/key.c;1;1;1;artifact;1;406
+src/otr/key.h;1;1;1;ROOT;1;37
+src/otr/key.h;1;1;1;artifact;1;20
+src/otr/key.h;1;!IRSSI_OTR_KEY_H;1 && !IRSSI_OTR_KEY_H;if;21;21
+src/otr/key.h;1;!IRSSI_OTR_KEY_H;1 && !IRSSI_OTR_KEY_H;artifact;22;34
+src/otr/key.h;1;!IRSSI_OTR_KEY_H;1 && !IRSSI_OTR_KEY_H;endif;35;35
+src/otr/key.h;1;1;1;artifact;36;36
+src/otr/module.h;1;1;1;ROOT;1;31
+src/otr/module.h;1;1;1;artifact;1;20
+src/otr/module.h;1;!IRSSI_OTR_MODULE;1 && !IRSSI_OTR_MODULE;if;21;21
+src/otr/module.h;1;!IRSSI_OTR_MODULE;1 && !IRSSI_OTR_MODULE;artifact;22;28
+src/otr/module.h;1;!IRSSI_OTR_MODULE;1 && !IRSSI_OTR_MODULE;endif;29;29
+src/otr/module.h;1;1;1;artifact;30;30
+src/otr/otr-fe.c;1;1;1;ROOT;1;346
+src/otr/otr-fe.c;1;1;1;artifact;1;345
+src/otr/otr-fe.h;1;1;1;ROOT;1;30
+src/otr/otr-fe.h;1;1;1;artifact;1;21
+src/otr/otr-fe.h;1;!IRSSI_OTR_FE_H;1 && !IRSSI_OTR_FE_H;if;22;22
+src/otr/otr-fe.h;1;!IRSSI_OTR_FE_H;1 && !IRSSI_OTR_FE_H;artifact;23;27
+src/otr/otr-fe.h;1;!IRSSI_OTR_FE_H;1 && !IRSSI_OTR_FE_H;endif;28;28
+src/otr/otr-fe.h;1;1;1;artifact;29;29
+src/otr/otr-formats.c;1;1;1;ROOT;1;112
+src/otr/otr-formats.c;1;1;1;artifact;1;111
+src/otr/otr-formats.h;1;1;1;ROOT;1;114
+src/otr/otr-formats.h;1;1;1;artifact;1;21
+src/otr/otr-formats.h;1;!IRSSI_OTR_FORMATS_H;1 && !IRSSI_OTR_FORMATS_H;if;22;22
+src/otr/otr-formats.h;1;!IRSSI_OTR_FORMATS_H;1 && !IRSSI_OTR_FORMATS_H;artifact;23;111
+src/otr/otr-formats.h;1;!IRSSI_OTR_FORMATS_H;1 && !IRSSI_OTR_FORMATS_H;endif;112;112
+src/otr/otr-formats.h;1;1;1;artifact;113;113
+src/otr/otr-module.c;1;1;1;ROOT;1;269
+src/otr/otr-module.c;1;1;1;artifact;1;268
+src/otr/otr-ops.c;1;1;1;ROOT;1;364
+src/otr/otr-ops.c;1;1;1;artifact;1;363
+src/otr/otr.c;1;1;1;ROOT;1;945
+src/otr/otr.c;1;1;1;artifact;1;944
+src/otr/otr.h;1;1;1;ROOT;1;172
+src/otr/otr.h;1;1;1;artifact;1;21
+src/otr/otr.h;1;!IRSSI_OTR_OTR_H;1 && !IRSSI_OTR_OTR_H;if;22;22
+src/otr/otr.h;1;!IRSSI_OTR_OTR_H;1 && !IRSSI_OTR_OTR_H;artifact;23;169
+src/otr/otr.h;1;!IRSSI_OTR_OTR_H;1 && !IRSSI_OTR_OTR_H;endif;170;170
+src/otr/otr.h;1;1;1;artifact;171;171
+src/perl/common/module.h;1;1;1;ROOT;1;47
+src/perl/common/module.h;1;1;1;artifact;1;46
+src/perl/irc/module.h;1;1;1;ROOT;1;45
+src/perl/irc/module.h;1;1;1;artifact;1;44
+src/perl/module-fe.h;1;1;1;ROOT;1;6
+src/perl/module-fe.h;1;1;1;artifact;1;5
+src/perl/module-formats.c;1;1;1;ROOT;1;43
+src/perl/module-formats.c;1;1;1;artifact;1;42
+src/perl/module-formats.h;1;1;1;ROOT;1;21
+src/perl/module-formats.h;1;1;1;artifact;1;20
+src/perl/module.h;1;1;1;ROOT;1;22
+src/perl/module.h;1;1;1;artifact;1;2
+src/perl/module.h;1;NEED_PERL_H;1 && NEED_PERL_H;if;3;3
+src/perl/module.h;1;NEED_PERL_H;1 && NEED_PERL_H;artifact;4;4
+src/perl/module.h;1;!_SEM_SEMUN_UNDEFINED;1 && NEED_PERL_H && !_SEM_SEMUN_UNDEFINED;if;5;5
+src/perl/module.h;1;!_SEM_SEMUN_UNDEFINED;1 && NEED_PERL_H && !_SEM_SEMUN_UNDEFINED;artifact;6;6
+src/perl/module.h;1;!_SEM_SEMUN_UNDEFINED;1 && NEED_PERL_H && !_SEM_SEMUN_UNDEFINED;endif;7;7
+src/perl/module.h;1;NEED_PERL_H;1 && NEED_PERL_H;artifact;8;13
+src/perl/module.h;1;NEED_PERL_H;1 && NEED_PERL_H;endif;14;14
+src/perl/module.h;1;1;1;artifact;15;21
+src/perl/perl-common.c;1;1;1;ROOT;1;727
+src/perl/perl-common.c;1;1;1;artifact;1;726
+src/perl/perl-common.h;1;1;1;ROOT;1;84
+src/perl/perl-common.h;1;!IRSSI_PERL_PERL_COMMON_H;1 && !IRSSI_PERL_PERL_COMMON_H;if;1;1
+src/perl/perl-common.h;1;!IRSSI_PERL_PERL_COMMON_H;1 && !IRSSI_PERL_PERL_COMMON_H;artifact;2;30
+src/perl/perl-common.h;1;!pTHX_;1 && !IRSSI_PERL_PERL_COMMON_H && !pTHX_;if;31;31
+src/perl/perl-common.h;1;!pTHX_;1 && !IRSSI_PERL_PERL_COMMON_H && !pTHX_;artifact;32;32
+src/perl/perl-common.h;1;!pTHX_;1 && !IRSSI_PERL_PERL_COMMON_H && !pTHX_;endif;33;33
+src/perl/perl-common.h;1;!IRSSI_PERL_PERL_COMMON_H;1 && !IRSSI_PERL_PERL_COMMON_H;artifact;34;34
+src/perl/perl-common.h;1;!aTHX_;1 && !IRSSI_PERL_PERL_COMMON_H && !aTHX_;if;35;35
+src/perl/perl-common.h;1;!aTHX_;1 && !IRSSI_PERL_PERL_COMMON_H && !aTHX_;artifact;36;36
+src/perl/perl-common.h;1;!aTHX_;1 && !IRSSI_PERL_PERL_COMMON_H && !aTHX_;endif;37;37
+src/perl/perl-common.h;1;!IRSSI_PERL_PERL_COMMON_H;1 && !IRSSI_PERL_PERL_COMMON_H;artifact;38;81
+src/perl/perl-common.h;1;!IRSSI_PERL_PERL_COMMON_H;1 && !IRSSI_PERL_PERL_COMMON_H;endif;82;82
+src/perl/perl-common.h;1;1;1;artifact;83;83
+src/perl/perl-core.c;1;1;1;ROOT;1;494
+src/perl/perl-core.c;1;1;1;artifact;1;493
+src/perl/perl-core.h;1;1;1;ROOT;1;66
+src/perl/perl-core.h;1;!IRSSI_PERL_PERL_CORE_H;1 && !IRSSI_PERL_PERL_CORE_H;if;1;1
+src/perl/perl-core.h;1;!IRSSI_PERL_PERL_CORE_H;1 && !IRSSI_PERL_PERL_CORE_H;artifact;2;63
+src/perl/perl-core.h;1;!IRSSI_PERL_PERL_CORE_H;1 && !IRSSI_PERL_PERL_CORE_H;endif;64;64
+src/perl/perl-core.h;1;1;1;artifact;65;65
+src/perl/perl-fe.c;1;1;1;ROOT;1;300
+src/perl/perl-fe.c;1;1;1;artifact;1;299
+src/perl/perl-signals.c;1;1;1;ROOT;1;746
+src/perl/perl-signals.c;1;1;1;artifact;1;481
+src/perl/perl-signals.c;1;SIGNAL_MAX_ARGUMENTS__NEQ__6;1 && SIGNAL_MAX_ARGUMENTS__NEQ__6;if;482;482
+src/perl/perl-signals.c;1;SIGNAL_MAX_ARGUMENTS__NEQ__6;1 && SIGNAL_MAX_ARGUMENTS__NEQ__6;artifact;483;483
+src/perl/perl-signals.c;1;SIGNAL_MAX_ARGUMENTS__NEQ__6;1 && SIGNAL_MAX_ARGUMENTS__NEQ__6;endif;484;484
+src/perl/perl-signals.c;1;1;1;artifact;485;745
+src/perl/perl-signals.h;1;1;1;ROOT;1;39
+src/perl/perl-signals.h;1;!IRSSI_PERL_PERL_SIGNALS_H;1 && !IRSSI_PERL_PERL_SIGNALS_H;if;1;1
+src/perl/perl-signals.h;1;!IRSSI_PERL_PERL_SIGNALS_H;1 && !IRSSI_PERL_PERL_SIGNALS_H;artifact;2;36
+src/perl/perl-signals.h;1;!IRSSI_PERL_PERL_SIGNALS_H;1 && !IRSSI_PERL_PERL_SIGNALS_H;endif;37;37
+src/perl/perl-signals.h;1;1;1;artifact;38;38
+src/perl/perl-sources.c;1;1;1;ROOT;1;189
+src/perl/perl-sources.c;1;1;1;artifact;1;188
+src/perl/perl-sources.h;1;1;1;ROOT;1;16
+src/perl/perl-sources.h;1;!IRSSI_PERL_PERL_SOURCES_H;1 && !IRSSI_PERL_PERL_SOURCES_H;if;1;1
+src/perl/perl-sources.h;1;!IRSSI_PERL_PERL_SOURCES_H;1 && !IRSSI_PERL_PERL_SOURCES_H;artifact;2;13
+src/perl/perl-sources.h;1;!IRSSI_PERL_PERL_SOURCES_H;1 && !IRSSI_PERL_PERL_SOURCES_H;endif;14;14
+src/perl/perl-sources.h;1;1;1;artifact;15;15
+src/perl/textui/module.h;1;1;1;ROOT;1;19
+src/perl/textui/module.h;1;1;1;artifact;1;18
+src/perl/textui/wrapper_buffer_line.h;1;1;1;ROOT;1;92
+src/perl/textui/wrapper_buffer_line.h;1;!IRSSI_PERL_TEXTUI_WRAPPER_BUFFER_LINE_H;1 && !IRSSI_PERL_TEXTUI_WRAPPER_BUFFER_LINE_H;if;1;1
+src/perl/textui/wrapper_buffer_line.h;1;!IRSSI_PERL_TEXTUI_WRAPPER_BUFFER_LINE_H;1 && !IRSSI_PERL_TEXTUI_WRAPPER_BUFFER_LINE_H;artifact;2;89
+src/perl/textui/wrapper_buffer_line.h;1;!IRSSI_PERL_TEXTUI_WRAPPER_BUFFER_LINE_H;1 && !IRSSI_PERL_TEXTUI_WRAPPER_BUFFER_LINE_H;endif;90;90
+src/perl/textui/wrapper_buffer_line.h;1;1;1;artifact;91;91
+src/perl/ui/module.h;1;1;1;ROOT;1;17
+src/perl/ui/module.h;1;1;1;artifact;1;16
+tests/fe-common/core/test-formats.c;1;1;1;ROOT;1;54
+tests/fe-common/core/test-formats.c;1;1;1;artifact;1;33
+tests/fe-common/core/test-formats.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;if;34;34
+tests/fe-common/core/test-formats.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;artifact;35;35
+tests/fe-common/core/test-formats.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;endif;36;36
+tests/fe-common/core/test-formats.c;1;1;1;artifact;37;53
+tests/fe-text/mock-irssi.c;1;1;1;ROOT;1;11
+tests/fe-text/mock-irssi.c;1;1;1;artifact;1;10
+tests/fe-text/test-paste-join-multiline.c;1;1;1;ROOT;1;74
+tests/fe-text/test-paste-join-multiline.c;1;1;1;artifact;1;41
+tests/fe-text/test-paste-join-multiline.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;if;42;42
+tests/fe-text/test-paste-join-multiline.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;artifact;43;43
+tests/fe-text/test-paste-join-multiline.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;endif;44;44
+tests/fe-text/test-paste-join-multiline.c;1;1;1;artifact;45;73
+tests/irc/core/test-channel-events.c;1;1;1;ROOT;1;209
+tests/irc/core/test-channel-events.c;1;1;1;artifact;1;123
+tests/irc/core/test-channel-events.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;if;124;124
+tests/irc/core/test-channel-events.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;artifact;125;125
+tests/irc/core/test-channel-events.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;endif;126;126
+tests/irc/core/test-channel-events.c;1;1;1;artifact;127;208
+tests/irc/core/test-irc.c;1;1;1;ROOT;1;235
+tests/irc/core/test-irc.c;1;1;1;artifact;1;199
+tests/irc/core/test-irc.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;if;200;200
+tests/irc/core/test-irc.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;artifact;201;201
+tests/irc/core/test-irc.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;endif;202;202
+tests/irc/core/test-irc.c;1;1;1;artifact;203;234
+tests/irc/flood/test-796.c;1;1;1;ROOT;1;183
+tests/irc/flood/test-796.c;1;1;1;artifact;1;172
+tests/irc/flood/test-796.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;if;173;173
+tests/irc/flood/test-796.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;artifact;174;174
+tests/irc/flood/test-796.c;1;GLIB_CHECK_VERSION___LB__2__38__0__RB__;1 && GLIB_CHECK_VERSION___LB__2__38__0__RB__;endif;175;175
+tests/irc/flood/test-796.c;1;1;1;artifact;176;182
