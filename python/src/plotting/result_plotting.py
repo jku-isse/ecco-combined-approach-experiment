@@ -132,7 +132,7 @@ class ResultPlotter:
         plt.yticks(np.arange(0, 1.1, 0.1))
 
         plt.xlabel('', fontsize=14)
-        plt.ylabel("F1-Score", fontsize=14)
+        plt.ylabel(ResultPlotter.get_metric_pretty_name(metric), fontsize=14)
         plt.grid(True, linestyle='--', alpha=0.7)  # Add grid lines
 
         # Add a legend to differentiate conditions
