@@ -54,7 +54,7 @@ public class ExperimentTest {
 
         String configPath = ResourceUtils.getResourceFolderPathAsString("configs/test_config2.properties");
         Path variantBasePath = ResourceUtils.getResourceFolderPath("Sampling_Base_2");
-        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(persister, configPath, variantBasePath);
+        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(configPath, variantBasePath);
         experiment.runExperiment(experimentConfig);
     }
 
@@ -65,7 +65,7 @@ public class ExperimentTest {
 
         String configPath = ResourceUtils.getResourceFolderPathAsString("configs/test_config2.properties");
         Path variantBasePath = ResourceUtils.getResourceFolderPath("Sampling_Base_2");
-        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(persister, configPath, variantBasePath);
+        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(configPath, variantBasePath);
         experiment.runExperiment(experimentConfig);
 
         assertEquals(10, persister.getResults().size());

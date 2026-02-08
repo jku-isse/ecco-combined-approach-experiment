@@ -1,6 +1,5 @@
 package mistake;
 
-import anon.ecco.experiment.result.persister.ResultInMemoryPersister;
 import at.jku.isse.ecco.core.Association;
 import anon.ecco.experiment.config.ExperimentConfigurationIterator;
 import anon.ecco.experiment.config.ExperimentIterationConfiguration;
@@ -77,7 +76,7 @@ public class BoostedMistakeTest {
 
     @Test
     public void boostedMistakesDisableBoosting() throws Resources.ResourceIOException, IOException, ResourceException {
-        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(new ResultInMemoryPersister(), this.configPath, this.variantBasePath);
+        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(this.configPath, this.variantBasePath);
         ExperimentIterationConfiguration config = experimentConfig.next();
         VevosFeatureSampler sampler = new VevosFeatureSampler();
         sampler.sample(config);
@@ -102,7 +101,7 @@ public class BoostedMistakeTest {
 
     @Test
     public void nonConflictingMistakesGetBoosted() throws Resources.ResourceIOException, IOException, ResourceException {
-        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(new ResultInMemoryPersister(), this.configPath, this.variantBasePath);
+        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(this.configPath, this.variantBasePath);
         ExperimentIterationConfiguration config = experimentConfig.next();
         VevosFeatureSampler sampler = new VevosFeatureSampler();
         sampler.sample(config);

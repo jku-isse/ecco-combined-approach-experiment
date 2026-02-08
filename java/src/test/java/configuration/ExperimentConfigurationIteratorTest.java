@@ -19,14 +19,14 @@ public class ExperimentConfigurationIteratorTest {
     public void propertiesFileCanBeRead() throws ResourceException {
         String propertiesFilePath = ResourceUtils.getResourceFolderPathAsString("configs/test_experiment.properties");
         Path variantBasePath = ResourceUtils.getResourceFolderPath("sample");
-        ExperimentConfigurationIterator config = new ExperimentConfigurationIterator(new ResultInMemoryPersister(), propertiesFilePath, variantBasePath);
+        ExperimentConfigurationIterator config = new ExperimentConfigurationIterator(propertiesFilePath, variantBasePath);
     }
 
     @Test
     public void numbersOfVariantsAreIterated() throws ResourceException {
         String propertiesFilePath = ResourceUtils.getResourceFolderPathAsString("configs/test_experiment.properties");
         Path variantBasePath = ResourceUtils.getResourceFolderPath("sample");
-        ExperimentConfigurationIterator configIterator = new ExperimentConfigurationIterator(new ResultInMemoryPersister(), propertiesFilePath, variantBasePath);
+        ExperimentConfigurationIterator configIterator = new ExperimentConfigurationIterator(propertiesFilePath, variantBasePath);
         List<ExperimentIterationConfiguration> configBatch = new LinkedList<>();
         for (int i = 1; i <= 3; i++){
             configIterator.getNextConfigurationBatch();
@@ -39,7 +39,7 @@ public class ExperimentConfigurationIteratorTest {
     public void iteratorCreatesCorrectBatches() throws ResourceException {
         String propertiesFilePath = ResourceUtils.getResourceFolderPathAsString("configs/iterator_test.properties");
         Path variantBasePath = ResourceUtils.getResourceFolderPath("sample");
-        ExperimentConfigurationIterator configIterator = new ExperimentConfigurationIterator(new ResultInMemoryPersister(), propertiesFilePath, variantBasePath);
+        ExperimentConfigurationIterator configIterator = new ExperimentConfigurationIterator(propertiesFilePath, variantBasePath);
         List<ExperimentIterationConfiguration> configBatch;
         for (int i = 1; i <= 3; i++){
             configBatch = configIterator.getNextConfigurationBatch();

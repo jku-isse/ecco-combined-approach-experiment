@@ -29,7 +29,7 @@ import static org.mockito.Mockito.when;
 public class RecreatingSampleTest {
     
     String REPO_NAME = "openvpn";
-    Path VEVOS_GROUND_TRUTH_BASE = Paths.get("C:\\Projects\\Thesis\\Repositories\\VEVOS_Extraction\\ground-truth");
+    Path VEVOS_GROUND_TRUTH_BASE = Paths.get("home/user/ground-truth");
     Path VEVOS_GROUND_TRUTH = VEVOS_GROUND_TRUTH_BASE.resolve("openvpn");
     Path VEVOS_REPO = VEVOS_GROUND_TRUTH_BASE.resolve("REPOS\\openvpn");
 

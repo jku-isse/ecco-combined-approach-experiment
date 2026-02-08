@@ -38,7 +38,7 @@ public class Experiment {
 
         String configPath = ResourceUtils.getResourceFolderPathAsString("configuration/experiment.properties");
         Path variantBasePath = ResourceUtils.getResourceFolderPath("sample");
-        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(persister, configPath, variantBasePath);
+        ExperimentConfigurationIterator experimentConfig = new ExperimentConfigurationIterator(configPath, variantBasePath);
         experiment.runExperiment(experimentConfig);
     }
 

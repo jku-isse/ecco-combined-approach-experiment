@@ -2,8 +2,6 @@ package anon.ecco.experiment.config;
 
 import anon.ecco.experiment.picker.FeatureTraceMemoryListPicker;
 import anon.ecco.experiment.picker.featuretracepicker.RandomFeatureTracePicker;
-import anon.ecco.experiment.result.Result;
-import anon.ecco.experiment.result.persister.ResultPersister;
 import anon.ecco.experiment.utils.property.PropertyUtils;
 import at.jku.isse.ecco.featuretrace.evaluation.EvaluationStrategy;
 import lombok.Getter;
@@ -18,10 +16,8 @@ public class ExperimentConfigurationIterator implements Iterator<ExperimentItera
     @Getter
     private int numberOfRepetitions;
     private LinkedList<ExperimentIterationConfiguration> iterationConfigs;
-    private ResultPersister resultPersister;
 
-    public ExperimentConfigurationIterator(ResultPersister resultPersister, String configurationPath, Path variantBasePath) {
-        this.resultPersister = resultPersister;
+    public ExperimentConfigurationIterator(String configurationPath, Path variantBasePath) {
         this.vevosConfiguration = new VevosConfiguration(configurationPath, variantBasePath);
         this.configProperties = PropertyUtils.loadProperties(configurationPath);
         this.numberOfRepetitions = PropertyUtils.loadInteger(this.configProperties, "numberOfRepetitions");
@@ -35,7 +31,9 @@ public class ExperimentConfigurationIterator implements Iterator<ExperimentItera
         LinkedList<ExperimentIterationConfiguration> configBatch = new LinkedList<>();
         ExperimentIterationConfiguration config = this.iterationConfigs.peek();
         int numberOfVariants = config.getInputConfiguration().getNumberOfVariants();
-        while(numberOfVariants == config.getInputConfiguration().getNumberOfVariants()){
+        String dataset = config.getDataset();
+        while(dataset.equals(config.getDataset())
+                && numberOfVariants == config.getInputConfiguration().getNumberOfVariants()){
             configBatch.add(this.iterationConfigs.pop());
             if (!this.iterationConfigs.isEmpty()) {
                 config = this.iterationConfigs.peek();
