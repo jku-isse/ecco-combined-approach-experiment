@@ -9,6 +9,39 @@ class DatabaseHandler:
     def __init__(self, db_path):
         self.db_path = db_path
 
+    # dataset, numberOfCommittedVariants, committedVariantConfigurations, (numberOfSampledFeatures), sampledFeatrues, featureTracePercentage, mistakePercentage, evaluationStrategy, mistakeType, ...
+    def get_significance_base_data(self, configuration):
+        DatabaseHandler.check_metric(configuration['metric'])
+        prepared_statement = (
+            f"SELECT {configuration['metric']}, committedVariantConfigurations FROM results WHERE dataset=? AND numberOfCommittedVariants=? AND featureTracePercentage=? AND boost=? AND mistakeType=\'NoMistake\';")
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute(prepared_statement, (configuration['dataset'], configuration['number_of_variants'], 0, 0))
+            results = cursor.fetchall()
+            return results
+    
+    def get_significance_data_replication(self, configuration):
+        DatabaseHandler.check_metric(configuration['metric'])
+        prepared_statement = (
+            f"SELECT {configuration['metric']}, committedVariantConfigurations FROM results WHERE dataset=? AND numberOfCommittedVariants=? AND featureTracePercentage=? AND boost=? AND mistakeType=\'NoMistake\';")
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute(prepared_statement, (configuration['dataset'], configuration['number_of_variants'], configuration['ft_percentage'], utils.boolean2int(configuration['boost'])))
+            results = cursor.fetchall()
+            return results
+        
+    def get_significance_data_mistake(self, configuration):
+        DatabaseHandler.check_metric(configuration['metric'])
+        prepared_statement = (
+            f"SELECT {configuration['metric']}, committedVariantConfigurations FROM results WHERE dataset=? AND numberOfCommittedVariants=? AND featureTracePercentage=? AND boost=? AND mistakeType=? AND mistakePercentage=?;")
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.cursor()
+            cursor.execute(prepared_statement, (configuration['dataset'], configuration['number_of_variants'], configuration['ft_percentage'], utils.boolean2int(configuration['boost']), configuration['mistake_type'], configuration['mistake_percentage']))
+            results = cursor.fetchall()
+            return results
+
+
+
     def get_ft_experiment_data(self, dataset, metric, number_of_variants, ft_percentage, boost):
         DatabaseHandler.check_metric(metric)
         prepared_statement = (
