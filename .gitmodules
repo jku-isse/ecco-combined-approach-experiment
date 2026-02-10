@@ -1,0 +1,27 @@
+[submodule "ground_truth/REPOS/vim"]
+	path = ground_truth/REPOS/vim
+	url = git@github.com:baergump/vim-single-commit.git
+[submodule "ground_truth/REPOS/libssh"]
+	path = ground_truth/REPOS/libssh
+	url = git@github.com:baergump/libssh-single-commit.git
+[submodule "ground_truth/REPOS/irssi"]
+	path = ground_truth/REPOS/irssi
+	url = git@github.com:baergump/irssi-single-commit.git
+[submodule "ground_truth/REPOS/dia"]
+	path = ground_truth/REPOS/dia
+	url = git@github.com:baergump/dia-single-commit.git
+[submodule "ground_truth/REPOS/berkeley-db-libdb"]
+	path = ground_truth/REPOS/berkeley-db-libdb
+	url = git@github.com:baergump/libdb-single-commit.git
+[submodule "ground_truth/REPOS/apache-httpd"]
+	path = ground_truth/REPOS/apache-httpd
+	url = git@github.com:baergump/httpd-single-commit.git
+[submodule "ground_truth/REPOS/openvpn"]
+	path = ground_truth/REPOS/openvpn
+	url = git@github.com:baergump/openvpn-single-commit.git
+[submodule "ground_truth/REPOS/busybox"]
+	path = ground_truth/REPOS/busybox
+	url = git@github.com:baergump/busybox-single-commit.git
+[submodule "ground_truth/REPOS/argouml-spl"]
+	path = ground_truth/REPOS/argouml-spl
+	url = git@github.com:marcusvnac/argouml-spl.git
