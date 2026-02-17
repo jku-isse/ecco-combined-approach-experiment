@@ -38,7 +38,7 @@ To persist the database and resulting images, you need to configure two docker v
 
 * Result SQLite Database: 
     - Container Path: /home/user/java/build/resources/main/database
-    - Host Path: e.g. C:\experiment_rerun\results\images
+    - Host Path: e.g. C:\experiment_rerun\results\database
 * Result Illustrations:
     - Container Path: /home/user/results/images
     - Host Path: e.g. C:\experiment_rerun\results\images
@@ -46,6 +46,15 @@ To persist the database and resulting images, you need to configure two docker v
 The container paths must not be changed.
 The database and the resulting images will be saved at the specified host paths on the host machine.
 Configure the host paths to point to existing locations on your machine.
+
+To run the docker container with docker volumes configured, e.g. run the following:
+
+```shell
+docker run \
+  -v C:/experiment_rerun/results/database:/home/user/java/build/resources/main/database \
+  -v C:/experiment_rerun/results/images:/home/user/results/images \
+  experiment
+```
 
 ### Restarting containers
 

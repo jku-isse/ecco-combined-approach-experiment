@@ -38,16 +38,15 @@ RUN mkdir /home/user/results
 RUN mkdir /home/user/results/images
 VOLUME /home/user/results/images
 
-# clone ground truth git repositories
-RUN git clone /home/user/ground_truth/REPOS_BARE/apache-httpd /home/user/ground_truth/REPOS/apache-httpd
-RUN git clone /home/user/ground_truth/REPOS_BARE/argouml-spl /home/user/ground_truth/REPOS/argouml-spl
-RUN git clone /home/user/ground_truth/REPOS_BARE/berkeley-db-libdb /home/user/ground_truth/REPOS/berkeley-db-libdb
-RUN git clone /home/user/ground_truth/REPOS_BARE/busybox /home/user/ground_truth/REPOS/busybox
-RUN git clone /home/user/ground_truth/REPOS_BARE/dia /home/user/ground_truth/REPOS/dia
-RUN git clone /home/user/ground_truth/REPOS_BARE/irssi /home/user/ground_truth/REPOS/irssi
-RUN git clone /home/user/ground_truth/REPOS_BARE/libssh /home/user/ground_truth/REPOS/libssh
-RUN git clone /home/user/ground_truth/REPOS_BARE/openvpn /home/user/ground_truth/REPOS/openvpn
-RUN git clone /home/user/ground_truth/REPOS_BARE/vim /home/user/ground_truth/REPOS/vim
+RUN unzip /home/user/ground_truth/REPOS/apache-httpd.zip -d /home/user/ground_truth/REPOS
+RUN unzip /home/user/ground_truth/REPOS/argouml-spl.zip -d /home/user/ground_truth/REPOS
+RUN unzip /home/user/ground_truth/REPOS/berkeley-db-libdb.zip -d /home/user/ground_truth/REPOS
+RUN unzip /home/user/ground_truth/REPOS/busybox.zip -d /home/user/ground_truth/REPOS
+RUN unzip /home/user/ground_truth/REPOS/dia.zip -d /home/user/ground_truth/REPOS
+RUN unzip /home/user/ground_truth/REPOS/irssi.zip -d /home/user/ground_truth/REPOS
+RUN unzip /home/user/ground_truth/REPOS/libssh.zip -d /home/user/ground_truth/REPOS
+RUN unzip /home/user/ground_truth/REPOS/openvpn.zip -d /home/user/ground_truth/REPOS
+RUN unzip /home/user/ground_truth/REPOS/vim.zip -d /home/user/ground_truth/REPOS
 
 # Build the project using Gradle wrapper
 WORKDIR /home/user/java
