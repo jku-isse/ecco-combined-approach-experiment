@@ -1,28 +1,24 @@
 import traceback
 from typing import List
-
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 import pandas as pd
 import os
+import sys
+from pathlib import Path
 
-import database_handling
-import utils
+parent_dir = str(Path(__file__).resolve().parent.parent)
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
+
+import database.database_handling as database_handling
+import config.config as config
+import utils.utils as utils
 
 # general settings
 TARGET_PATH = r'/home/user/results/images'
-DATABASE_PATH = r'/home/user/java/build/resources/main/database/results.db'
-SYSTEMS = ['argouml-spl', 'berkeley-db-libdb', 'busybox', 'dia', 'apache-httpd', 'irssi', 'libssh', 'openvpn', 'vim']
-METRICS = ['f1', 'precision', 'recall']
-VARIANT_NUMBERS = [3, 5, 7]
-# replication experiment settings
-TRACE_PERCENTAGES = [0, 5, 10, 15, 20, 25]
-# robustness experiment settings
-MISTAKE_TYPES = ["SwappedCondition", "ErroneousConjunction", "SwappedFeature"]
-MISTAKE_PERCENTAGES = [25, 50, 75, 100] # excluding 0
-
 
 class ResultPlotter:
 
@@ -179,5 +175,12 @@ class ResultPlotter:
 
 
 if __name__ == "__main__":
-    plotter = ResultPlotter(TARGET_PATH, DATABASE_PATH, SYSTEMS, METRICS, VARIANT_NUMBERS, TRACE_PERCENTAGES, MISTAKE_TYPES, MISTAKE_PERCENTAGES)
+    plotter = ResultPlotter(TARGET_PATH, 
+                            config.DATABASE_PATH, 
+                            config.SYSTEMS, 
+                            config.METRICS, 
+                            config.VARIANT_NUMBERS, 
+                            config.TRACE_PERCENTAGES, 
+                            config.MISTAKE_TYPES, 
+                            config.MISTAKE_PERCENTAGES)
     plotter.plot_results()

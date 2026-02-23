@@ -4,10 +4,17 @@ import matplotlib.pyplot as plt
 import json
 import seaborn as sns
 import traceback
+import sys
+from pathlib import Path
 
+parent_dir = str(Path(__file__).resolve().parent.parent)
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
+    
+import config.config as config
 
 BASE_PATH = r'C:\Example\Path'
-SYSTEMS = ['busybox', 'argouml-spl', 'Marlin', 'openvpn', 'vim']
+
 
 class OriginalResultPlotter:
 
@@ -68,5 +75,5 @@ class OriginalResultPlotter:
 
 
 if __name__ == "__main__":
-    for system in SYSTEMS:
+    for system in config.SYSTEMS:
         OriginalResultPlotter.plot_system_results(system, BASE_PATH)

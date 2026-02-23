@@ -1,8 +1,16 @@
-import database_handling
-import config
 import json
 from scipy import stats
+import sys
+from pathlib import Path
 
+parent_dir = str(Path(__file__).resolve().parent.parent)
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
+
+import config.config as config
+import database.database_handling as database_handling
+
+OUTPUT_PATH = r'/home/user/results/significance/significance_results.json'
 
 class SignificanceTester:
 
@@ -25,6 +33,8 @@ class SignificanceTester:
                                 'ft_percentage': ft_percentage,
                                 'boost': boost,
                             }
+
+
                             baseline_data = self.database_handler.get_significance_base_data(configuration)
                             baseline_data = sorted(baseline_data, key=lambda x: x[1])
 
@@ -43,8 +53,7 @@ class SignificanceTester:
 
                                     self.perform_significance_test(baseline_data, result_data, configuration)
 
-        json_file_path = r'C:\Projects\ecco-combined-approach-experiment\results\significance\significance_results.json'
-        with open(json_file_path, "w", encoding="utf-8") as f:
+        with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
             json.dump(self.significance_results, f, indent=2)
 
     def perform_significance_test(self, baseline_data, result_data, configuration):
@@ -55,7 +64,6 @@ class SignificanceTester:
         if len(baseline_data) != 30 or len(result_data) != 30:
             raise Exception()
         
-
         baseline_metrics = [t[0] for t in baseline_data]
         result_metrics = [t[0] for t in result_data]
         metric_differences = [t1[0] - t2[0] for t1, t2 in zip(result_data, baseline_data)]
@@ -72,15 +80,11 @@ class SignificanceTester:
         result['wilcoxon'] = p
         result['wilcoxon_significant'] = bool(p < 0.05)
 
-        if (result['wilcoxon_significant'] == False and 'mistake_percentage' in result and result['mistake_percentage'] < 50):
-            print(result)
-
-        if (result['ttest_significant'] == False and 'mistake_percentage' in result and result['mistake_percentage'] < 50):
-            print(result)
-
         self.significance_results.append(result)
 
 
 if __name__ == '__main__':
     tester = SignificanceTester()
     tester.perform_significance_tests()
+
+

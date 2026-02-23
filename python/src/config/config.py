@@ -1,4 +1,3 @@
-TARGET_PATH = r'/home/user/results/images'
 DATABASE_PATH = r'/home/user/java/build/resources/main/database/results.db'
 SYSTEMS = ['argouml-spl', 'berkeley-db-libdb', 'busybox', 'dia', 'apache-httpd', 'irssi', 'libssh', 'openvpn', 'vim']
 METRICS = ['f1', 'precision', 'recall']

@@ -1,6 +1,12 @@
 import sqlite3
+import sys
+from pathlib import Path
 
-import utils
+parent_dir = str(Path(__file__).resolve().parent.parent)
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
+
+import utils.utils as utils
 
 VALID_METRICS = ['f1', 'precision', 'recall']
 

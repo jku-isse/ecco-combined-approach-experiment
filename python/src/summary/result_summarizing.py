@@ -1,9 +1,15 @@
 import json
 import os
 import statistics
-import utils
+import sys
+from pathlib import Path
 
-from database_handling import DatabaseHandler
+parent_dir = str(Path(__file__).resolve().parent.parent)
+if parent_dir not in sys.path:
+    sys.path.append(parent_dir)
+
+import utils.utils as utils
+from database.database_handling import DatabaseHandler
 
 DATASETS = ['argouml-spl', 'berkeley-db-libdb', 'busybox', 'dia', 'apache-httpd', 'irssi', 'libssh', 'openvpn', 'vim']
 FT_PERCENTAGE = 5
