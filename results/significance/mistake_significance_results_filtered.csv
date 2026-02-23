@@ -1,0 +1,163 @@
+dataset,metric,number_of_variants,mistake_type,shapiro,ttest,wilcoxon
+ArgoUML,f1,3,SwappedCondition,0.008,0.0,0.0
+ArgoUML,f1,3,ErroneousConjunction,0.003,0.0,0.0
+ArgoUML,f1,3,SwappedFeature,0.013,0.0,0.0
+ArgoUML,f1,5,SwappedCondition,0.103,0.0,0.0
+ArgoUML,f1,5,ErroneousConjunction,0.037,0.0,0.0
+ArgoUML,f1,5,SwappedFeature,0.166,0.0,0.0
+ArgoUML,f1,7,SwappedCondition,0.01,0.0,0.0
+ArgoUML,f1,7,ErroneousConjunction,0.016,0.0,0.0
+ArgoUML,f1,7,SwappedFeature,0.016,0.0,0.0
+ArgoUML,precision,3,SwappedCondition,0.003,0.0,0.0
+ArgoUML,precision,3,ErroneousConjunction,0.007,0.0,0.0
+ArgoUML,precision,3,SwappedFeature,0.007,0.0,0.0
+ArgoUML,precision,5,SwappedCondition,0.082,0.0,0.0
+ArgoUML,precision,5,ErroneousConjunction,0.013,0.0,0.0
+ArgoUML,precision,5,SwappedFeature,0.158,0.0,0.0
+ArgoUML,precision,7,SwappedCondition,0.049,0.0,0.0
+ArgoUML,precision,7,ErroneousConjunction,0.046,0.0,0.0
+ArgoUML,precision,7,SwappedFeature,0.039,0.0,0.0
+Berkeley DB,f1,3,SwappedCondition,0.0,0.0,0.0
+Berkeley DB,f1,3,ErroneousConjunction,0.0,0.001,0.0
+Berkeley DB,f1,3,SwappedFeature,0.0,0.001,0.0
+Berkeley DB,f1,5,SwappedCondition,0.0,0.0,0.0
+Berkeley DB,f1,5,ErroneousConjunction,0.0,0.002,0.0
+Berkeley DB,f1,5,SwappedFeature,0.0,0.169,0.0
+Berkeley DB,f1,7,SwappedCondition,0.0,0.265,0.014
+Berkeley DB,f1,7,ErroneousConjunction,0.307,0.001,0.0
+Berkeley DB,f1,7,SwappedFeature,0.0,0.001,0.0
+Berkeley DB,precision,3,SwappedCondition,0.0,0.0,0.0
+Berkeley DB,precision,3,ErroneousConjunction,0.0,0.0,0.0
+Berkeley DB,precision,3,SwappedFeature,0.0,0.0,0.0
+Berkeley DB,precision,5,SwappedCondition,0.0,0.0,0.0
+Berkeley DB,precision,5,ErroneousConjunction,0.0,0.0,0.0
+Berkeley DB,precision,5,SwappedFeature,0.0,0.002,0.0
+Berkeley DB,precision,7,SwappedCondition,0.0,0.105,0.0
+Berkeley DB,precision,7,ErroneousConjunction,0.0,0.0,0.0
+Berkeley DB,precision,7,SwappedFeature,0.0,0.0,0.0
+BusyBox,f1,3,SwappedCondition,0.0,0.0,0.0
+BusyBox,f1,3,ErroneousConjunction,0.0,0.0,0.0
+BusyBox,f1,3,SwappedFeature,0.0,0.002,0.0
+BusyBox,f1,5,SwappedCondition,0.0,0.002,0.0
+BusyBox,f1,5,ErroneousConjunction,0.0,0.0,0.0
+BusyBox,f1,5,SwappedFeature,0.0,0.007,0.0
+BusyBox,f1,7,SwappedCondition,0.0,0.398,0.152
+BusyBox,f1,7,ErroneousConjunction,0.001,0.038,0.095
+BusyBox,f1,7,SwappedFeature,0.0,0.087,0.219
+BusyBox,precision,3,SwappedCondition,0.0,0.0,0.0
+BusyBox,precision,3,ErroneousConjunction,0.0,0.0,0.0
+BusyBox,precision,3,SwappedFeature,0.0,0.001,0.0
+BusyBox,precision,5,SwappedCondition,0.0,0.001,0.0
+BusyBox,precision,5,ErroneousConjunction,0.0,0.001,0.0
+BusyBox,precision,5,SwappedFeature,0.0,0.001,0.0
+BusyBox,precision,7,SwappedCondition,0.001,0.025,0.003
+BusyBox,precision,7,ErroneousConjunction,0.0,0.0,0.0
+BusyBox,precision,7,SwappedFeature,0.0,0.002,0.0
+Dia,f1,3,SwappedCondition,0.022,0.0,0.0
+Dia,f1,3,ErroneousConjunction,0.017,0.0,0.0
+Dia,f1,3,SwappedFeature,0.004,0.0,0.0
+Dia,f1,5,SwappedCondition,0.237,0.0,0.0
+Dia,f1,5,ErroneousConjunction,0.001,0.0,0.0
+Dia,f1,5,SwappedFeature,0.007,0.0,0.0
+Dia,f1,7,SwappedCondition,0.765,0.124,0.092
+Dia,f1,7,ErroneousConjunction,0.003,0.0,0.0
+Dia,f1,7,SwappedFeature,0.009,0.003,0.0
+Dia,precision,3,SwappedCondition,0.0,0.0,0.0
+Dia,precision,3,ErroneousConjunction,0.006,0.0,0.0
+Dia,precision,3,SwappedFeature,0.0,0.0,0.0
+Dia,precision,5,SwappedCondition,0.113,0.0,0.0
+Dia,precision,5,ErroneousConjunction,0.0,0.0,0.0
+Dia,precision,5,SwappedFeature,0.004,0.0,0.0
+Dia,precision,7,SwappedCondition,0.613,0.001,0.001
+Dia,precision,7,ErroneousConjunction,0.0,0.0,0.0
+Dia,precision,7,SwappedFeature,0.003,0.0,0.0
+Apache HTTP,f1,3,SwappedCondition,0.0,0.003,0.0
+Apache HTTP,f1,3,ErroneousConjunction,0.0,0.002,0.0
+Apache HTTP,f1,3,SwappedFeature,0.0,0.0,0.0
+Apache HTTP,f1,5,SwappedCondition,0.0,0.002,0.0
+Apache HTTP,f1,5,ErroneousConjunction,0.0,0.001,0.0
+Apache HTTP,f1,5,SwappedFeature,0.001,0.007,0.0
+Apache HTTP,f1,7,SwappedCondition,0.0,0.082,0.156
+Apache HTTP,f1,7,ErroneousConjunction,0.0,0.044,0.019
+Apache HTTP,f1,7,SwappedFeature,0.007,0.521,0.414
+Apache HTTP,precision,3,SwappedCondition,0.0,0.001,0.0
+Apache HTTP,precision,3,ErroneousConjunction,0.0,0.0,0.0
+Apache HTTP,precision,3,SwappedFeature,0.0,0.0,0.0
+Apache HTTP,precision,5,SwappedCondition,0.0,0.001,0.0
+Apache HTTP,precision,5,ErroneousConjunction,0.0,0.0,0.0
+Apache HTTP,precision,5,SwappedFeature,0.0,0.001,0.0
+Apache HTTP,precision,7,SwappedCondition,0.0,0.034,0.005
+Apache HTTP,precision,7,ErroneousConjunction,0.0,0.005,0.0
+Apache HTTP,precision,7,SwappedFeature,0.002,0.02,0.026
+Irssi,f1,3,SwappedCondition,0.0,0.0,0.0
+Irssi,f1,3,ErroneousConjunction,0.273,0.0,0.0
+Irssi,f1,3,SwappedFeature,0.031,0.0,0.0
+Irssi,f1,5,SwappedCondition,0.0,0.001,0.0
+Irssi,f1,5,ErroneousConjunction,0.009,0.0,0.0
+Irssi,f1,5,SwappedFeature,0.051,0.0,0.0
+Irssi,f1,7,SwappedCondition,0.277,0.064,0.035
+Irssi,f1,7,ErroneousConjunction,0.008,0.001,0.0
+Irssi,f1,7,SwappedFeature,0.045,0.0,0.0
+Irssi,precision,3,SwappedCondition,0.0,0.0,0.0
+Irssi,precision,3,ErroneousConjunction,0.001,0.0,0.0
+Irssi,precision,3,SwappedFeature,0.001,0.0,0.0
+Irssi,precision,5,SwappedCondition,0.125,0.0,0.0
+Irssi,precision,5,ErroneousConjunction,0.0,0.0,0.0
+Irssi,precision,5,SwappedFeature,0.006,0.0,0.0
+Irssi,precision,7,SwappedCondition,0.336,0.0,0.0
+Irssi,precision,7,ErroneousConjunction,0.004,0.0,0.0
+Irssi,precision,7,SwappedFeature,0.003,0.0,0.0
+LibSSH,f1,3,SwappedCondition,0.0,0.002,0.0
+LibSSH,f1,3,ErroneousConjunction,0.0,0.0,0.0
+LibSSH,f1,3,SwappedFeature,0.0,0.003,0.0
+LibSSH,f1,5,SwappedCondition,0.008,0.006,0.003
+LibSSH,f1,5,ErroneousConjunction,0.0,0.003,0.0
+LibSSH,f1,5,SwappedFeature,0.0,0.001,0.0
+LibSSH,f1,7,SwappedCondition,0.0,0.083,0.005
+LibSSH,f1,7,ErroneousConjunction,0.0,0.048,0.001
+LibSSH,f1,7,SwappedFeature,0.0,0.039,0.002
+LibSSH,precision,3,SwappedCondition,0.0,0.002,0.0
+LibSSH,precision,3,ErroneousConjunction,0.0,0.0,0.0
+LibSSH,precision,3,SwappedFeature,0.0,0.0,0.0
+LibSSH,precision,5,SwappedCondition,0.002,0.0,0.0
+LibSSH,precision,5,ErroneousConjunction,0.0,0.001,0.0
+LibSSH,precision,5,SwappedFeature,0.0,0.0,0.0
+LibSSH,precision,7,SwappedCondition,0.0,0.013,0.001
+LibSSH,precision,7,ErroneousConjunction,0.0,0.0,0.0
+LibSSH,precision,7,SwappedFeature,0.0,0.006,0.001
+OpenVPN,f1,3,SwappedCondition,0.0,0.0,0.0
+OpenVPN,f1,3,ErroneousConjunction,0.0,0.0,0.0
+OpenVPN,f1,3,SwappedFeature,0.0,0.0,0.0
+OpenVPN,f1,5,SwappedCondition,0.0,0.04,0.0
+OpenVPN,f1,5,ErroneousConjunction,0.0,0.341,0.002
+OpenVPN,f1,5,SwappedFeature,0.0,0.033,0.002
+OpenVPN,f1,7,SwappedCondition,0.0,0.03,0.056
+OpenVPN,f1,7,ErroneousConjunction,0.0,0.006,0.0
+OpenVPN,f1,7,SwappedFeature,0.0,0.027,0.045
+OpenVPN,precision,3,SwappedCondition,0.0,0.0,0.0
+OpenVPN,precision,3,ErroneousConjunction,0.0,0.0,0.0
+OpenVPN,precision,3,SwappedFeature,0.0,0.0,0.0
+OpenVPN,precision,5,SwappedCondition,0.0,0.011,0.0
+OpenVPN,precision,5,ErroneousConjunction,0.0,0.0,0.0
+OpenVPN,precision,5,SwappedFeature,0.0,0.0,0.0
+OpenVPN,precision,7,SwappedCondition,0.0,0.002,0.001
+OpenVPN,precision,7,ErroneousConjunction,0.0,0.0,0.0
+OpenVPN,precision,7,SwappedFeature,0.0,0.003,0.0
+Vim,f1,3,SwappedCondition,0.0,0.0,0.0
+Vim,f1,3,ErroneousConjunction,0.0,0.007,0.0
+Vim,f1,3,SwappedFeature,0.0,0.001,0.0
+Vim,f1,5,SwappedCondition,0.0,0.007,0.001
+Vim,f1,5,ErroneousConjunction,0.0,0.006,0.0
+Vim,f1,5,SwappedFeature,0.0,0.009,0.001
+Vim,f1,7,SwappedCondition,0.0,0.121,0.885
+Vim,f1,7,ErroneousConjunction,0.0,0.033,0.309
+Vim,f1,7,SwappedFeature,0.0,0.064,0.338
+Vim,precision,3,SwappedCondition,0.0,0.0,0.0
+Vim,precision,3,ErroneousConjunction,0.0,0.002,0.0
+Vim,precision,3,SwappedFeature,0.0,0.001,0.0
+Vim,precision,5,SwappedCondition,0.0,0.005,0.0
+Vim,precision,5,ErroneousConjunction,0.0,0.002,0.0
+Vim,precision,5,SwappedFeature,0.0,0.003,0.0
+Vim,precision,7,SwappedCondition,0.0,0.086,0.355
+Vim,precision,7,ErroneousConjunction,0.0,0.013,0.0
+Vim,precision,7,SwappedFeature,0.0,0.023,0.005

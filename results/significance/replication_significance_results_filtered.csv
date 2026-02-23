@@ -1,0 +1,55 @@
+dataset,metric,number_of_variants,shapiro,ttest,wilcoxon
+ArgoUML,f1,3,0.283,0.0,0.0
+ArgoUML,f1,5,0.172,0.0,0.0
+ArgoUML,f1,7,0.0,0.0,0.0
+ArgoUML,precision,3,0.069,0.0,0.0
+ArgoUML,precision,5,0.136,0.0,0.0
+ArgoUML,precision,7,0.0,0.0,0.0
+Berkeley DB,f1,3,0.001,0.0,0.0
+Berkeley DB,f1,5,0.0,0.0,0.0
+Berkeley DB,f1,7,0.003,0.0,0.0
+Berkeley DB,precision,3,0.0,0.0,0.0
+Berkeley DB,precision,5,0.001,0.0,0.0
+Berkeley DB,precision,7,0.004,0.0,0.0
+BusyBox,f1,3,0.017,0.0,0.0
+BusyBox,f1,5,0.001,0.0,0.0
+BusyBox,f1,7,0.0,0.0,0.0
+BusyBox,precision,3,0.008,0.0,0.0
+BusyBox,precision,5,0.001,0.0,0.0
+BusyBox,precision,7,0.0,0.0,0.0
+Dia,f1,3,0.173,0.0,0.0
+Dia,f1,5,0.106,0.0,0.0
+Dia,f1,7,0.02,0.0,0.0
+Dia,precision,3,0.022,0.0,0.0
+Dia,precision,5,0.076,0.0,0.0
+Dia,precision,7,0.031,0.0,0.0
+Apache HTTP,f1,3,0.005,0.0,0.0
+Apache HTTP,f1,5,0.003,0.0,0.0
+Apache HTTP,f1,7,0.0,0.0,0.0
+Apache HTTP,precision,3,0.002,0.0,0.0
+Apache HTTP,precision,5,0.001,0.0,0.0
+Apache HTTP,precision,7,0.0,0.0,0.0
+Irssi,f1,3,0.51,0.0,0.0
+Irssi,f1,5,0.022,0.0,0.0
+Irssi,f1,7,0.062,0.0,0.0
+Irssi,precision,3,0.312,0.0,0.0
+Irssi,precision,5,0.146,0.0,0.0
+Irssi,precision,7,0.076,0.0,0.0
+LibSSH,f1,3,0.0,0.0,0.0
+LibSSH,f1,5,0.009,0.0,0.0
+LibSSH,f1,7,0.0,0.0,0.0
+LibSSH,precision,3,0.0,0.0,0.0
+LibSSH,precision,5,0.002,0.0,0.0
+LibSSH,precision,7,0.0,0.0,0.0
+OpenVPN,f1,3,0.0,0.0,0.0
+OpenVPN,f1,5,0.0,0.0,0.0
+OpenVPN,f1,7,0.0,0.0,0.0
+OpenVPN,precision,3,0.0,0.0,0.0
+OpenVPN,precision,5,0.0,0.0,0.0
+OpenVPN,precision,7,0.0,0.0,0.0
+Vim,f1,3,0.0,0.0,0.0
+Vim,f1,5,0.0,0.001,0.0
+Vim,f1,7,0.0,0.009,0.0
+Vim,precision,3,0.0,0.0,0.0
+Vim,precision,5,0.0,0.001,0.0
+Vim,precision,7,0.0,0.002,0.0
