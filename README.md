@@ -56,8 +56,8 @@ To run the docker container with docker volumes configured, e.g. run the followi
 
 ```shell
 docker run \
-  -v C:/experiment_rerun/results/database:/home/user/java/build/resources/main/database \
-  -v C:/experiment_rerun/results/images:/home/user/results/images \
+  -v ./repetition_results/database:/home/user/java/build/resources/main/database \
+  -v ./repetition_results/images:/home/user/results/images \
   experiment
 ```
 
