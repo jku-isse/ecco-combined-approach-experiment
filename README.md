@@ -1,17 +1,22 @@
 # Robustness of Proactive Traces Used in Retroactive Feature Tracing: Research Artifact
 
 
-The code in this repository is used to perform experiments regarding an extended replication study of [Greiner et al.](https://dl.acm.org/doi/10.1145/3646548.3672593),
-investigating effects and robustness of a hybrid approach that combines retroactive with proactive feature traces in order to manage Software Product Lines using the [ECCO](https://github.com/jku-isse/ecco) tool. 
+This repository provides the facilities to conduct an extended replication study of [Greiner et al.](https://dl.acm.org/doi/10.1145/3646548.3672593). The authors examined the effects on accuracy of proactive traces in a comparison-based feature location technique.
+
+Our work, implemented in this repository, investigates the effects and robustness of exploiting proactive feature traces in retroactive feature tracing to manage Software Product Lines using the variation control system [ECCO](https://github.com/jku-isse/ecco). 
+We integrate and reimplement the boosting algorithm in ECCO. Then, we conduct an experiment where we gradually add randomly distributed _5%_ of proactive traces (given by our ground truth, see below) to a given number of variants. 
+We examine the resulting trace quality in form of _precision_, _recall_, and _F1 scores_ and whether the improvements are _statistical significant_. 
+
+As extension to the replicated study, we examine the effect of errors in the provided proactive traces. We simulate different developer mistakes that could occur in proactive traces and examine the effect of _25%_, _50%_ and _75%_ of proactive traces containing errors.
 
 The experiment uses extraction results from the [VEVOS](https://github.com/VariantSync/VEVOS_Extraction) tool as ground truth. 
-VEVOS analysed repositories of the subject systems that only contain a single commit to create this ground truth.
+VEVOS analyses the last commit of the subject systems to create the ground truth which holds a presence condition for each line of code in the examined respositories.
 
 
 ## Contents
 This repository contains the setup for running the experiment and plotting the results. Specifically:
 
-- [java](java) contains the gradle-based project which runs the experiment
+- [java](java) contains the gradle-based project which condutcts the experiment
 - [experiment.properties](java/src/main/resources/configuration/experiment.properties) contains the properties with which the experiment is run
 - [python](python) contains the scripts to analyze the results and to plot the graphs shown in the paper (and additional ones)
 - [results](results) contains all results that we report in the paper and additional ones which are left from the paper for space reasons. Particularly,
