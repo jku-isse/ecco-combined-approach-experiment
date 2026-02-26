@@ -26,40 +26,13 @@ This repository contains the setup for running the experiment and plotting the r
     - [significance](results/significance) contains results of performed significance tests.
 
 ## Replication
-
-To rerun the experiments, you need create a Docker Image using the Dockerfile in this repository.  
-Run in the root directory of this repository:
+To rerun the experiment, you can run a .bat file in the topmost folder of the repository:
 
 ```shell
-docker build -t experiment .
+.\run_experiment.bat
 ```
 
-### Persisting results 
-
-A container that is based on the resulting docker image will rerun the expirements. 
-During this rerun, the container collects all results in a SQLlite database and uses that data to plot resulting images.
-Without specifying docker volumes, the database and the resulting images will be deleted once the container is destroyed. 
-To persist the database and resulting images, you need to configure two docker volumes when running the container:
-
-* Result SQLite Database: 
-    - Container Path: /home/user/java/build/resources/main/database
-    - Host Path: e.g. C:\experiment_rerun\results\database
-* Result Illustrations:
-    - Container Path: /home/user/results/images
-    - Host Path: e.g. C:\experiment_rerun\results\images
-
-The container paths must not be changed.
-The database and the resulting images will be saved at the specified host paths on the host machine.
-Configure the host paths to point to existing locations on your machine.
-
-To run the docker container with docker volumes configured, e.g. run the following:
-
-```shell
-docker run \
-  -v ./repetition_results/database:/home/user/java/build/resources/main/database \
-  -v ./repetition_results/images:/home/user/results/images \
-  experiment
-```
+The script will persist results as a SQLite database at /repetition_results/results.db. Furthermore, the script will create images illustrating the results at /repetition_results/images/.
 
 ### Restarting containers
 
