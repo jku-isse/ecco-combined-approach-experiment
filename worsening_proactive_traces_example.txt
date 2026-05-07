@@ -1,0 +1,30 @@
+Consider the example of the media player product line in our paper. But suppose, that the function playWAX() consists of 10 lines of Code and playVideo() and resizeVideo() together consist of 100 lines of code. As described in our paper, checking in the two available variants results in three associations, illustrated in Figure 1. 
+As described in the paper, is able to generate well matching presence conditions for the associations 1 and 2. 
+We now compare three different scenarios for association 3: no proactive feature traces, a single proactive feature trace, and multiple contradicting proactive feature traces.
+For all artifacts (lines of code) in association 3, We compare the correct presence conditions ("WAV" for all 10 lines of code in playWAV; "VIDEO" for all 100 lines of code in playVideo() and resizeVideo()) with the resulting presence condition of our scenario, by computing precision, recall and f1-score (rounded to three decimal places). We compute these metrics by comparing the presence of all artifacts in all possible variants in our product line (all combinations of the features MP3, WAV, and VIDEO):
+True Positive: The artifact is present under the derived presence condition, and should be present under the real presence condition.
+True Negative: The artifact is not present under the derived presence condition, and should not be present under the real presence condition.
+False Positive: The artifact is present under the derived presence condition, but should not be present under the real presence condition.
+False Negative: The artifact in not present under the derived presence condition, but should be present under the real presence condition.
+
+The derived presence conditions for artifacts in our scenarios are either derived from retroactive feature traces (if no proactive feature traces were presented for them by the developer), or from proactive feature traces (if proactive feature traces were presented for them by the developer, or proactive feature traces were boosted throughout the whole association in case there were no contradicting proactive feature traces).
+Retroactive feature traces apply to all artifacts in the respective association. In association 3, the derived presence condition is a conjunction of the module-conditions of the respective modules listed in Figure 1: "(BASE && !MP3) || (BASE && WAV) || (BASE && WAV && !MP3) || ... ".
+
+Scenario 1: No proactive feature traces:
+For all artifacts, we compare the presence condition derived from the retroactive feature traces to the real presence condition, which results in the following metrics:
+Precision: 0.667
+Recall: 1
+F1-Score: 0.8
+(TP: 440; TN: 220; FP:220; FN:0)
+
+Scenario 2: The developer presented one proactive feature trace. One line of code in playVideo() has the presence condition "VIDEO". As there are no contradicting proactive feature traces, we apply this presence condition to all artifacts in association 3 and compare it to the real presence condition. This results in the following metrics:
+Precision: 0.955
+Recall: 0.955
+F1-Score: 0.955
+(TP: 420; TN: 420; FP:20; FN:20)
+
+Scenario 3: The developer presented two proactive feature traces. One line of code in playVideo() has the presence condition "VIDEO". One line of code in playWAV() has the presence condition "WAV". As these proactive feature traces are contradicting, they are not boosted. For all artifacts besides these two lines of code, we use the presence condition derived from the retroactive feature traces. This results in the following metrics:
+Precision: 0.663
+Recall: 1
+F1-Score: 0.797
+(TP: 440; TN: 224; FP:216; FN:0)
