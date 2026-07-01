@@ -16,8 +16,10 @@ VEVOS analyses the last commit of the subject systems to create the ground truth
 ## Contents
 This repository contains the setup for running the experiment and plotting the results. Specifically:
 
-- [java](java) contains the gradle-based project which condutcts the experiment
-- [experiment.properties](java/src/main/resources/configuration/experiment.properties) contains the properties with which the experiment is run
+- [conjunction_results](conjunction_results) contains the results of running the experiment using conjunctions as heuristics with the subject system _libssh_ 
+- [ground_truth](ground_truth) contains the ground truth state of the subject systems as sampled with VEVOS 
+- [java](java) contains the gradle-based project which conducts the experiment
+    - [experiment.properties](java/src/main/resources/configuration/experiment.properties) contains the properties with which the experiment is run
 - [python](python) contains the scripts to analyze the results and to plot the graphs shown in the paper (and additional ones)
 - [results](results) contains all results that we report in the paper and additional ones which are left from the paper for space reasons. Particularly,
     - [databases](results/databases) contains SQLite databases containing the results of the experiment. Each database contains results regarding one examined subject system.
