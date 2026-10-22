@@ -1,20 +1,24 @@
 # Robustness of Proactive Traces Used in Retroactive Feature Tracing: Research Artifact
 
 
-This repository provides the facilities to conduct an extended replication study of [Greiner et al.](https://dl.acm.org/doi/10.1145/3646548.3672593). The authors examined the effects on accuracy of proactive traces in a comparison-based feature location technique.
+This repository provides the facilities to conduct an __extended replication study__ of [Greiner et al.](https://dl.acm.org/doi/10.1145/3646548.3672593). The original work examined the effects of proactive traces on the accuracy of a comparison-based feature location technique. 
+They developed a _boosting algorithm_. This algorithm propogates proactive feature traces in sets of artifacts that are shared among variants whenever proactive traces present in that set are not contradiction.
 
-Our work, implemented in this repository, investigates the effects and robustness of exploiting proactive feature traces in retroactive feature tracing to manage Software Product Lines using the variation control system [ECCO](https://github.com/jku-isse/ecco). 
-We integrate and reimplement the boosting algorithm in ECCO. Then, we conduct an experiment where we gradually add randomly distributed _5%_ of proactive traces (given by our ground truth, see below) to a given number of variants. 
+Our replication study investigates the __effects and robustness__ of proactive feature traces in retroactive feature tracing. 
+We integrate and reimplement the boosting algorithm in [ECCO](https://github.com/jku-isse/ecco). 
+Then, we conduct an experiment where we gradually add randomly distributed _5%_ of proactive traces (given by our ground truth, see below) to a given number of variants. 
+The setup and results for this experiment can be found in this repository.
 We examine the resulting trace quality in form of _precision_, _recall_, and _F1 scores_ and whether the improvements are _statistical significant_. 
 
-As extension to the replicated study, we examine the effect of errors in the provided proactive traces. We simulate different developer mistakes that could occur in proactive traces and examine the effect of _25%_, _50%_ and _75%_ of proactive traces containing errors.
+We extend the original study by examining the effect of errors in the provided proactive traces. 
+We simulate four different developer mistakes that could occur in proactive traces and examine the effect of _25%_, _50%_ and _75%_ of proactive traces containing errors.
 
 The experiment uses extraction results from the [VEVOS](https://github.com/VariantSync/VEVOS_Extraction) tool as ground truth. 
-VEVOS analyses the last commit of the subject systems to create the ground truth which holds a presence condition for each line of code in the examined respositories.
+VEVOS uses the last commit of a subject systems to create the ground truth. The ground truth holds a presence condition for each line of code in the respective subject system.
 
 
 ## Contents
-This repository contains the setup for running the experiment and plotting the results. Specifically:
+This repository contains the setup for running the experiment, plotting the results, the ground truth and key results. Specifically:
 
 - [conjunction_results](conjunction_results) contains the results of running the experiment using conjunctions as heuristics with the subject system _libssh_ 
 - [ground_truth](ground_truth) contains the ground truth state of the subject systems as sampled with VEVOS 
